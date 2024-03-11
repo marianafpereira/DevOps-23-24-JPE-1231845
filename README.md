@@ -49,6 +49,16 @@ For any inquiries or further discussions related to this project, feel free to r
 - Email: 1231845@isep.ipp.pt
 - GitHub: [marianafpereira](https://github.com/marianafpereira)
 
+## Additional Resources
+
+For more detailed information about this project, please visit the following links:
+
+- [Project Wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki)
+- [Glossary](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Glossary)
+- [Project Images](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images)
+
+We encourage you to explore these resources to gain a deeper understanding of the project.
+
 ## Part 1: Direct Work on Master Branch
 
 ### Objective
