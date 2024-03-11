@@ -499,20 +499,65 @@ To accomplish the same objectives as presented in this assignment using Mercuria
     ```
 ### Essential Mercurial Commands
 1. hg clone: Clones an existing repository.
+   ```bash
+    hg clone <repository-url>
+   ```
 2. hg pull: Retrieves changes from a remote repository to the local one.
+    ```bash
+     hg pull
+    ```
 3. hg update: Updates the working directory to a specific revision.
+    ```bash
+     hg update <revision>
+    ```
 4. hg branch: Creates a new branch in the repository.
+    ```bash
+     hg branch <branchname>
+    ```
 5. hg merge: Merges two branches in the repository.
+    ```bash
+     hg merge <branchname>
+    ```
 6. hg tag: Tags a specific revision in the repository.
+    ```bash
+     hg tag <tagname>
+    ```
 7. hg log: Displays the repository's history.
+    ```bash
+     hg log
+    ```
 8. hg status: Shows the status of the working directory.
+    ```bash
+     hg status
+    ```
 9. hg diff: Views the modifications made to the working directory.
+    ```bash
+     hg diff
+    ```
 10. hg revert: Reverts changes made to the working directory.
+   ```bash
+    hg revert <filename>
+   ```
 11. hg rollback: Undoes the last commit in the repository.
+```bash
+    hg rollback
+   ```
 12. hg help: Provides the help documentation for Mercurial.
+```bash
+    hg help
+ ```
 13. hg version: Shows the installed version of Mercurial.
+ ```bash
+       hg version
+ ```
 14. hg outgoing: Displays the changes that are ready to be pushed to a remote repository.
+```bash
+   hg outgoing
+ ```
 15. hg incoming: Shows the changes that can be pulled from a remote repository.
+```bash
+    hg incoming
+```
 
 
 ## Conclution
