@@ -71,13 +71,15 @@ These steps demonstrate the initial setup of a Git repository, including creatin
 1. Create a new repository on GitHub: see images for 
 [Step 1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-1)
 and
-[Step 2](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-2);
-2. Create a folder for the local repository;
-3. On the command line in the local repository directory run the following command
+[Step 2](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-2)
+
+3. Create a folder for the local repository
+4. On the command line in the local repository directory run the following command
 ```bash
 git init
 ```
-[Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-3);
+[Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-3)
+
 4. You have to make all folders visible to make sure you have the .git folder like in the
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-4)
 5. Make a new folder with the name CA1 with the following command
@@ -85,6 +87,7 @@ git init
 mkdir CA1
 ```
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-5).
+
 6. To prevent the inclusion of unnecessary files in the repository, it's essential to create a .gitignore file. You can use the following command to create this file.
 Once the file is created, you can copy and paste the contents of the .gitignore file from the provided website into the file using the nano command.
 I suggest adding the .idea directory to the .gitignore file to ensure that it is ignored during version control.
@@ -93,12 +96,14 @@ touch .gitignore
 nano .gitignore
 ```
 7. Now you have to add the repository you created on the github copying the link that is demonstrated in the
-[example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-9);
-8. In the command line paste the command line you copied from the github
+[example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-9)
+
+9. In the command line paste the command line you copied from the github
 ```bash
     git remote add origin nameOfTheRepository
 ````
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-10)
+
 9. Run the command git status to see if the new file appeared
 ```bash
     git status
@@ -110,6 +115,7 @@ nano .gitignore
     git add .
 ````
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-12)
+
 11.  Now make the commit and push.
 ```bash
   git commit -m "[Inicial] commit"
@@ -170,19 +176,24 @@ These steps set up our project repository and prepare it for further development
     git add .
 ````
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-7)
+
 2. Now you may remove the files from tut-react-and-spring-data-rest folder and put them inside of the CA1 folder to look like the following
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-8)
+   
 3. Now remove the .git folder that is inside the folder CA1
 4. Add the following issue for step 1 
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-13) and [example image of issue opened](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-14)
+   
 5. Now we will execute the command to install spring, but before make sure you have the path of java and maven in your environment variables
 [ass this example](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-23)
+
 6. Move to the CA1 folder with the command cd CA1
 7. Run the following command:
 ```bash
     .\mnnw spring-boot:run
 ````
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-27)
+
 8. When the process terminate access the  [Localhost Link](http://localhost:8080)and make sure you see as [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-28)
 
 #### 3. V1.0.0 of CA1
@@ -214,26 +225,32 @@ Once you have verified that the file or folder is no longer staged for commit, y
 #### Steps:
 1. Create the issue for the second step of the project as before and as the 
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-15)
+
 2. You can see i already created the 5 issues i'll be needing and you can see all of the open ones where
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-17)
+
 3. Now you can commit the changes with the following command:
 ```bash
     git commit -m "[Initial] #IssueNumber Initial commit"
 ````
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-18)
+
 4. Now create the tag and push we will be needing with the command line
 ```bash
     git tag v1.1.0
     git push origin v1.1.0
 ````
 [example image]((https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-19)
+
 5. If you don't see the commit in the inicial page of the project, run the following command:
 ```bash
     git push --set-upstream origin master
 ````
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-20)
+
 6. Now you can see the commit in the inicial page of the project
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-21)
+
 7. Once you can see the commit on the initial page of the project, you can close the first issue you created. This indicates that the task associated with the issue has been completed.
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-22)
 
@@ -260,6 +277,7 @@ These steps extend the functionality of the Employee Management System by adding
 1. Open the project and make sure you load maven and grand all permitions to the project
 2. Then add the fields that are asked in the issue 2 in this case the jobYears and make unit tests for that code
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-29)
+
 3. Now commit like the following:
 ```bash
     git commit -m "[Feature] #IssueNumber Added jobYears field and unit tests"
@@ -273,11 +291,13 @@ These steps extend the functionality of the Employee Management System by adding
     git tag v1.2.0
 ````
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-29)
+
 6. Push the tag to the repository using the command line
 ```bash
     git push origin v1.2.0
 ````
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-30)
+
 7. I added the field jobTitle and the unit tests for that field based on the powerpoint devops of the theoric lesson
 8. Then commited, associeted with the issue and pushed the changes to the repository as the following:
 ```bash
@@ -298,6 +318,7 @@ These steps extend the functionality of the Employee Management System by adding
     git push origin ca1-part1
 ````
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-31)
+
 12. Now i clossed the issue of the jobYears and jobTitle fields.
 
 
@@ -324,9 +345,11 @@ These steps extend the functionality of the Employee Management System by adding
     git checkout -b email-field
 ````
 or using the IDE as the [example 1 image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-32) and [example 2 image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-33)
+
 3. Then i added the email field and the unit tests
 4. Now i have to merge the branch with the master. For this there are two options. Merge the branch with the master using ide
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-34)
+
 or using command lines with the following command:
 ```bash
     git checkout master
@@ -343,6 +366,7 @@ or using command lines with the following command:
     git push origin v1.3.0
 ````
 [image example](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-35)
+
 7. Closed the issue of email-field and email-field branch.
 
 #### 5. # V1.3.1 and ca1-part2
@@ -370,9 +394,11 @@ These steps extend the functionality of the Employee Management System by adding
     git checkout -b fix-invalid-email
 ````
 or using the IDE as the [example 1 image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-32) and [example 2 image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-33)
+
 3. Then i added the validation to the email field and the unit tests
 4. Now i have to merge the branch with the master. For this there are two options. Merge the branch with the master using ide
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-34)
+
    or using command lines with the following command:
 ```bash
     git checkout master
@@ -391,6 +417,7 @@ or using the IDE as the [example 1 image](https://github.com/marianafpereira/Dev
     git push origin ca1-part2
 ````
 [image example](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-35)
+
 7. Closed the issue of email-field and email-field branch.
 
 #### Tests and implementions for this CA1 
