@@ -7,6 +7,9 @@ This is a technical report for de Class Assignment 1, of the DevOps class from t
 In this assignment, I have extended an existing Employee Management System from a GitHub repository. The original system allows for the creation of Employee records with various attributes such as name and job title. I have added additional fields, including years of experience and email. I have also incorporated unit testing to ensure the validity of the data and the correct functionality of the new fields.
 This README file serves as a guide to the structure of the project, the steps taken during development, and the commands used. It is divided into several sections, each detailing a specific part of the assignment.
 
+The project involves extending the functionality of an Employee Management System by adding new fields to the Employee entity and creating unit tests for these fields. The process involves creating issues on GitHub, creating new branches for each feature, adding the new fields to the Employee entity, creating unit tests, merging the changes into the master branch, committing the changes, pushing the commits to a remote repository, and creating and pushing tags. 
+The new fields added include jobYears, jobTitle, and email. The email field also includes validation. The project demonstrates the use of Git for version control.
+
 Please refer to the individual sections for a detailed explanation of each step. We hope this document helps you understand the processes and practices used in this assignment.
 
 ## Prerequisites and Installation
@@ -67,14 +70,14 @@ In this part of the project, we are setting up a new Git repository for the Empl
 
 These steps demonstrate the initial setup of a Git repository, including creating a new repository on GitHub, initializing a local Git repository, linking the local and remote repositories, adding files to the Git staging area, committing changes, and pushing commits to a remote repository.
 
-#### Steps:
+##### Steps:
 1. Create a new repository on GitHub: see images for 
 [Step 1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-1)
 and
 [Step 2](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-2)
 
-3. Create a folder for the local repository
-4. On the command line in the local repository directory run the following command
+2. Create a folder for the local repository;
+3. On the command line in the local repository directory run the following command
 ```bash
 git init
 ```
@@ -82,11 +85,12 @@ git init
 
 4. You have to make all folders visible to make sure you have the .git folder like in the
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-4)
+
 5. Make a new folder with the name CA1 with the following command
 ```bash
 mkdir CA1
 ```
-[Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-5).
+[Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-5)
 
 6. To prevent the inclusion of unnecessary files in the repository, it's essential to create a .gitignore file. You can use the following command to create this file.
 Once the file is created, you can copy and paste the contents of the .gitignore file from the provided website into the file using the nano command.
@@ -98,7 +102,7 @@ nano .gitignore
 7. Now you have to add the repository you created on the github copying the link that is demonstrated in the
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-9)
 
-9. In the command line paste the command line you copied from the github
+8. In the command line paste the command line you copied from the github
 ```bash
     git remote add origin nameOfTheRepository
 ````
@@ -146,31 +150,36 @@ The assignment comprises several essential tasks:
 
 #### 1. Copying the Tutorial Application
 
-Copy the code of the Tutorial React.js and Spring Data REST Application into a new folder named CA1.
+The initial steps of the assignment involve setting up the project repository. This is done by cloning an existing repository from GitHub into a new folder named CA1. Here's a detailed explanation of each step:  
+1. Copy the Repository Link: The first step is to copy the link of the repository you want to clone. In this case, the repository is the Spring Guides tutorial for a React.js and Spring Data REST application. The link to this repository is https://github.com/spring-guides/tut-react-and-spring-data-rest.  
+2. Clone the Repository: Once you have the link, navigate to the CA1 folder in your terminal. Here, you will clone the repository using the git clone command followed by the repository link. This command creates a copy of the repository on your local machine. The command should look like this: git clone https://github.com/spring-guides/tut-react-and-spring-data-rest.  
+After running this command, you should have a copy of the tutorial application in your CA1 folder. You can verify this by checking the contents of the CA1 folder.  These steps set up the initial project structure and prepare it for further development. In the following steps of the assignment, you will modify this application to add new features and functionality.
 
-#### Steps:
+##### Steps:
 1. Copy this link from github:
 [spring-guides](https://github.com/spring-guides/tut-react-and-spring-data-rest)
+
 2. In the CA1 folder open the terminal and run the following command to clone the repository
 ```bash
     git clone https://github.com/spring-guides/tut-react-and-spring-data-rest
 ````
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-6)
 
+
 #### 2. Runnig the Spring Boot Application
 
-In the following steps, we will be setting up the project repository and preparing it for further development. Here's a brief overview of what we will be doing:
-1. We will add all the files in the current directory to the Git staging area using the git add . command. This command prepares the files for the next commit.
-2. Next, we will move the files from the tut-react-and-spring-data-rest folder to the CA1 folder. This is done to organize our project structure.
-3. We will then remove the .git folder that is inside the CA1 folder. This is necessary to avoid nested Git repositories which can cause confusion and unexpected behavior.
-4. To keep track of our tasks and progress, we will create issues on GitHub. Each issue represents a task or a feature that needs to be implemented. When we commit our changes, we can associate them with the corresponding issue.
-5. We will then move to the CA1 folder using the cd CA1 command.
-6. To start our Spring Boot application, we will run the .\mnnw spring-boot:run command. This command compiles and runs our application.
-7. Once the application is running, we can access it by navigating to http://localhost:8080 in our web browser. We should see the initial page of our application.
-   
-These steps set up our project repository and prepare it for further development. As we continue to work on the project, we will create more issues, make more commits, and create more tags to track our progress
+The initial steps of the assignment involve setting up the project repository. This is done by adding all the files in the current directory to the Git staging area, moving the files from the tut-react-and-spring-data-rest folder to the CA1 folder, removing the .git folder that is inside the CA1 folder, creating issues on GitHub for each task or feature that needs to be implemented, moving to the CA1 folder, running the Spring Boot application, and accessing the application by navigating to http://localhost:8080 in a web browser. Here's a detailed explanation of each step:  
+1. Add all files to the repository: Use the git add . command to add all files in the current directory to the Git staging area. This prepares the files for the next commit.  
+2. Move files: Remove the files from the tut-react-and-spring-data-rest folder and put them inside of the CA1 folder. This helps to organize the project structure.  
+3. Remove the .git folder: Remove the .git folder that is inside the CA1 folder. This is necessary to avoid nested Git repositories which can cause confusion and unexpected behavior.  
+4. Create issues on GitHub: For each task or feature that needs to be implemented, create an issue on GitHub. When you commit your changes, you can associate them with the corresponding issue.  
+5. Move to the CA1 folder: Use the cd CA1 command to navigate to the CA1 folder in your terminal.  
+6. Run the Spring Boot application: Use the .\mnnw spring-boot:run command to compile and run the Spring Boot application.  
+7. Access the application: Once the application is running, you can access it by navigating to http://localhost:8080 in your web browser. You should see the initial page of the application.  
 
-#### Steps:
+These steps set up the project repository and prepare it for further development. As you continue to work on the project, you will create more issues, make more commits, and create more tags to track your progress.
+
+##### Steps:
 1. Now add all files to the folder of your repository with the git add . command
 ```bash
     git add .
@@ -179,11 +188,11 @@ These steps set up our project repository and prepare it for further development
 
 2. Now you may remove the files from tut-react-and-spring-data-rest folder and put them inside of the CA1 folder to look like the following
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-8)
-   
+
 3. Now remove the .git folder that is inside the folder CA1
 4. Add the following issue for step 1 
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-13) and [example image of issue opened](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-14)
-   
+
 5. Now we will execute the command to install spring, but before make sure you have the path of java and maven in your environment variables
 [ass this example](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-23)
 
@@ -198,16 +207,15 @@ These steps set up our project repository and prepare it for further development
 
 #### 3. V1.0.0 of CA1
 
-In the process of adding the Basic Directory and the pom.xml file, several steps were undertaken to ensure the correct setup of the project. Here's a detailed explanation of each step:  
-1. The first step involved copying the basic directory and the pom.xml file from the tut-react-and-spring-data-rest directory to the CA1 directory. This was done using the cp -r tut-react-and-spring-data-rest/basic CA1 and cp tut-react-and-spring-data-rest/pom.xml CA1 commands. These commands copy the basic directory and the pom.xml file respectively to the CA1 directory.  
-2. After copying the necessary files, the next step was to navigate into the CA1 directory using the cd CA1 command.  
-3. Once inside the CA1 directory, a new Git repository was initialized using the git init command. This command creates a new Git repository in the current directory.  
-4. After initializing the Git repository, all the files in the CA1 directory were added to the Git staging area using the git add . command. This command adds all the files in the current directory to the staging area, preparing them for the next commit.  
-5. The changes were then committed using the git commit -m "#x message" command. This command creates a new commit with the message "#x message". The "#x" in the commit message is a placeholder for the issue number associated with the commit.  
-6. Finally, the changes were pushed to the main branch of the remote repository using the git push origin main command. This command pushes all the commits on the main branch to the remote repository named origin.  
-7. During this process, if a file or folder was committed by mistake, it could be removed from the commit using the git rm --cached <file_or_folder_path> command. This command removes the file or folder from the staging area, but not from the local file system. The git status command could be used to verify that the file or folder was no longer staged for commit.  To track the progress of the project and associate commits with specific tasks, issues were created on GitHub. 
+The initial steps of the assignment involve setting up the project repository. This is done by copying the 'basic' directory and the 'pom.xml' file from the 'tut-react-and-spring-data-rest' directory to the 'CA1' directory, initializing a new Git repository in the 'CA1' directory, adding all the files in the 'CA1' directory to the Git staging area, committing the changes with a message that includes the issue number, and pushing the changes to the main branch of the remote repository. Here's an explanation of the steps:  
+1. Copy the 'basic' directory and 'pom.xml' file: The first step is to copy the 'basic' directory and the 'pom.xml' file from the 'tut-react-and-spring-data-rest' directory to the 'CA1' directory. This can be done using the cp -r tut-react-and-spring-data-rest/basic CA1 and cp tut-react-and-spring-data-rest/pom.xml CA1 commands.  
+2. Navigate to the 'CA1' directory: Once the necessary files have been copied, navigate to the 'CA1' directory using the cd CA1 command.  
+3. Initialize a new Git repository: In the 'CA1' directory, initialize a new Git repository using the git init command.  
+4. Add all files to the Git staging area: After initializing the Git repository, add all the files in the 'CA1' directory to the Git staging area using the git add . command.  
+5. Commit the changes: The changes are then committed using the git commit -m "#x message" command. This command creates a new commit with a message that includes the issue number. The "#x" in the commit message is a placeholder for the issue number associated with the commit.  
+6. Push the changes: Finally, the changes are pushed to the main branch of the remote repository using the git push origin main command.  
 
-Each issue represented a task or a feature that needed to be implemented. When a commit was made, it could be associated with the corresponding issue. This was done by including the issue number in the commit message. For example, the commit message could be git commit -m "[Initial] #1 Initial commit", where #1 is the issue number.  After the commit was made, a tag was created using the git tag v1.1.0 command. This command creates a new tag named v1.1.0. Tags are used to mark specific points in the repository's history and are often used to mark release points.  If the commit did not appear on the initial page of the project, the changes were pushed to the remote repository using the git push --set-upstream origin master command. This command pushes the commits and tags to the remote repository.  Once the commit was visible on the initial page of the project, the first issue was closed. This indicated that the task associated with the issue had been completed
+These steps set up the project repository and prepare it for further development. As you continue to work on the project, you will create more issues, make more commits, and create more tags to track your progress.
 
 NOTE:You can also copy and paste the 'basic' folder using your system's file explorer interface. This is an alternative to using command line operations.
 If you have committed a file or folder by mistake, you can remove it from the commit using Git commands. One such command is git rm --cached <file_or_folder_path>. This command removes the file or folder from the staging area, but not from your local file system.
@@ -222,7 +230,7 @@ Once you have verified that the file or folder is no longer staged for commit, y
     git commit -m "#x message"
     git push origin main
 ```
-#### Steps:
+##### Steps:
 1. Create the issue for the second step of the project as before and as the 
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-15)
 
@@ -257,23 +265,17 @@ Once you have verified that the file or folder is no longer staged for commit, y
 
 #### 4. # V1.2.0, V1.2.1 and ca1-part1
 
-In this part of the project, we are extending the functionality of the Employee Management System by adding new fields to the Employee entity and creating unit tests to ensure the correct functionality of these new fields. Here's a detailed explanation of each step:  
-1. Open the project in your preferred IDE, ensuring that Maven is loaded and all permissions are granted to the project. This is necessary for the successful compilation and execution of the project.  
-2. Add the new fields to the Employee entity as specified in the GitHub issue. In this case, the jobYears field is added. This field represents the number of years an employee has been in their current job. This is done by modifying the Employee.java file in the src/main/java/com/greglturnquist/payroll directory.  
-3. Create unit tests for the new jobYears field. This is done by adding new test methods to the EmployeeTest.java file in the src/test/java/com/greglturnquist/payroll directory. These tests ensure that the jobYears field is functioning as expected.  
-4. Commit the changes to the local Git repository using the git commit -m "[Feature] #IssueNumber Added jobYears field and unit tests" command. This command creates a new commit with a message indicating what changes were made. The #IssueNumber in the commit message links the commit to the corresponding GitHub issue.  
-5. Push the changes to the remote Git repository using the git push origin master command. This command pushes the commits to the master branch of the remote repository.  
-6. Create a new tag named v1.2.0 using the git tag v1.2.0 command. This command creates a new tag that marks the point in the repository's history where the jobYears field was added.  
-7. Push the v1.2.0 tag to the remote Git repository using the git push origin v1.2.0 command. This command pushes the v1.2.0 tag to the remote repository.  
-8. Add the jobTitle field to the Employee entity and create unit tests for this field. This is similar to the process of adding the jobYears field.  
-9. Commit the changes, associate the commit with the corresponding GitHub issue, and push the changes to the remote repository. This is similar to the process of committing and pushing the changes for the jobYears field.  
-10. Create a new tag named v1.2.1 and push this tag to the remote repository. This is similar to the process of creating and pushing the v1.2.0 tag.  
-11. Create a new tag named ca1-part1 using the git tag ca1-part1 command. This command creates a new tag that marks the end of the first part of the assignment.  
-12. Push the ca1-part1 tag to the remote Git repository using the git push origin ca1-part1 command. This command pushes the ca1-part1 tag to the remote repository.  
+In this part of the project, we are extending the functionality of the Employee Management System by adding a new field to the Employee entity and creating unit tests to ensure the correct functionality of this new field. Here's a detailed explanation of each step:  
+1. Open the project in your preferred IDE, ensuring that Maven is loaded and all permissions are granted to the project. This is necessary for the successful compilation and execution of the project.
+2. Add the new field to the Employee entity as specified in the GitHub issue. In this case, the email field is added. This field represents the email of an employee. This is done by modifying the Employee.java file in the src/main/java/com/greglturnquist/payroll directory.
+3. Create unit tests for the new email field. This is done by adding new test methods to the EmployeeTest.java file in the src/test/java/com/greglturnquist/payroll directory. These tests ensure that the email field is functioning as expected.
+4. Commit the changes to the local Git repository using the git commit -m "[Feature] #IssueNumber Added email field and unit tests" command. This command creates a new commit with a message indicating what changes were made. The #IssueNumber in the commit message links the commit to the corresponding GitHub issue.
+5. Push the changes to the remote Git repository using the git push origin master command. This command pushes the commits to the master branch of the remote repository.
+6. Create a new tag named v1.3.0 using the git tag v1.3.0 command. This command creates a new tag that marks the point in the repository's history where the email field was added.
 
-These steps extend the functionality of the Employee Management System by adding new fields to the Employee entity and creating unit tests for these new fields. They also demonstrate the use of Git for version control, including committing changes, pushing commits to a remote repository, and creating and pushing tags
+These steps extend the functionality of the Employee Management System by adding a new field to the Employee entity and creating unit tests for this new field. They also demonstrate the use of Git for version control, including committing changes, pushing commits to a remote repository, and creating and pushing tags.
 
-#### Steps:
+##### Steps:
 1. Open the project and make sure you load maven and grand all permitions to the project
 2. Then add the fields that are asked in the issue 2 in this case the jobYears and make unit tests for that code
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-29)
@@ -324,21 +326,20 @@ These steps extend the functionality of the Employee Management System by adding
 
 #### 5. # V1.3.0
 
-In this part of the project, we are extending the functionality of the Employee Management System by adding a new field, email, to the Employee entity. Here's a detailed explanation of each step:  
-1. The first step is to create two issues on GitHub for adding the email field and email-field branch. This issue will help track the progress of this feature and link the changes to this specific task.  
-2. Next, a new branch is created to work on this feature. This can be done either through the command line using the git checkout -b email-field command or through the IDE. Creating a new branch for each feature or task helps keep the work organized and isolated from other tasks.  
-3. Once the new branch is created, the email field is added to the Employee entity. This involves modifying the Employee.java file in the src/main/java/com/greglturnquist/payroll directory and adding the necessary code for the new field.  
-4. After adding the email field, unit tests are created to ensure the correct functionality of this new field. These tests are added to the EmployeeTest.java file in the src/test/java/com/greglturnquist/payroll directory.  
-5. With the new field added and the unit tests created, the next step is to merge the changes from the email-field branch into the master branch. This can be done either through the IDE or using the command line with the git checkout master and git merge email-field commands.  
-6. After merging the changes, they are committed to the local Git repository using the git commit -m "[Feature] #IssueNumber Added email field and unit tests" command. This command creates a new commit with a message indicating what changes were made. The #IssueNumber in the commit message links the commit to the corresponding GitHub issue.  
-7. The changes are then pushed to the remote Git repository using the git push origin master command. This command pushes the commits to the master branch of the remote repository.  
-8. A new tag named v1.3.0 is created using the git tag v1.3.0 command. This command creates a new tag that marks the point in the repository's history where the email field was added.  
-9. The v1.3.0 tag is then pushed to the remote Git repository using the git push origin v1.3.0 command. This command pushes the v1.3.0 tag to the remote repository.  
-10. Finally, the GitHub issue created for the email field is closed. This indicates that the task associated with the issue has been completed.  
+In this part of the project, we are extending the functionality of the Employee Management System by adding a new field, email, to the Employee entity and ensuring that the server only accepts Employees with valid email addresses. Here's a detailed explanation of each step:  
+1. Create a new branch for the bug fix. This can be done either through the command line using the git checkout -b fix-invalid-email command or through the IDE. Creating a new branch for each feature or task helps keep the work organized and isolated from other tasks.  
+2. Once the new branch is created, modify the Employee entity to include validation for the email field. This involves modifying the Employee.java file in the src/main/java/com/greglturnquist/payroll directory and adding the necessary code for the new field.  
+3. After adding the email validation, create unit tests to ensure the correct functionality of this new field. These tests are added to the EmployeeTest.java file in the src/test/java/com/greglturnquist/payroll directory.  
+4. With the new field added and the unit tests created, the next step is to merge the changes from the fix-invalid-email branch into the master branch. This can be done either through the IDE or using the command line with the git checkout master and git merge fix-invalid-email commands.  
+5. After merging the changes, they are committed to the local Git repository using the git commit -m "[Fix] #IssueNumber Fixed invalid email entries" command. This command creates a new commit with a message indicating what changes were made. The #IssueNumber in the commit message links the commit to the corresponding GitHub issue.  
+6. The changes are then pushed to the remote Git repository using the git push origin master command. This command pushes the commits to the master branch of the remote repository.  
+7. A new tag named v1.3.1 is created using the git tag v1.3.1 command. This command creates a new tag that marks the point in the repository's history where the email validation was added.  
+8. The v1.3.1 tag is then pushed to the remote Git repository using the git push origin v1.3.1 command. This command pushes the v1.3.1 tag to the remote repository.  
+9. Finally, the GitHub issue created for the email validation is closed. This indicates that the task associated with the issue has been completed.  
 
-These steps extend the functionality of the Employee Management System by adding a new email field to the Employee entity and creating unit tests for this new field. They also demonstrate the use of Git for version control, including creating branches, merging changes, committing changes, pushing commits to a remote repository, and creating and pushing tags.
+These steps extend the functionality of the Employee Management System by adding email validation to the Employee entity and creating unit tests for this new field. They also demonstrate the use of Git for version control, including creating branches, merging changes, committing changes, pushing commits to a remote repository, and creating and pushing tags.
 
-#### Steps:
+##### Steps:
 1. I created 2 issues to add the email field and the email-field branch to the project
 2. To create a new branch there are 2 options: one using the command line with the following command
 ```bash
@@ -372,22 +373,22 @@ or using command lines with the following command:
 #### 5. # V1.3.1 and ca1-part2
 
 In this part of the project, we are enhancing the functionality of the Employee Management System by adding validation to the email field in the Employee entity. Here's a detailed explanation of each step:  
-1. The first step is to create two issues on GitHub for adding the validation to the email field and for the fix-invalid-email branch. These issues will help track the progress of this feature and link the changes to this specific task.  
-2. Next, a new branch is created to work on this feature. This can be done either through the command line using the git checkout -b fix-invalid-email command or through the IDE. Creating a new branch for each feature or task helps keep the work organized and isolated from other tasks.  
-3. Once the new branch is created, the validation for the email field is added to the Employee entity. This involves modifying the Employee.java file in the src/main/java/com/greglturnquist/payroll directory and adding the necessary code for the new validation.  
-4. After adding the validation for the email field, unit tests are created to ensure the correct functionality of this new validation. These tests are added to the EmployeeTest.java file in the src/test/java/com/greglturnquist/payroll directory.  
-5. With the new validation added and the unit tests created, the next step is to merge the changes from the fix-invalid-email branch into the master branch. This can be done either through the IDE or using the command line with the git checkout master and git merge fix-invalid-email commands.  
-6. After merging the changes, they are committed to the local Git repository using the git commit -m "[Feature] #IssueNumber Added email field and unit tests" command. This command creates a new commit with a message indicating what changes were made. The #IssueNumber in the commit message links the commit to the corresponding GitHub issue.  
-7. The changes are then pushed to the remote Git repository using the git push origin master command. This command pushes the commits to the master branch of the remote repository.  
-8. A new tag named v1.3.1 is created using the git tag v1.3.1 command. This command creates a new tag that marks the point in the repository's history where the validation for the email field was added.  
-9. The v1.3.1 tag is then pushed to the remote Git repository using the git push origin v1.3.1 command. This command pushes the v1.3.1 tag to the remote repository.  
-10. A new tag named ca1-part2 is created using the git tag ca1-part2 command. This command creates a new tag that marks the end of the second part of the assignment.  
-11. The ca1-part2 tag is then pushed to the remote Git repository using the git push origin ca1-part2 command. This command pushes the ca1-part2 tag to the remote repository.  
-12. Finally, the GitHub issues created for the email field validation and the fix-invalid-email branch are closed. This indicates that the tasks associated with these issues have been completed.  
+1. Create two issues on GitHub for adding the validation to the email field and for the fix-invalid-email branch. These issues will help track the progress of this feature and link the changes to this specific task.
+2. Create a new branch to work on this feature. This can be done either through the command line using the git checkout -b fix-invalid-email command or through the IDE. Creating a new branch for each feature or task helps keep the work organized and isolated from other tasks.
+3. Once the new branch is created, add the validation for the email field to the Employee entity. This involves modifying the Employee.java file in the src/main/java/com/greglturnquist/payroll directory and adding the necessary code for the new validation.
+4. After adding the validation for the email field, create unit tests to ensure the correct functionality of this new validation. These tests are added to the EmployeeTest.java file in the src/test/java/com/greglturnquist/payroll directory.
+5. With the new validation added and the unit tests created, the next step is to merge the changes from the fix-invalid-email branch into the master branch. This can be done either through the IDE or using the command line with the git checkout master and git merge fix-invalid-email commands.
+6. After merging the changes, commit them to the local Git repository using the git commit -m "[Feature] #IssueNumber Added email field and unit tests" command. This command creates a new commit with a message indicating what changes were made. The #IssueNumber in the commit message links the commit to the corresponding GitHub issue.
+7. Push the changes to the remote Git repository using the git push origin master command. This command pushes the commits to the master branch of the remote repository.
+8. Create a new tag named v1.3.1 using the git tag v1.3.1 command. This command creates a new tag that marks the point in the repository's history where the validation for the email field was added.
+9. Push the v1.3.1 tag to the remote Git repository using the git push origin v1.3.1 command. This command pushes the v1.3.1 tag to the remote repository.
+10. Create a new tag named ca1-part2 using the git tag ca1-part2 command. This command creates a new tag that marks the end of the second part of the assignment.
+11. Push the ca1-part2 tag to the remote Git repository using the git push origin ca1-part2 command. This command pushes the ca1-part2 tag to the remote repository.
+12. Finally, close the GitHub issues created for the email field validation and the fix-invalid-email branch. This indicates that the tasks associated with these issues have been completed.
 
 These steps extend the functionality of the Employee Management System by adding validation to the email field in the Employee entity and creating unit tests for this new validation. They also demonstrate the use of Git for version control, including creating branches, merging changes, committing changes, pushing commits to a remote repository, and creating and pushing tags.
 
-#### Steps:
+##### Steps:
 1. I created 2 issues to add the validation to the email field and the fix-invalid-email branch to the project
 2. To create a new branch there are 2 options: one using the command line with the following command
 ```bash
@@ -434,7 +435,22 @@ The `Database.java` file, which handles the database operations, can be found at
 
 ## 2. Examination of an Alternative Version Control Solution: Mercurial SCM
 
-The subsequent section offers an examination of Mercurial as an alternative version control solution to Git. It emphasizes its features, contrasts with Git, and its potential application to the assignment objectives. However, it was not utilized in the assignment.  Mercurial, akin to Git, is a distributed version control system (DVCS) that empowers developers to monitor and manage modifications to their codebase. Nevertheless, there exist key contrasts and similarities between the two, influencing their usage based on project requirements and team inclinations.  
+Mercurial, like Git, is a free, distributed version control system, also known as a revision control system or Mercurial source control. It's utilized by software development teams to manage and track changes across projects. Despite its popularity declining since its release in 2005, it's still employed by major organizations such as Facebook and Mozilla.  
+
+Mercurial's main difference from Git lies in its branching structure. While Git allows for the creation, deletion, and switching of branches at any time, making the branches lightweight, Mercurial has a more complex, permanent branching structure. This can lead to a cluttered repository and requires extra care to avoid committing changes to the wrong branch.  
+
+Another difference is how they handle the staging area. In Git, the staging area is separate from the working directory, where changes are stored before they are committed to the repository. In Mercurial, the staging area is not separate from the working directory, which can make managing changes more difficult and prone to errors.  
+
+Mercurial can be more user-friendly due to its simplicity, especially for beginners. However, Git's power and flexibility make it the preferred choice for most developers.  
+
+To set up a repository in Mercurial, you would follow similar steps to Git, but with Mercurial's specific commands. For example, to create a new branch in Mercurial, you would use hg branch <branchname>.
+To switch to the new branch, you would use hg update <branchname>. To merge the new branch into the main branch, you would use hg merge <branchname>.  
+
+Mercurial also has a set of useful commands similar to Git, such as hg clone to create a copy of an existing repository, hg pull to pull changes from a remote repository, hg update to update the working directory to a specific revision, and hg log to view the history of the repository.  
+
+In conclusion, both Git and Mercurial are powerful version control systems with their own strengths and weaknesses. The choice between the two depends on the specific requirements of the project, the team's familiarity with the tools, and the existing infrastructure and tooling.
+
+The subsequent section offers an examination of Mercurial as an alternative version control solution to Git. It emphasizes its features, contrasts with Git, and its potential application to the assignment objectives. However, it was not utilized in the assignment.   
 
 ### Contrast with Git
 1. Simplicity: Mercurial is frequently commended for its simplicity and direct command set. Novice users might perceive Mercurial to be more accessible than Git, which possesses a steeper learning curve due to its more comprehensive set of features and commands.  
@@ -452,7 +468,7 @@ The subsequent section offers an examination of Mercurial as an alternative vers
 13. Community and Support: Information about the Mercurial community, how to get support, and where to find additional resources for learning Mercurial.
 
 ### Utilizing Mercurial for the Assignment Objectives
-To accomplish the same objectives as presented in this assignment using Mercurial, one would follow a similar workflow with some differences in commands and concepts:  
+To accomplish the same objectives as presented in this assignment using Mercurial, first you will need to install [Mercurial](https://www.mercurial-scm.org/downloads). And then follow a similar workflow with some differences in commands and concepts:  
 1. Repository Initialization: To initialize a Mercurial repository, use hg init instead of git init.  
   ```bash
     hg init
@@ -481,13 +497,35 @@ To accomplish the same objectives as presented in this assignment using Mercuria
            hg tag ca1-part2
             hg push --tags
     ```
+### Essential Mercurial Commands
+1. hg clone: Clones an existing repository.
+2. hg pull: Retrieves changes from a remote repository to the local one.
+3. hg update: Updates the working directory to a specific revision.
+4. hg branch: Creates a new branch in the repository.
+5. hg merge: Merges two branches in the repository.
+6. hg tag: Tags a specific revision in the repository.
+7. hg log: Displays the repository's history.
+8. hg status: Shows the status of the working directory.
+9. hg diff: Views the modifications made to the working directory.
+10. hg revert: Reverts changes made to the working directory.
+11. hg rollback: Undoes the last commit in the repository.
+12. hg help: Provides the help documentation for Mercurial.
+13. hg version: Shows the installed version of Mercurial.
+14. hg outgoing: Displays the changes that are ready to be pushed to a remote repository.
+15. hg incoming: Shows the changes that can be pulled from a remote repository.
+
 
 ## Conclution
 
-In the course of this project, I encountered a few challenges and learned several important concepts. One of the major difficulties I faced was related to the merging of branches. Due to an error, the ramifications of the branches did not appear as expected. This was primarily due to the fact that I had not correctly set up the branches before merging. It's crucial to ensure that the branches are properly checked out and that the changes are committed before attempting to merge. 
+In the course of this project, I encountered a few challenges and learned several important concepts. One of the major difficulties I faced was related to the merging of branches.
+In the process of merging branches, I did not use the git merge --no-ff command. This command prevents a fast-forward merge, which occurs when the current branch hasn't diverged from the target branch being merged in. Instead of creating a new commit to represent the merge, Git simply moves the current branch forward until it's at the same commit as the target branch. 
+By using --no-ff, the history of the feature branch is preserved before it gets integrated into the main branch, making it easier to understand the flow of changes and to revert entire features if needed. However, in this project, I did not use this command, which may have affected the expected outcome. As always, every major step should be followed by the creation of a tag and pushing it to the origin.
+Due to that error, the ramifications of the branches did not appear as expected. 
 
-This helps to avoid conflicts and ensures that the changes from each branch are accurately reflected in the merged result.  Despite these challenges, working on this project was a valuable experience. It provided a practical understanding of several key concepts in software development and DevOps. I learned about the importance of version control in managing and tracking changes to the codebase. Using Git, I was able to create branches for different features, commit changes, and merge these changes back into the main codebase. 
+Despite these challenges, working on this project was a valuable experience. It provided a practical understanding of several key concepts in software development and DevOps. I learned about the importance of version control in managing and tracking changes to the codebase. Using Git, I was able to create branches for different features, commit changes, and merge these changes back into the main codebase.
+This not only helped to keep the work organized but also made it easier to track the progress of each feature.  Furthermore, I learned about the importance of unit testing in ensuring the correct functionality of the code. By creating unit tests for each new field added to the Employee entity, I was able to verify that these fields were working as expected. This is a crucial aspect of software development as it helps to catch and fix bugs early in the development process, ensuring the reliability and quality of the code.  In addition, I gained experience in working with Spring Boot. 
 
-This not only helped to keep the work organized but also made it easier to track the progress of each feature.  Furthermore, I learned about the importance of unit testing in ensuring the correct functionality of the code. By creating unit tests for each new field added to the Employee entity, I was able to verify that these fields were working as expected. This is a crucial aspect of software development as it helps to catch and fix bugs early in the development process, ensuring the reliability and quality of the code.  In addition, I gained experience in working with Spring Boot for backend development and React for frontend development. 
+Antoher conclution i have after developing this project is that both Git and Mercurial are powerful distributed version control systems that aid developers in tracking and managing changes to their codebase. Git, with its extensive set of features and commands, offers a high degree of flexibility and efficiency, particularly for large projects. It also boasts a broader adoption, leading to a larger ecosystem of tools and integrations. On the other hand, Mercurial is often praised for its simplicity and straightforward command set, making it potentially more accessible for beginners or teams seeking a more streamlined workflow. While Git's model allows for lightweight and easily manageable branches, Mercurial adopts a slightly different approach where branches are permanent and clones are often used for feature development. Ultimately, the choice between Git and Mercurial depends on the specific requirements of the project, the team's familiarity with the tools, and the existing infrastructure and tooling. Both systems are capable of achieving the objectives outlined in this assignment, but the workflow and commands will differ.
 
 These frameworks are widely used in the industry and learning to work with them has been a valuable addition to my skill set.  Overall, this project was a great opportunity to apply and deepen my understanding of these concepts. It was a challenging but rewarding experience that has enhanced my skills as a developer.
+
