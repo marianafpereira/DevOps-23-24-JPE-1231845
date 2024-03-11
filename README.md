@@ -67,7 +67,7 @@ In this part of the project, we are setting up a new Git repository for the Empl
 
 These steps demonstrate the initial setup of a Git repository, including creating a new repository on GitHub, initializing a local Git repository, linking the local and remote repositories, adding files to the Git staging area, committing changes, and pushing commits to a remote repository.
 
-Steps:
+#### Steps:
 1. Create a new repository on GitHub: see images for 
 [Step 1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-1)
 and
@@ -142,7 +142,7 @@ The assignment comprises several essential tasks:
 
 Copy the code of the Tutorial React.js and Spring Data REST Application into a new folder named CA1.
 
-Steps:
+#### Steps:
 1. Copy this link from github:
 [spring-guides](https://github.com/spring-guides/tut-react-and-spring-data-rest)
 2. In the CA1 folder open the terminal and run the following command to clone the repository
@@ -151,7 +151,7 @@ Steps:
 ````
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-6)
 
-#### 2. # Runnig the Spring Boot Application
+#### 2. Runnig the Spring Boot Application
 
 In the following steps, we will be setting up the project repository and preparing it for further development. Here's a brief overview of what we will be doing:
 1. We will add all the files in the current directory to the Git staging area using the git add . command. This command prepares the files for the next commit.
@@ -164,7 +164,7 @@ In the following steps, we will be setting up the project repository and prepari
    
 These steps set up our project repository and prepare it for further development. As we continue to work on the project, we will create more issues, make more commits, and create more tags to track our progress
 
-Steps:
+#### Steps:
 1. Now add all files to the folder of your repository with the git add . command
 ```bash
     git add .
@@ -211,7 +211,7 @@ Once you have verified that the file or folder is no longer staged for commit, y
     git commit -m "#x message"
     git push origin main
 ```
-Steps:
+#### Steps:
 1. Create the issue for the second step of the project as before and as the 
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-15)
 2. You can see i already created the 5 issues i'll be needing and you can see all of the open ones where
@@ -256,7 +256,7 @@ In this part of the project, we are extending the functionality of the Employee 
 
 These steps extend the functionality of the Employee Management System by adding new fields to the Employee entity and creating unit tests for these new fields. They also demonstrate the use of Git for version control, including committing changes, pushing commits to a remote repository, and creating and pushing tags
 
-Steps:
+#### Steps:
 1. Open the project and make sure you load maven and grand all permitions to the project
 2. Then add the fields that are asked in the issue 2 in this case the jobYears and make unit tests for that code
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-29)
@@ -317,6 +317,7 @@ In this part of the project, we are extending the functionality of the Employee 
 
 These steps extend the functionality of the Employee Management System by adding a new email field to the Employee entity and creating unit tests for this new field. They also demonstrate the use of Git for version control, including creating branches, merging changes, committing changes, pushing commits to a remote repository, and creating and pushing tags.
 
+#### Steps:
 1. I created 2 issues to add the email field and the email-field branch to the project
 2. To create a new branch there are 2 options: one using the command line with the following command
 ```bash
@@ -362,7 +363,7 @@ In this part of the project, we are enhancing the functionality of the Employee 
 
 These steps extend the functionality of the Employee Management System by adding validation to the email field in the Employee entity and creating unit tests for this new validation. They also demonstrate the use of Git for version control, including creating branches, merging changes, committing changes, pushing commits to a remote repository, and creating and pushing tags.
 
-Steps:
+#### Steps:
 1. I created 2 issues to add the validation to the email field and the fix-invalid-email branch to the project
 2. To create a new branch there are 2 options: one using the command line with the following command
 ```bash
