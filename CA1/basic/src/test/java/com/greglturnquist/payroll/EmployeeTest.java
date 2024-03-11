@@ -109,5 +109,8 @@ public class EmployeeTest {
         assertThrows(IllegalArgumentException.class, () -> {
             new Employee("Bilbo", "Baggins", "ring bearer", 3, "burglar", null);
         });
+        assertThrows(IllegalArgumentException.class, () -> {
+        new Employee("Bilbo", "Baggins", "ring bearer",  3,"burglar", "bilbobagginslordoftherings.com");
+        });
     }
 }
