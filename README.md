@@ -713,61 +713,61 @@ in commands and concepts:
 
 3. Tagging Versions: In Mercurial, tags are created with hg tag <tagname> and pushed with hg push --tags.
     ```bash
-        hg tag v1.0.0
-        hg push --tags
-     ```
+    hg tag v1.0.0
+    hg push --tags
+    ```
 4. Branching for Features and Fixes: To create a new branch in Mercurial, use hg branch <branchname>. Feature
    development and bug fixes would follow a similar branching model to Git, with the merge process using hg merge and
    commit changes with hg commit.
     ```bash
-        hg branch email-field
-        hg commit -m "Added email field"
-        hg merge
-        hg commit -m "Merged email-field branch"
-     ```
+    hg branch email-field
+    hg commit -m "Added email field"
+    hg merge
+    hg commit -m "Merged email-field branch"
+    ```
 5. Finalizing with Tags: Mark the end of the assignment with hg tag ca1-part2 and push the tag as shown above.
     ```bash
-           hg tag ca1-part2
-            hg push --tags
+    hg tag ca1-part2
+    hg push --tags
     ```
 
 ### Essential Mercurial Commands
 
 1. hg clone: Clones an existing repository.
-   ```bash
+    ```bash
     hg clone <repository-url>
-   ```
+    ```
 2. hg pull: Retrieves changes from a remote repository to the local one.
     ```bash
-     hg pull
+    hg pull
     ```
 3. hg update: Updates the working directory to a specific revision.
     ```bash
-     hg update <revision>
+    hg update <revision>
     ```
 4. hg branch: Creates a new branch in the repository.
     ```bash
-     hg branch <branchname>
+    hg branch <branchname>
     ```
 5. hg merge: Merges two branches in the repository.
     ```bash
-     hg merge <branchname>
+    hg merge <branchname>
     ```
 6. hg tag: Tags a specific revision in the repository.
     ```bash
-     hg tag <tagname>
+    hg tag <tagname>
     ```
 7. hg log: Displays the repository's history.
     ```bash
-     hg log
+    hg log
     ```
 8. hg status: Shows the status of the working directory.
     ```bash
-     hg status
+    hg status
     ```
 9. hg diff: Views the modifications made to the working directory.
     ```bash
-     hg diff
+    hg diff
     ```
 10. hg revert: Reverts changes made to the working directory.
    ```bash
