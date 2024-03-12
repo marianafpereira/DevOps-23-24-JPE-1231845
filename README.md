@@ -135,7 +135,7 @@ nano .gitignore
    git push -u origin main
 ```
 
-## Procedures For The CA1
+## Procedures For spring-boot:run
 
 To complete the tasks outlined in the assignment, follow these steps using the command line or Git Bash:
 
