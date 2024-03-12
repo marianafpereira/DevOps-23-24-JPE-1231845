@@ -53,7 +53,7 @@ We encourage you to explore these resources to gain a deeper understanding of th
 
 To implement the initial setup and a new feature directly on the master branch without using additional branches.
 
-## 1. Tutorial and v1.0.0
+## 1. Tutorial for v1.0.0
 The first step in the assignment is to create a new Git repository and set it up for the project. This involves creating a new repository on GitHub, initializing a local repository and pushing the initial commit to the remote repository.
 
 ##### Steps:
@@ -135,7 +135,7 @@ nano .gitignore
    git push -u origin main
 ```
 
-## Procedures For spring-boot:run
+## 2. Tutorial for spring-boot:run
 
 To complete the tasks outlined in the assignment, follow these steps using the command line or Git Bash:
 
@@ -203,7 +203,7 @@ project, you will create more issues, make more commits, and create more tags to
 8. When the process terminate access the  [Localhost Link](http://localhost:8080)and make sure you see
    as [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-28)
 
-#### 3. V1.1.0 of CA1
+#### 3. Tutorial for V1.1.0 of CA1
 
 The initial steps of the assignment involve setting up the project repository. This is done by copying the 'basic'
 directory and the 'pom.xml' file from the 'tut-react-and-spring-data-rest' directory to the 'CA1' directory,
@@ -275,7 +275,7 @@ the remote repository with git push.
    indicates that the task associated with the issue has been completed.
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-22)
 
-#### 4. V1.2.0, V1.2.1 and ca1-part1
+#### 4. Tutorial for V1.2.0, V1.2.1 and ca1-part1
 
 In this part of the project, we are extending the functionality of the Employee Management System by adding a new field
 to the Employee entity and creating unit tests to ensure the correct functionality of this new field. 
@@ -357,7 +357,7 @@ Please visit the [wiki page of v1.2.0, v1.2.1 and ca-part1](https://github.com/m
 To implement new features and fixes on separate branches, then merge these branches into the master branch. 
 This approach allows for isolated development of each feature or fix, reducing the risk of conflicts and making it easier to track changes.
 
-#### 5. V1.3.0
+#### 1. Tutorial for V1.3.0
 
 In this part of the project, we are extending the functionality of the Employee Management System by adding a new field,
 email, to the Employee entity and ensuring that the server only accepts Employees with valid email addresses. 
@@ -410,7 +410,7 @@ or using command lines with the following command:
 
 7. Closed the issue of email-field and email-field branch.
 
-#### 6. V1.3.1 and ca1-part2
+#### 2. Tutorial for V1.3.1 and ca1-part2
 
 In this part of the project, we are enhancing the functionality of the Employee Management System by adding validation
 to the email field in the Employee entity.
@@ -479,7 +479,7 @@ found [here](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/ma
 
 `CA1/basic/src/main/java/com/greglturnquist/payroll/DatabaseLoader.java`
 
-## 2. Examination of an Alternative Version Control Solution: Mercurial SCM
+## 2. Part 3 - Examination of an Alternative Version Control Solution: Mercurial SCM
 
 Mercurial is a free, distributed version control system used by software development teams to manage and track changes across projects. Despite a decline in popularity since its 2005 release, it's still used by major organizations like Facebook and Mozilla. 
 
@@ -493,7 +493,7 @@ In conclusion, both Git and Mercurial are powerful version control systems with 
 
 For a deeper examination of this alternative version control visit [wiki page](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#2-examination-of-an-alternative-version-control-solution-mercurial-scm).
 
-### Contrast with Git
+### 1. Contrast with Git
 
 Mercurial is a version control system known for its simplicity and direct command set, making it accessible for beginners. However, its branching and merging model is less flexible than Git's, as branches in Mercurial are permanent and clones are often used for feature development.  
 
@@ -503,7 +503,7 @@ Git has a broader adoption, leading to more available tools and integrations. Me
 
 The choice between Git and Mercurial depends on the project requirements, team's familiarity with the tools, and existing infrastructure. Both systems can achieve the objectives outlined in this assignment, but the workflow and commands will differ.  Additional resources for Mercurial could include installation and setup guides, detailed command explanations, real-world examples or case studies, a comparison table with Git, a troubleshooting guide, and information about the Mercurial community and support.
 
-### Utilizing Mercurial for the Assignment Objectives
+### 2. Utilizing Mercurial for the Assignment Objectives
 
 To accomplish the same objectives as presented in this assignment using Mercurial, first you will need to
 install [Mercurial](https://www.mercurial-scm.org/downloads). And then follow a similar workflow with some differences
@@ -548,7 +548,7 @@ in commands and concepts:
      hg push --tags
  ```
 
-### Essential Mercurial Commands
+### 3. Essential Mercurial Commands
 
 1. hg clone: Clones an existing repository.
 
