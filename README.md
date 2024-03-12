@@ -414,7 +414,7 @@ Please visit the [wiki page of v1.3.1 and ca-part2](https://github.com/marianafp
 2. To create a new branch there are 2 options: one using the command line with the following command
 
 ```bash
-    git checkout -b fix-invalid-email
+  git checkout -b fix-invalid-email
 ````
 
 or using the IDE as
@@ -429,24 +429,24 @@ and [example 2 image](https://github.com/marianafpereira/DevOps-23-24-JPE-123184
    or using command lines with the following command:
 
 ```bash
-    git checkout master
-    git merge fix-invalid-email
+  git checkout master
+  git merge fix-invalid-email
 ````
 
 5. Then i commited the changes and pushed to the repository with the command line
 
 ```bash
-    git commit -m "[Feature] #IssueNumber Added email field and unit tests"
-    git push origin master
+  git commit -m "[Feature] #IssueNumber Added email field and unit tests"
+  git push origin master
 ````
 
 6. Then i created the tag v1.3.1 and ca1-part2 and pushed to the repository with the command line
 
 ```bash
-    git tag v1.3.1
-    git push origin v1.3.1
-    git tag ca1-part2
-    git push origin ca1-part2
+  git tag v1.3.1
+  git push origin v1.3.1
+  git tag ca1-part2
+  git push origin ca1-part2
 ````
 
 [image example](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-35)
@@ -502,6 +502,7 @@ in commands and concepts:
     hg init
     echo "# repository-name" >> README.md
     hg add README.md
+    echo "" > .hgignore
     hg commit -m "first commit"
    ```
 
@@ -512,72 +513,85 @@ in commands and concepts:
    ```
 
 3. Tagging Versions: In Mercurial, tags are created with hg tag <tagname> and pushed with hg push --tags.
-    ```bash
-    hg tag v1.0.0
-    hg push --tags
-    ```
+   
+```bash
+     hg tag v1.0.0
+     hg push --tags
+ ```
 4. Branching for Features and Fixes: To create a new branch in Mercurial, use hg branch <branchname>. Feature
    development and bug fixes would follow a similar branching model to Git, with the merge process using hg merge and
    commit changes with hg commit.
-    ```bash
-    hg branch email-field
-    hg commit -m "Added email field"
-    hg merge
-    hg commit -m "Merged email-field branch"
-    ```
+   
+```bash
+     hg branch email-field
+     hg commit -m "Added email field"
+     hg merge
+     hg commit -m "Merged email-field branch
+ ```
 5. Finalizing with Tags: Mark the end of the assignment with hg tag ca1-part2 and push the tag as shown above.
-    ```bash
-    hg tag ca1-part2
-    hg push --tags
-    ```
+   
+   ```bash
+     hg tag ca1-part2
+     hg push --tags
+ ```
 
 ### Essential Mercurial Commands
 
 1. hg clone: Clones an existing repository.
-    ```bash
-    hg clone <repository-url>
-    ```
+
+  ```bash
+     hg clone <repository-url>
+  ```
 2. hg pull: Retrieves changes from a remote repository to the local one.
-    ```bash
-    hg pull
-    ```
+   
+ ```bash
+     hg pull
+  ```
 3. hg update: Updates the working directory to a specific revision.
-    ```bash
-    hg update <revision>
-    ```
+   
+ ```bash
+     hg update <revision>
+  ```
 4. hg branch: Creates a new branch in the repository.
-    ```bash
-    hg branch <branchname>
-    ```
+   
+ ```bash
+     hg branch <branchname>
+  ```
 5. hg merge: Merges two branches in the repository.
-    ```bash
-    hg merge <branchname>
-    ```
-6. hg tag: Tags a specific revision in the repository.
-    ```bash
-    hg tag <tagname>
-    ```
-7. hg log: Displays the repository's history.
-    ```bash
-    hg log
-    ```
-8. hg status: Shows the status of the working directory.
-    ```bash
-    hg status
-    ```
-9. hg diff: Views the modifications made to the working directory.
-    ```bash
-    hg diff
-    ```
-10. hg revert: Reverts changes made to the working directory.
-   ```bash
-    hg revert <filename>
+   
+ ```bash
+     hg merge <branchname>
    ```
+6. hg tag: Tags a specific revision in the repository.
+   
+ ```bash
+     hg tag <tagname>
+ ```
+7. hg log: Displays the repository's history.
+   
+```bash
+     hg log
+ ```
+8. hg status: Shows the status of the working directory.
+   
+ ```bash
+     hg status
+ ```
+9. hg diff: Views the modifications made to the working directory.
+    
+```bash
+     hg diff
+ ```
+10. hg revert: Reverts changes made to the working directory.
+    
+ ```bash
+    hg revert <filename>
+  ```
 11. hg rollback: Undoes the last commit in the repository.
 
-```bash
+ ```bash
     hg rollback
-   ```
+  ```
 
 12. hg help: Provides the help documentation for Mercurial.
 
