@@ -53,7 +53,7 @@ We encourage you to explore these resources to gain a deeper understanding of th
 
 To implement the initial setup and a new feature directly on the master branch without using additional branches.
 
-## 1. Tutorial
+## 1. Tutorial and v1.0.0
 The first step in the assignment is to create a new Git repository and set it up for the project. This involves creating a new repository on GitHub, initializing a local repository and pushing the initial commit to the remote repository.
 
 ##### Steps:
@@ -121,7 +121,13 @@ nano .gitignore
 
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-12)
 
-11. Now make the commit and push.
+11. Create the tag for v1.0.0
+    
+```bash
+    git tag v1.1.0
+    git push origin v1.1.0
+```
+12. Now make the commit and push.
 
 ```bash
   git commit -m "[Inicial] commit"
