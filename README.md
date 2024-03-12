@@ -350,6 +350,13 @@ Please visit the [wiki page of v1.2.0, v1.2.1 and ca-part1](https://github.com/m
 
 12. Now i clossed the issue of the jobYears and jobTitle fields.
 
+## Part 2:  Work with Branches
+
+### Objective
+
+To implement new features and fixes on separate branches, then merge these branches into the master branch. 
+This approach allows for isolated development of each feature or fix, reducing the risk of conflicts and making it easier to track changes.
+
 #### 5. V1.3.0
 
 In this part of the project, we are extending the functionality of the Employee Management System by adding a new field,
