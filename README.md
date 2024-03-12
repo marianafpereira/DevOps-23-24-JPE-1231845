@@ -530,7 +530,7 @@ in commands and concepts:
  ```
 5. Finalizing with Tags: Mark the end of the assignment with hg tag ca1-part2 and push the tag as shown above.
    
-   ```bash
+```bash
      hg tag ca1-part2
      hg push --tags
  ```
