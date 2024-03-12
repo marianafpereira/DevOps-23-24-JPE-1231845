@@ -25,20 +25,39 @@ import javax.persistence.Id;
  * @author Greg Turnquist
  */
 // tag::code[]
-@Entity
+@Entity // <1>
 public class Employee {
 
-	private @Id @GeneratedValue Long id;
+	private @Id @GeneratedValue Long id; // <2>
 	private String firstName;
 	private String lastName;
 	private String description;
+	private int jobYears;
+	private String jobTitle;
+	private String email;
 
 	private Employee() {}
 
-	public Employee(String firstName, String lastName, String description) {
+	public Employee(String firstName, String lastName, String description, int jobYears, String jobTitle, String email) {
+		if (!validateArguments(firstName, lastName, description, jobYears, jobTitle, email)) {
+			throw new IllegalArgumentException("Invalid arguments passed to constructor.");
+		}
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.description = description;
+		this.jobYears = jobYears;
+		this.jobTitle = jobTitle;
+		this.email = email;
+	}
+
+	public boolean validateArguments(String firstName, String lastName, String description, int jobYears, String jobTitle, String email) {
+		if (firstName == null || firstName.trim().isEmpty()) return false;
+		if (lastName == null || lastName.trim().isEmpty()) return false;
+		if (description == null || description.trim().isEmpty()) return false;
+		if (jobYears <= 0) return false;
+		if (jobTitle == null || jobTitle.trim().isEmpty()) return false;
+		if (email == null || email.trim().isEmpty()) return false;
+		return true;
 	}
 
 	@Override
@@ -47,15 +66,18 @@ public class Employee {
 		if (o == null || getClass() != o.getClass()) return false;
 		Employee employee = (Employee) o;
 		return Objects.equals(id, employee.id) &&
-			Objects.equals(firstName, employee.firstName) &&
-			Objects.equals(lastName, employee.lastName) &&
-			Objects.equals(description, employee.description);
+				Objects.equals(firstName, employee.firstName) &&
+				Objects.equals(lastName, employee.lastName) &&
+				Objects.equals(description, employee.description) &&
+				Objects.equals(jobYears, employee.jobYears) &&
+				Objects.equals(jobTitle, employee.jobTitle) &&
+				Objects.equals(email, employee.email);
 	}
 
 	@Override
 	public int hashCode() {
 
-		return Objects.hash(id, firstName, lastName, description);
+		return Objects.hash(id, firstName, lastName, description, jobYears, jobTitle, email);
 	}
 
 	public Long getId() {
@@ -89,15 +111,35 @@ public class Employee {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-
+	public int getJobYears() {
+		return jobYears;
+	}
+	public void setJobYears(int jobYears) {
+		this.jobYears = jobYears;
+	}
+	public String getJobTitle() {
+		return jobTitle;
+	}
+	public void setJobTitle(String jobTitle) {
+		this.jobTitle = jobTitle;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	@Override
 	public String toString() {
 		return "Employee{" +
-			"id=" + id +
-			", firstName='" + firstName + '\'' +
-			", lastName='" + lastName + '\'' +
-			", description='" + description + '\'' +
-			'}';
+				"id=" + id +
+				", firstName='" + firstName + '\'' +
+				", lastName='" + lastName + '\'' +
+				", description='" + description + '\'' +
+				", jobYears=" + jobYears + '\'' +
+				", jobTitle='" + jobTitle + '\'' +
+				", email='" + email + '\'' +
+				'}';
 	}
 }
 // end::code[]
