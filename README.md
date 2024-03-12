@@ -507,7 +507,7 @@ The choice between Git and Mercurial depends on the project requirements, team's
 
 To accomplish the same objectives as presented in this assignment using Mercurial, first you will need to
 install [Mercurial](https://www.mercurial-scm.org/downloads). And then follow a similar workflow with some differences
-in commands and concepts:
+in commands and concepts. First instal mercurial and python  [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-37).
 
 1. Repository Initialization: To initialize a Mercurial repository, use hg init instead of git init.
 
@@ -515,38 +515,49 @@ in commands and concepts:
     hg init
     echo "# repository-name" >> README.md
     hg add README.md
-    echo "" > .hgignore
+    echo " " > .hignore
     hg commit -m "first commit"
    ```
+ [example image1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-38),  [example image 2](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-39),  [example image 3](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-40),  [example image 4](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-41), [example image 5](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-42) and [example image 6](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-43).
+ 
+2. Make sure that you have on your environment variables the path of the mercurial like [this](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-45)
+   
+3. Add your user information using this command line
 
-2. Pushing Modifications: Mercurial uses hg push to send modifications to a remote repository, similar to git push.
+ ```bash
+ hg config --edit
+ ```
+[example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-47) and  [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-48)
+
+4. Pushing Modifications: Mercurial uses hg push to send modifications to a remote repository, similar to git push.
 
   ```bash
     hg push
    ```
 
-3. Tagging Versions: In Mercurial, tags are created with hg tag <tagname> and pushed with hg push --tags.
-   
-```bash
-     hg tag v1.0.0
-     hg push --tags
- ```
-4. Branching for Features and Fixes: To create a new branch in Mercurial, use hg branch <branchname>. Feature
+5. Tagging Versions: In Mercurial, tags are created with hg tag <tagname> and pushed with hg push --tags.
+    ```bash
+    hg tag v1.0.0
+    hg push --tags
+    ```
+6.  Branching for Features and Fixes: To create a new branch in Mercurial, use hg branch <branchname>. Feature
    development and bug fixes would follow a similar branching model to Git, with the merge process using hg merge and
    commit changes with hg commit.
+    ```bash
+    hg branch email-field
+    hg commit -m "Added email field"
+    hg merge
+    hg commit -m "Merged email-field branch"
+    ```
+   [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-46)
+
+7. Finalizing with Tags: Mark the end of the assignment with hg tag ca1-part2 and push the tag as shown above.
    
-```bash
-     hg branch email-field
-     hg commit -m "Added email field"
-     hg merge
-     hg commit -m "Merged email-field branch
- ```
-5. Finalizing with Tags: Mark the end of the assignment with hg tag ca1-part2 and push the tag as shown above.
-   
-```bash
-     hg tag ca1-part2
-     hg push --tags
- ```
+   ```bash
+    hg tag ca1-part2
+    hg push --tags
+    ```
+
 
 ### 3. Essential Mercurial Commands
 
