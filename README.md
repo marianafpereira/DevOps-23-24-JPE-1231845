@@ -135,7 +135,7 @@ nano .gitignore
    git push -u origin main
 ```
 
-## 2. Tutorial for spring-boot:run
+## 2. Tutorial for ca-part1
 
 To complete the tasks outlined in the assignment, follow these steps using the command line or Git Bash:
 
@@ -157,7 +157,7 @@ repository from GitHub into a new folder named CA1. Here's a detailed explanatio
 
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-6)
 
-#### 2. Runnig the Spring Boot Application
+#### 2. Running the Spring Boot Application
 
 The initial steps of the assignment involve setting up the project repository. This is done by adding all the files in
 the current directory to the Git staging area, moving the files from the tut-react-and-spring-data-rest folder to the
