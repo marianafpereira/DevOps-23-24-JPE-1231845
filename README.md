@@ -203,7 +203,7 @@ project, you will create more issues, make more commits, and create more tags to
 8. When the process terminate access the  [Localhost Link](http://localhost:8080)and make sure you see
    as [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-28)
 
-#### 3. Tutorial for V1.1.0 of CA1
+#### 3. Tutorial for V1.1.0
 
 The initial steps of the assignment involve setting up the project repository. This is done by copying the 'basic'
 directory and the 'pom.xml' file from the 'tut-react-and-spring-data-rest' directory to the 'CA1' directory,
