@@ -41,7 +41,7 @@ For any inquiries or further discussions related to this project, feel free to r
 
 For more detailed information about this project, please visit the following links:
 
-- [Project Wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki) where you can find an introdution, the explanation of steps taken, the full review of mercurial VS git, steps in mercurial and a conclusion of this CA1 with GIT and Mercurial problems i found and why.
+- [Project Wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki) where you can find an introdution, the explanation of steps taken, the full review of mercurial VS git and a conclusion of this CA1.
 - [Glossary](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Glossary)
 - [Project Images](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images)
 
@@ -203,7 +203,7 @@ project, you will create more issues, make more commits, and create more tags to
 8. When the process terminate access the  [Localhost Link](http://localhost:8080)and make sure you see
    as [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-28)
 
-#### 3. Tutorial for V1.1.0
+#### 3. Tutorial for V1.1.0 of CA1
 
 The initial steps of the assignment involve setting up the project repository. This is done by copying the 'basic'
 directory and the 'pom.xml' file from the 'tut-react-and-spring-data-rest' directory to the 'CA1' directory,
@@ -479,7 +479,7 @@ found [here](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/ma
 
 `CA1/basic/src/main/java/com/greglturnquist/payroll/DatabaseLoader.java`
 
-## 2. Part 3 - Examination of an Alternative Version Control Solution: Mercurial SCM
+## Part 3 - Examination of an Alternative Version Control Solution: Mercurial SCM
 
 Mercurial is a free, distributed version control system used by software development teams to manage and track changes across projects. Despite a decline in popularity since its 2005 release, it's still used by major organizations like Facebook and Mozilla. 
 
@@ -639,4 +639,34 @@ in commands and concepts. First instal mercurial and python  [example image](htt
 
 ```bash
     hg incoming
+```
+16. hg heads: Lists the heads in the repository.
+
+```bash
+    hg heads
+```
+17. hg bookmarks: Manages the repository's bookmarks.
+
+```bash
+    hg bookmarks
+```
+18. hg bisect: Helps identify the changeset that introduced a bug.
+
+```bash
+    hg bisect
+```
+19. hg graft: Copies changes from one branch to another.
+
+```bash
+    hg graft
+```
+20. hg strip: Removes changesets from the repository.
+
+```bash
+    hg strip
+```
+21. hg update: Updates the working directory to a specific revision.
+
+```bash
+    hg update
 ```
