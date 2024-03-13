@@ -139,7 +139,7 @@ nano .gitignore
 
 To complete the tasks outlined in the assignment, follow these steps using the command line or Git Bash:
 
-#### 1. Copying the Tutorial Application :computer:
+#### 1. Copying the Tutorial Application :black_nib:
 
 The initial steps of the assignment involve setting up the project repository. This is done by cloning an existing
 repository from GitHub into a new folder named CA1. Here's a detailed explanation of each step:
@@ -466,7 +466,7 @@ and [example 2 image](https://github.com/marianafpereira/DevOps-23-24-JPE-123184
 
 7. Closed the issue of email-field and email-field branch.
 
-#### Tests and implementions for this CA1
+#### Tests and implementions for this CA1 :white_check_mark:
 
 The `EmployeeTest.java` file, which contains the unit tests for the `Employee` entity, can be
 found [here](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA1/basic/src/test/java/com/greglturnquist/payroll/EmployeeTest.java)
@@ -479,7 +479,7 @@ found [here](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/ma
 
 `CA1/basic/src/main/java/com/greglturnquist/payroll/DatabaseLoader.java`
 
-## Part 3 - Examination of an Alternative Version Control Solution: Mercurial SCM :eyes: :thought_balloon:
+## Part 3 - Examination of an Alternative Version Control Solution: Mercurial SCM :thought_balloon:
 
 Mercurial is a free, distributed version control system used by software development teams to manage and track changes across projects. Despite a decline in popularity since its 2005 release, it's still used by major organizations like Facebook and Mozilla. 
 
