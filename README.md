@@ -1,6 +1,6 @@
-# DevOps Class Assignment 1 - Technical Report
+# DevOps Class Assignment 1 - Technical Report :books:
 
-## Prerequisites and Installation
+## Prerequisites and Installation :wrench:
 
 Before you can run this project, you will need to have the following software installed:
 
@@ -18,7 +18,7 @@ To install and run the project, follow these steps:
 5. Run `npm install` to install the necessary Node.js dependencies.
 6. Run `npm start` to start the React application.
 
-## Contributing
+## Contributing :muscle:
 
 Contributions are welcome! To contribute:
 
@@ -30,14 +30,14 @@ Contributions are welcome! To contribute:
 
 When submitting your pull request, please make sure to write a clear and detailed description of the changes you've made.
 
-## Contact Information
+## Contact Information :email: :mailbox_closed:
 
 For any inquiries or further discussions related to this project, feel free to reach out:
 
 - Email: 1231845@isep.ipp.pt
 - GitHub: [marianafpereira](https://github.com/marianafpereira)
 
-## Additional Resources
+## Additional Resources :books:
 
 For more detailed information about this project, please visit the following links:
 
@@ -47,16 +47,16 @@ For more detailed information about this project, please visit the following lin
 
 We encourage you to explore these resources to gain a deeper understanding of the project.
 
-## Part 1: Direct Work on Master Branch
+## Part 1: Direct Work on Master Branch :file_folder:
 
-### Objective
+### Objective :heavy_check_mark:
 
 To implement the initial setup and a new feature directly on the master branch without using additional branches.
 
-## 1. Tutorial for v1.0.0
+## 1. Tutorial for v1.0.0 :wrench:
 The first step in the assignment is to create a new Git repository and set it up for the project. This involves creating a new repository on GitHub, initializing a local repository and pushing the initial commit to the remote repository.
 
-##### Steps:
+##### Steps: :pencil2:
 
 1. Create a new repository on GitHub: see images for
    [Step 1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-1)
@@ -135,16 +135,16 @@ nano .gitignore
    git push -u origin main
 ```
 
-## 2. Tutorial for ca-part1
+## 2. Tutorial for ca-part1 :wrench:
 
 To complete the tasks outlined in the assignment, follow these steps using the command line or Git Bash:
 
-#### 1. Copying the Tutorial Application
+#### 1. Copying the Tutorial Application :computer:
 
 The initial steps of the assignment involve setting up the project repository. This is done by cloning an existing
 repository from GitHub into a new folder named CA1. Here's a detailed explanation of each step:
 
-##### Steps:
+##### Steps: :pencil2:
 
 1. Copy this link from github:
    [spring-guides](https://github.com/spring-guides/tut-react-and-spring-data-rest)
@@ -157,7 +157,7 @@ repository from GitHub into a new folder named CA1. Here's a detailed explanatio
 
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-6)
 
-#### 2. Running the Spring Boot Application
+#### 2. Running the Spring Boot Application :computer:
 
 The initial steps of the assignment involve setting up the project repository. This is done by adding all the files in
 the current directory to the Git staging area, moving the files from the tut-react-and-spring-data-rest folder to the
@@ -168,7 +168,7 @@ application by navigating to http://localhost:8080 in a web browser.
 The following steps set up the project repository and prepare it for further development. As you continue to work on the
 project, you will create more issues, make more commits, and create more tags to track your progress.
 
-##### Steps:
+##### Steps: :pencil2:
 
 1. Now add all files to the folder of your repository with the git add . command
 
@@ -203,7 +203,7 @@ project, you will create more issues, make more commits, and create more tags to
 8. When the process terminate access the  [Localhost Link](http://localhost:8080)and make sure you see
    as [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-28)
 
-#### 3. Tutorial for V1.1.0
+#### 3. Tutorial for V1.1.0 :wrench:
 
 The initial steps of the assignment involve setting up the project repository. This is done by copying the 'basic'
 directory and the 'pom.xml' file from the 'tut-react-and-spring-data-rest' directory to the 'CA1' directory,
@@ -235,7 +235,7 @@ the remote repository with git push.
     git push origin main
 ```
 
-##### Steps:
+##### Steps: :pencil2:
 
 1. Create the issue for the second step of the project as before and as the
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-15)
@@ -275,7 +275,7 @@ the remote repository with git push.
    indicates that the task associated with the issue has been completed.
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-22)
 
-#### 4. Tutorial for V1.2.0, V1.2.1 and ca1-part1
+#### 4. Tutorial for V1.2.0, V1.2.1 and ca1-part1 :wrench:
 
 In this part of the project, we are extending the functionality of the Employee Management System by adding a new field
 to the Employee entity and creating unit tests to ensure the correct functionality of this new field. 
@@ -285,7 +285,7 @@ creating unit tests for this new field. They also demonstrate the use of Git for
 changes, pushing commits to a remote repository, and creating and pushing tags.
 Please visit the [wiki page of v1.2.0, v1.2.1 and ca-part1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#4--v120-v121-and-ca1-part1) for more information about all the following steps.
 
-##### Steps:
+##### Steps: :pencil2:
 
 1. Open the project and make sure you load maven and grand all permitions to the project
 2. Then add the fields that are asked in the issue 2 in this case the jobYears and make unit tests for that code
@@ -350,14 +350,14 @@ Please visit the [wiki page of v1.2.0, v1.2.1 and ca-part1](https://github.com/m
 
 12. Now i clossed the issue of the jobYears and jobTitle fields.
 
-## Part 2:  Work with Branches
+## Part 2:  Work with Branches :deciduous_tree:
 
-### Objective
+### Objective :heavy_check_mark:
 
 To implement new features and fixes on separate branches, then merge these branches into the master branch. 
 This approach allows for isolated development of each feature or fix, reducing the risk of conflicts and making it easier to track changes.
 
-#### 1. Tutorial for V1.3.0
+#### 1. Tutorial for V1.3.0 :wrench:
 
 In this part of the project, we are extending the functionality of the Employee Management System by adding a new field,
 email, to the Employee entity and ensuring that the server only accepts Employees with valid email addresses. 
@@ -367,7 +367,7 @@ and creating unit tests for this new field. They also demonstrate the use of Git
 branches, merging changes, committing changes, pushing commits to a remote repository, and creating and pushing tags. 
 Please visit the [wiki page of v1.3.0](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#5--v130) for more information about all the following steps.
 
-##### Steps:
+##### Steps: :pencil2:
 
 1. I created 2 issues to add the email field and the email-field branch to the project
 2. To create a new branch there are 2 options: one using the command line with the following command
@@ -410,7 +410,7 @@ or using command lines with the following command:
 
 7. Closed the issue of email-field and email-field branch.
 
-#### 2. Tutorial for V1.3.1 and ca1-part2
+#### 2. Tutorial for V1.3.1 and ca1-part2 :wrench:
 
 In this part of the project, we are enhancing the functionality of the Employee Management System by adding validation
 to the email field in the Employee entity.
@@ -421,7 +421,7 @@ control, including creating branches, merging changes, committing changes, pushi
 creating and pushing tags. 
 Please visit the [wiki page of v1.3.1 and ca-part2](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#5--v131-and-ca1-part2) for more information about all the following steps.
 
-##### Steps:
+##### Steps: :pencil2:
 
 1. I created 2 issues to add the validation to the email field and the fix-invalid-email branch to the project
 2. To create a new branch there are 2 options: one using the command line with the following command
@@ -479,7 +479,7 @@ found [here](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/ma
 
 `CA1/basic/src/main/java/com/greglturnquist/payroll/DatabaseLoader.java`
 
-## Part 3 - Examination of an Alternative Version Control Solution: Mercurial SCM
+## Part 3 - Examination of an Alternative Version Control Solution: Mercurial SCM :eyes: :thought_balloon:
 
 Mercurial is a free, distributed version control system used by software development teams to manage and track changes across projects. Despite a decline in popularity since its 2005 release, it's still used by major organizations like Facebook and Mozilla. 
 
@@ -493,7 +493,7 @@ In conclusion, both Git and Mercurial are powerful version control systems with 
 
 For a deeper examination of this alternative version control visit [wiki page](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#2-examination-of-an-alternative-version-control-solution-mercurial-scm).
 
-### 1. Contrast with Git
+### 1. Contrast with Git :clipboard:
 
 Mercurial is a version control system known for its simplicity and direct command set, making it accessible for beginners. However, its branching and merging model is less flexible than Git's, as branches in Mercurial are permanent and clones are often used for feature development.  
 
@@ -503,7 +503,7 @@ Git has a broader adoption, leading to more available tools and integrations. Me
 
 The choice between Git and Mercurial depends on the project requirements, team's familiarity with the tools, and existing infrastructure. Both systems can achieve the objectives outlined in this assignment, but the workflow and commands will differ.  Additional resources for Mercurial could include installation and setup guides, detailed command explanations, real-world examples or case studies, a comparison table with Git, a troubleshooting guide, and information about the Mercurial community and support.
 
-### 2. Utilizing Mercurial for the Assignment Objectives
+### 2. Utilizing Mercurial for the Assignment Objectives :wrench:
 
 To accomplish the same objectives as presented in this assignment using Mercurial, first you will need to
 install [Mercurial](https://www.mercurial-scm.org/downloads). And then follow a similar workflow with some differences
@@ -559,7 +559,7 @@ in commands and concepts. First instal mercurial and python  [example image](htt
 ```
 
 
-### 3. Essential Mercurial Commands
+### 3. Essential Mercurial Commands :hammer:
 
 1. hg clone: Clones an existing repository.
 
