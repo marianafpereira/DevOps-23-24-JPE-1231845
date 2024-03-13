@@ -531,32 +531,32 @@ in commands and concepts. First instal mercurial and python  [example image](htt
 
 4. Pushing Modifications: Mercurial uses hg push to send modifications to a remote repository, similar to git push.
 
-  ```bash
+```bash
     hg push
-   ```
+```
 
 5. Tagging Versions: In Mercurial, tags are created with hg tag <tagname> and pushed with hg push --tags.
-    ```bash
+```bash
     hg tag v1.0.0
     hg push --tags
-    ```
+```
 6.  Branching for Features and Fixes: To create a new branch in Mercurial, use hg branch <branchname>. Feature
    development and bug fixes would follow a similar branching model to Git, with the merge process using hg merge and
    commit changes with hg commit.
-    ```bash
+```bash
     hg branch email-field
     hg commit -m "Added email field"
     hg merge
     hg commit -m "Merged email-field branch"
-    ```
+```
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-46)
 
 7. Finalizing with Tags: Mark the end of the assignment with hg tag ca1-part2 and push the tag as shown above.
    
-   ```bash
+```bash
     hg tag ca1-part2
     hg push --tags
-    ```
+```
 
 
 ### 3. Essential Mercurial Commands
