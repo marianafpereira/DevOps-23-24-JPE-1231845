@@ -41,9 +41,9 @@ For any inquiries or further discussions related to this project, feel free to r
 
 For more detailed information about this project, please visit the following links:
 
-- [Project Wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki) where you can find an introdution, the explanation of steps taken, the full review of mercurial VS git and a conclusion of this CA1.
-- [Glossary](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Glossary)
-- [Project Images](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images)
+- [Project Wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki) where you can find an introdution, the explanation of steps taken, the full review of mercurial VS git and a conclusion of this CA1. :point_left:
+- [Glossary](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Glossary) :point_left:
+- [Project Images](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images) :point_left:
 
 We encourage you to explore these resources to gain a deeper understanding of the project.
 
