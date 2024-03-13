@@ -51,10 +51,11 @@ We encourage you to explore these resources to gain a deeper understanding of th
 
 ### Objective :heavy_check_mark:
 
-To implement the initial setup and a new feature directly on the master branch without using additional branches.
+To implement the initial setup and a new feature directly on the master branch without using additional branches. Check out the [wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#part-1-direct-work-on-master-branch-file_folder) for more information!
 
 ## 1. Tutorial for v1.0.0 :wrench:
 The first step in the assignment is to create a new Git repository and set it up for the project. This involves creating a new repository on GitHub, initializing a local repository and pushing the initial commit to the remote repository.
+Check out the [wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#1-tutorial-for-v100-wrench) for more information!
 
 ##### Steps: :pencil2:
 
@@ -134,15 +135,19 @@ nano .gitignore
    git branch -M main
    git push -u origin main
 ```
+## Procedures For The CA1 :clipboard:
+
+### Overview :chart_with_downwards_trend:
+Check on [wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#overview-chart_with_downwards_trend) for more about this!
 
 ## 2. Tutorial for ca-part1 :wrench:
 
-To complete the tasks outlined in the assignment, follow these steps using the command line or Git Bash:
+To complete the tasks outlined in the assignment, check [wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#2-tutorial-for-ca-part1-wrench) for an explanation of steps. Then, follow these steps using the command line or Git Bash:
 
 #### 1. Copying the Tutorial Application :black_nib:
 
 The initial steps of the assignment involve setting up the project repository. This is done by cloning an existing
-repository from GitHub into a new folder named CA1. Here's a detailed explanation of each step:
+repository from GitHub into a new folder named CA1. Here's a detailed [explanation](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#1-copying-the-tutorial-application-black_nib) of each step:
 
 ##### Steps: :pencil2:
 
@@ -163,7 +168,7 @@ The initial steps of the assignment involve setting up the project repository. T
 the current directory to the Git staging area, moving the files from the tut-react-and-spring-data-rest folder to the
 CA1 folder, removing the .git folder that is inside the CA1 folder, creating issues on GitHub for each task or feature
 that needs to be implemented, moving to the CA1 folder, running the Spring Boot application, and accessing the
-application by navigating to http://localhost:8080 in a web browser. 
+application by navigating to http://localhost:8080 in a web browser. To help you understand more follow [this link](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#2-running-the-spring-boot-application-computer).
 
 The following steps set up the project repository and prepare it for further development. As you continue to work on the
 project, you will create more issues, make more commits, and create more tags to track your progress.
@@ -213,7 +218,7 @@ of the remote repository.
 
 The followinng steps set up the project repository and prepare it for further development. As you continue to work on the
 project, you will create more issues, make more commits, and create more tags to track your progress.
-Please visit the [wiki page of v1.1.0](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#3-v110-of-ca1)for more information about all the following steps.
+Please visit the [wiki page of v1.1.0](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#3-tutorial-for-v110-wrench)for more information about all the following steps.
 
 NOTE:You can also copy and paste the 'basic' folder using your system's file explorer interface. This is an alternative
 to using command line operations.
@@ -283,7 +288,7 @@ to the Employee entity and creating unit tests to ensure the correct functionali
 The following steps extend the functionality of the Employee Management System by adding a new field to the Employee entity and
 creating unit tests for this new field. They also demonstrate the use of Git for version control, including committing
 changes, pushing commits to a remote repository, and creating and pushing tags.
-Please visit the [wiki page of v1.2.0, v1.2.1 and ca-part1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#4--v120-v121-and-ca1-part1) for more information about all the following steps.
+Please visit the [wiki page of v1.2.0, v1.2.1 and ca-part1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#4-tutorial-for-v120-v121-and-ca1-part1-wrench) for more information about all the following steps.
 
 ##### Steps: :pencil2:
 
@@ -365,7 +370,7 @@ email, to the Employee entity and ensuring that the server only accepts Employee
 The following steps extend the functionality of the Employee Management System by adding email validation to the Employee entity
 and creating unit tests for this new field. They also demonstrate the use of Git for version control, including creating
 branches, merging changes, committing changes, pushing commits to a remote repository, and creating and pushing tags. 
-Please visit the [wiki page of v1.3.0](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#5--v130) for more information about all the following steps.
+Please visit the [wiki page of v1.3.0](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#1-tutorial-for-v130-wrench) for more information about all the following steps.
 
 ##### Steps: :pencil2:
 
@@ -419,7 +424,7 @@ The following steps extend the functionality of the Employee Management System b
 Employee entity and creating unit tests for this new validation. They also demonstrate the use of Git for version
 control, including creating branches, merging changes, committing changes, pushing commits to a remote repository, and
 creating and pushing tags. 
-Please visit the [wiki page of v1.3.1 and ca-part2](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#5--v131-and-ca1-part2) for more information about all the following steps.
+Please visit the [wiki page of v1.3.1 and ca-part2](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#2-tutorial-for-v131-and-ca1-part2-wrench) for more information about all the following steps.
 
 ##### Steps: :pencil2:
 
@@ -477,8 +482,6 @@ found [here](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/ma
 The `Database.java` file, which handles the database operations, can be found at the
 found [here](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA1/basic/src/main/java/com/greglturnquist/payroll/DatabaseLoader.java)
 
-`CA1/basic/src/main/java/com/greglturnquist/payroll/DatabaseLoader.java`
-
 ## Part 3 - Examination of an Alternative Version Control Solution: Mercurial SCM :thought_balloon:
 
 Mercurial is a free, distributed version control system used by software development teams to manage and track changes across projects. Despite a decline in popularity since its 2005 release, it's still used by major organizations like Facebook and Mozilla. 
@@ -491,7 +494,7 @@ Mercurial can be more user-friendly due to its simplicity, especially for beginn
 
 In conclusion, both Git and Mercurial are powerful version control systems with their own strengths and weaknesses. The choice between the two depends on the specific requirements of the project, the team's familiarity with the tools, and the existing infrastructure and tooling.
 
-For a deeper examination of this alternative version control visit [wiki page](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#2-examination-of-an-alternative-version-control-solution-mercurial-scm).
+For a deeper examination of this alternative version control visit [wiki page](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#part-3---examination-of-an-alternative-version-control-solution-mercurial-scm-thought_balloon).
 
 ### 1. Contrast with Git :clipboard:
 
@@ -502,6 +505,8 @@ In terms of performance, Git generally outperforms Mercurial for large projects 
 Git has a broader adoption, leading to more available tools and integrations. Mercurial, while supported by many tools, has a smaller ecosystem. Both systems allow for closing issues in a similar manner, typically through the platform's interface or by including the issue number in the commit message.  
 
 The choice between Git and Mercurial depends on the project requirements, team's familiarity with the tools, and existing infrastructure. Both systems can achieve the objectives outlined in this assignment, but the workflow and commands will differ.  Additional resources for Mercurial could include installation and setup guides, detailed command explanations, real-world examples or case studies, a comparison table with Git, a troubleshooting guide, and information about the Mercurial community and support.
+
+For a deeper examination contrasts follow [this link](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#1-contrast-with-git-clipboard)
 
 ### 2. Utilizing Mercurial for the Assignment Objectives :wrench:
 
@@ -670,3 +675,6 @@ in commands and concepts. First instal mercurial and python  [example image](htt
 ```bash
     hg update
 ```
+
+## Other informations:
+Go check out the wiki for a brief conclution of this project [here](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki#conclution-female_detective).
