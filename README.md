@@ -479,7 +479,7 @@ found [here](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/ma
 
 `CA1/basic/src/main/java/com/greglturnquist/payroll/DatabaseLoader.java`
 
-## 2. Part 3 - Examination of an Alternative Version Control Solution: Mercurial SCM
+## Part 3 - Examination of an Alternative Version Control Solution: Mercurial SCM
 
 Mercurial is a free, distributed version control system used by software development teams to manage and track changes across projects. Despite a decline in popularity since its 2005 release, it's still used by major organizations like Facebook and Mozilla. 
 
@@ -639,4 +639,34 @@ in commands and concepts. First instal mercurial and python  [example image](htt
 
 ```bash
     hg incoming
+```
+16. hg heads: Lists the heads in the repository.
+
+```bash
+    hg heads
+```
+17. hg bookmarks: Manages the repository's bookmarks.
+
+```bash
+    hg bookmarks
+```
+18. hg bisect: Helps identify the changeset that introduced a bug.
+
+```bash
+    hg bisect
+```
+19. hg graft: Copies changes from one branch to another.
+
+```bash
+    hg graft
+```
+20. hg strip: Removes changesets from the repository.
+
+```bash
+    hg strip
+```
+21. hg update: Updates the working directory to a specific revision.
+
+```bash
+    hg update
 ```
