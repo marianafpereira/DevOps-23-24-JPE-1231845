@@ -110,7 +110,7 @@ git push origin master
 9. In the command line paste the command line you copied from the github
 
 ```bash
-    git remote add origin nameOfTheRepository
+git remote add origin nameOfTheRepository
 ````
 
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-10)
@@ -118,7 +118,7 @@ git push origin master
 10. Run the command git status to see if the new file appeared
 
 ```bash
-    git status
+git status
 ````
 
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-11)
@@ -126,7 +126,7 @@ git push origin master
 11. Run git add . to add the new file to the repository
 
 ```bash
-    git add .
+git add .
 ````
 
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-12)
@@ -134,15 +134,15 @@ git push origin master
 12. Create the tag for v1.0.0
     
 ```bash
-    git tag v1.1.0
-    git push origin v1.1.0
+git tag v1.1.0
+git push origin v1.1.0
 ```
 13. Now make the commit and push.
 
 ```bash
-  git commit -m "[Inicial] commit"
-   git branch -M main
-   git push -u origin main
+git commit -m "[Inicial] commit"
+git branch -M main
+git push -u origin main
 ```
 ## Procedures For The CA1 :clipboard:
 
@@ -166,7 +166,7 @@ repository from GitHub into a new folder named CA1. Here's a detailed [explanati
 2. In the CA1 folder open the terminal and run the following command to clone the repository
 
 ```bash
-    git clone https://github.com/spring-guides/tut-react-and-spring-data-rest
+git clone https://github.com/spring-guides/tut-react-and-spring-data-rest
 ````
 
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-6)
@@ -187,7 +187,7 @@ project, you will create more issues, make more commits, and create more tags to
 1. Now add all files to the folder of your repository with the git add . command
 
 ```bash
-    git add .
+git add .
 ````
 
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-7)
@@ -209,7 +209,7 @@ project, you will create more issues, make more commits, and create more tags to
 7. Run the following command:
 
 ```bash
-    .\mnnw spring-boot:run
+.\mnnw spring-boot:run
 ````
 
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-27)
@@ -240,13 +240,13 @@ Once you have verified that the file or folder is no longer staged for commit, y
 the remote repository with git push.
 
 ```bash
-    cp -r tut-react-and-spring-data-rest/basic CA1
-    cp tut-react-and-spring-data-rest/pom.xml CA1
-    cd CA1
-    git init
-    git add .
-    git commit -m "#x message"
-    git push origin main
+cp -r tut-react-and-spring-data-rest/basic CA1
+cp tut-react-and-spring-data-rest/pom.xml CA1
+cd CA1
+git init
+git add .
+git commit -m "#x message"
+git push origin main
 ```
 
 ##### Steps: :pencil2:
@@ -260,7 +260,7 @@ the remote repository with git push.
 3. Now you can commit the changes with the following command:
 
 ```bash
-    git commit -m "[Initial] #IssueNumber Initial commit"
+git commit -m "[Initial] #IssueNumber Initial commit"
 ````
 
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-18)
@@ -268,8 +268,8 @@ the remote repository with git push.
 4. Now create the tag and push we will be needing with the command line
 
 ```bash
-    git tag v1.1.0
-    git push origin v1.1.0
+git tag v1.1.0
+git push origin v1.1.0
 ````
 
 [example image]((https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-19)
@@ -277,7 +277,7 @@ the remote repository with git push.
 5. If you don't see the commit in the inicial page of the project, run the following command:
 
 ```bash
-    git push --set-upstream origin master
+git push --set-upstream origin master
 ````
 
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-20)
@@ -308,19 +308,19 @@ Please visit the [wiki page of v1.2.0, v1.2.1 and ca-part1](https://github.com/m
 3. Now commit like the following:
 
 ```bash
-    git commit -m "[Feature] #IssueNumber Added jobYears field and unit tests"
+git commit -m "[Feature] #IssueNumber Added jobYears field and unit tests"
 ````
 
 4. Now push the changes to the repository with the following command:
 
 ```bash
-    git push origin master
+git push origin master
 ````
 
 5. Then create a new tag with the following command
 
 ```bash
-    git tag v1.2.0
+git tag v1.2.0
 ````
 
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-29)
@@ -328,7 +328,7 @@ Please visit the [wiki page of v1.2.0, v1.2.1 and ca-part1](https://github.com/m
 6. Push the tag to the repository using the command line
 
 ```bash
-    git push origin v1.2.0
+git push origin v1.2.0
 ````
 
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-30)
@@ -337,27 +337,27 @@ Please visit the [wiki page of v1.2.0, v1.2.1 and ca-part1](https://github.com/m
 8. Then commited, associeted with the issue and pushed the changes to the repository as the following:
 
 ```bash
-    git commit -m "[Feature] #IssueNumber Added jobTitle field and unit tests"
-    git push origin master
+git commit -m "[Feature] #IssueNumber Added jobTitle field and unit tests"
+git push origin master
 ````
 
 9. Then i created a new tag as before
 
 ```bash
-    git tag v1.2.1
+git tag v1.2.1
 ````
 
 10. Then i pushed the tag to the repository
 
 ```bash
-    git push origin v1.2.1
+git push origin v1.2.1
 ````
 
 11. Then i created the tag ca1-part1 as before and pushed it to the repository
 
 ```bash
-    git tag ca1-part1
-    git push origin ca1-part1
+git tag ca1-part1
+git push origin ca1-part1
 ````
 
 [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-31)
@@ -387,7 +387,7 @@ Please visit the [wiki page of v1.3.0](https://github.com/marianafpereira/DevOps
 2. To create a new branch there are 2 options: one using the command line with the following command
 
 ```bash
-    git checkout -b email-field
+git checkout -b email-field
 ````
 
 or using the IDE as
@@ -402,22 +402,22 @@ and [example 2 image](https://github.com/marianafpereira/DevOps-23-24-JPE-123184
 or using command lines with the following command:
 
 ```bash
-    git checkout master
-    git merge email-field
+git checkout master
+git merge email-field
 ````
 
 5. Then i commited the changes and pushed to the repository with the command line
 
 ```bash
-    git commit -m "[Feature] #IssueNumber Added email field and unit tests"
-    git push origin master
+git commit -m "[Feature] #IssueNumber Added email field and unit tests"
+git push origin master
 ````
 
 6. Then i created the tag v1.3.0 and pushed to the repository with the command line
 
 ```bash
-    git tag v1.3.0
-    git push origin v1.3.0
+git tag v1.3.0
+git push origin v1.3.0
 ````
 
 [image example](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-35)
@@ -441,7 +441,7 @@ Please visit the [wiki page of v1.3.1 and ca-part2](https://github.com/marianafp
 2. To create a new branch there are 2 options: one using the command line with the following command
 
 ```bash
-  git checkout -b fix-invalid-email
+git checkout -b fix-invalid-email
 ````
 
 or using the IDE as
@@ -456,24 +456,24 @@ and [example 2 image](https://github.com/marianafpereira/DevOps-23-24-JPE-123184
    or using command lines with the following command:
 
 ```bash
-  git checkout master
-  git merge fix-invalid-email
+git checkout master
+git merge fix-invalid-email
 ````
 
 5. Then i commited the changes and pushed to the repository with the command line
 
 ```bash
-  git commit -m "[Feature] #IssueNumber Added email field and unit tests"
-  git push origin master
+git commit -m "[Feature] #IssueNumber Added email field and unit tests"
+git push origin master
 ````
 
 6. Then i created the tag v1.3.1 and ca1-part2 and pushed to the repository with the command line
 
 ```bash
-  git tag v1.3.1
-  git push origin v1.3.1
-  git tag ca1-part2
-  git push origin ca1-part2
+git tag v1.3.1
+git push origin v1.3.1
+git tag ca1-part2
+git push origin ca1-part2
 ````
 
 [image example](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-35)
@@ -525,13 +525,13 @@ in commands and concepts. First instal mercurial and python  [example image](htt
 
 1. Repository Initialization: To initialize a Mercurial repository, use hg init instead of git init.
 
-  ```bash
-    hg init
-    echo "# repository-name" >> README.md
-    hg add README.md
-    echo " " > .hignore
-    hg commit -m "first commit"
-   ```
+```bash
+ hg init
+ echo "# repository-name" >> README.md
+ hg add README.md
+ echo " " > .hignore
+ hg commit -m "first commit"
+```
  [example image1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-38),  [example image 2](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-39),  [example image 3](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-40),  [example image 4](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-41), [example image 5](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-42) and [example image 6](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-43).
  
 2. Make sure that you have on your environment variables the path of the mercurial like [this](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-45)
@@ -546,30 +546,30 @@ in commands and concepts. First instal mercurial and python  [example image](htt
 4. Pushing Modifications: Mercurial uses hg push to send modifications to a remote repository, similar to git push.
 
 ```bash
-    hg push
+hg push
 ```
 
 5. Tagging Versions: In Mercurial, tags are created with hg tag <tagname> and pushed with hg push --tags.
 ```bash
-    hg tag v1.0.0
-    hg push --tags
+hg tag v1.0.0
+hg push --tags
 ```
 6.  Branching for Features and Fixes: To create a new branch in Mercurial, use hg branch <branchname>. Feature
    development and bug fixes would follow a similar branching model to Git, with the merge process using hg merge and
    commit changes with hg commit.
 ```bash
-    hg branch email-field
-    hg commit -m "Added email field"
-    hg merge
-    hg commit -m "Merged email-field branch"
+hg branch email-field
+hg commit -m "Added email field"
+hg merge
+hg commit -m "Merged email-field branch"
 ```
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-46)
 
 7. Finalizing with Tags: Mark the end of the assignment with hg tag ca1-part2 and push the tag as shown above.
    
 ```bash
-    hg tag ca1-part2
-    hg push --tags
+hg tag ca1-part2
+hg push --tags
 ```
 
 
@@ -577,122 +577,122 @@ in commands and concepts. First instal mercurial and python  [example image](htt
 
 1. hg clone: Clones an existing repository.
 
-  ```bash
-     hg clone <repository-url>
-  ```
+```bash
+hg clone <repository-url>
+```
 2. hg pull: Retrieves changes from a remote repository to the local one.
    
  ```bash
-     hg pull
+ hg pull
   ```
 3. hg update: Updates the working directory to a specific revision.
    
  ```bash
-     hg update <revision>
+ hg update <revision>
   ```
 4. hg branch: Creates a new branch in the repository.
    
  ```bash
-     hg branch <branchname>
+ hg branch <branchname>
   ```
 5. hg merge: Merges two branches in the repository.
    
  ```bash
-     hg merge <branchname>
+ hg merge <branchname>
    ```
 6. hg tag: Tags a specific revision in the repository.
    
  ```bash
-     hg tag <tagname>
+ hg tag <tagname>
  ```
 7. hg log: Displays the repository's history.
    
 ```bash
-     hg log
- ```
+hg log
+```
 8. hg status: Shows the status of the working directory.
    
  ```bash
-     hg status
+ hg status
  ```
 9. hg diff: Views the modifications made to the working directory.
     
 ```bash
-     hg diff
+hg diff
  ```
 10. hg revert: Reverts changes made to the working directory.
     
- ```bash
-    hg revert <filename>
-  ```
+```bash
+hg revert <filename>
+```
 11. hg rollback: Undoes the last commit in the repository.
 
  ```bash
-    hg rollback
-  ```
+ hg rollback
+ ```
 
 12. hg help: Provides the help documentation for Mercurial.
 
 ```bash
-    hg help
- ```
+hg help
+```
 
 13. hg version: Shows the installed version of Mercurial.
 
- ```bash
-       hg version
- ```
+```bash
+hg version
+```
 
 14. hg outgoing: Displays the changes that are ready to be pushed to a remote repository.
 
 ```bash
-   hg outgoing
- ```
+hg outgoing
+```
 
 15. hg incoming: Shows the changes that can be pulled from a remote repository.
 
 ```bash
-    hg incoming
+hg incoming
 ```
 16. hg heads: Lists the heads in the repository.
 
 ```bash
-    hg heads
+hg heads
 ```
 17. hg bookmarks: Manages the repository's bookmarks.
 
 ```bash
-    hg bookmarks
+hg bookmarks
 ```
 18. hg bisect: Helps identify the changeset that introduced a bug.
 
 ```bash
-    hg bisect
+hg bisect
 ```
 19. hg graft: Copies changes from one branch to another.
 
 ```bash
-    hg graft
+hg graft
 ```
 20. hg strip: Removes changesets from the repository.
 
 ```bash
-    hg strip
+hg strip
 ```
 21. hg update: Updates the working directory to a specific revision.
 
 ```bash
-    hg update
+hg update
 ```
 22. hg graft: Copies changes from one branch to another.
 
 ```bash
-    hg graft
+hg graft
 ```
 23. hg strip: Removes changesets from the repository.
 
 ```bash
-    hg strip
+hg strip
 ```
 
 ## Other informations:
