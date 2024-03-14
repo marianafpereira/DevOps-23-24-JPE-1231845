@@ -95,10 +95,19 @@ touch .gitignore
 nano .gitignore
 ```
 
-7. Now you have to add the repository you created on the github copying the link that is demonstrated in the
+7. Add the README.md file to the repository. First you will use touch README.md to create the file. Then you will 
+    use nano README.md to open the file and write the content. You can edit it now. After that you will use git add README.md to stage the file, git commit -m "Add README file" to commit the file and git push origin master to push the file to the repository. And finnaly you will push the changes to the repository. Where are all the comands you will use.
+```bash
+touch README.md 
+nano README.md
+git add README.md
+git commit -m "Add README file"
+git push origin master
+```
+8. Now you have to add the repository you created on the github copying the link that is demonstrated in the
    [example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-9)
 
-8. In the command line paste the command line you copied from the github
+9. In the command line paste the command line you copied from the github
 
 ```bash
     git remote add origin nameOfTheRepository
@@ -106,7 +115,7 @@ nano .gitignore
 
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-10)
 
-9. Run the command git status to see if the new file appeared
+10. Run the command git status to see if the new file appeared
 
 ```bash
     git status
@@ -114,7 +123,7 @@ nano .gitignore
 
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-11)
 
-10. Run git add . to add the new file to the repository
+11. Run git add . to add the new file to the repository
 
 ```bash
     git add .
@@ -122,13 +131,13 @@ nano .gitignore
 
 [Example image](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images#step-12)
 
-11. Create the tag for v1.0.0
+12. Create the tag for v1.0.0
     
 ```bash
     git tag v1.1.0
     git push origin v1.1.0
 ```
-12. Now make the commit and push.
+13. Now make the commit and push.
 
 ```bash
   git commit -m "[Inicial] commit"
@@ -674,6 +683,16 @@ in commands and concepts. First instal mercurial and python  [example image](htt
 
 ```bash
     hg update
+```
+22. hg graft: Copies changes from one branch to another.
+
+```bash
+    hg graft
+```
+23. hg strip: Removes changesets from the repository.
+
+```bash
+    hg strip
 ```
 
 ## Other informations:
