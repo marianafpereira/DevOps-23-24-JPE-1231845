@@ -1,4 +1,6 @@
-# Class Assignment 2 (CA2) Introduction
+# Class Assignment 2 (CA2) 
+
+# Introduction
 Welcome to Class Assignment 2 (CA2) Part 1 and Part 2! In this assignment, we will be working with a basic Gradle application to introduce new functionalities and deepen our understanding of Gradle's capabilities.
 
 # Objective
