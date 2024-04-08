@@ -1,12 +1,12 @@
 # Class Assignment 2 Part 1
-## Contact Information
+## Contact Information :email:
 
 For any inquiries or further discussions related to this project, feel free to reach out:
 
 - Email: 1231845@isep.ipp.pt
 - GitHub: [marianafpereira](https://github.com/marianafpereira)
 
-## Additional Resources
+## Additional Resources :books:
 
 For more detailed information about this project, please visit the following links:
 
@@ -16,10 +16,10 @@ For more detailed information about this project, please visit the following lin
 
 We encourage you to explore these resources to gain a deeper understanding of the project.
 
-## Overview
+## Overview :pushpin:
 The objective of this class exercise was to utilize our individual repositories and a basic Gradle application to introduce new functionalities. Despite the simplicity of the features, the aim is to comprehend the operation of a Gradle wrapper and modify the build.gradle file. 
 
-## Contents
+## Contents :page_with_curl:
 1. [Initial Setup](#Initial-Setup)
 2. [Implementing Changes](#Implementing-Changes)
     - [Part 1: Incorporating the runServer task](#Part-1-Incorporating-the-runServer-task)
@@ -27,7 +27,7 @@ The objective of this class exercise was to utilize our individual repositories 
     - [Part 3: Incorporating the backup task and createZip task](#Part-3-Incorporating-the-backup-task-and-createZip-task)
 3. [Issues](#Issues)
    
-### Initial Setup
+### Initial Setup :wrench:
 1. Clone the repository from Bitbucket using the command:
    
 ```bash
@@ -85,10 +85,10 @@ git tag -a v1.0.0 -m "init tag version"
 The gradlew command will be used to run Gradle tasks. This is the Gradle Wrapper, which allows you to run Gradle tasks without needing to have Gradle installed locally. If you do have Gradle installed locally, you can replace gradlew with gradle in the commands.
 
 
-### Implementing Changes
+### Implementing Changes :hammer:
 Based on the readMe available [readMe original](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images-For-CA2-Part1#step-10) on the project follow the following steps:
 
-#### Part 1: Incorporating the runServer task
+#### Part 1: Incorporating the runServer task :heavy_check_mark:
 The objective of this initial segment is to incorporate a new task within the build.gradle file for server initiation. The procedure to achieve this is as follows:
 
 1.1 Initiate the build process in the root directory with: 
@@ -162,7 +162,7 @@ task runServer(type:JavaExec, dependsOn: classes){
 
 In this specific sequence, and the application should function as it did before.
 
-#### Part 2: Incorporating the test class and unit test
+#### Part 2: Incorporating the test class and unit test :pencil:
 1. The first step is to incorporate the junit4.12.0 dependency:
    
 1.1 Navigate to the build.gradle file and within the dependencies {} block, insert the following line:
@@ -242,7 +242,7 @@ Note: You can also execute the task independently with the command:
    git push
 ```
 
-#### Part 3:  Incorporating the backup task and createZip task
+#### Part 3:  Incorporating the backup task and createZip task :pencil2:
 *Backup task:*
 
 The subsequent step involves incorporating an additional task in the build.gradle file to duplicate the contents of the "src" directory into a newly established directory named "backup".
@@ -303,7 +303,7 @@ git tag ca2-part1
 git push --tags
 ```
 
-### Issues
+### Issues :pushpin:
 During the development of this class assigment 
 1. Go to the repository's main page:
    
