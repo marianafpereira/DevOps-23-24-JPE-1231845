@@ -1,8 +1,10 @@
-# Class Assignment 2 Part 2 (CA2-Part2)
+# Class Assignment 2 Part 2
 
-# Introduction
+# Introduction :books:
+
 Welcome to the second part of Class Assignment 2! This segment of the assignment is dedicated to the practical application of Gradle. We will be focusing on transforming the basic version of the Tutorial application using Gradle. This process will involve setting up a Gradle project structure, configuring Gradle build files, managing project dependencies with Gradle, and understanding the use of tasks and plugins in Gradle.
-# Objective
+
+# Objective :pushpin:
 The primary goals of Part 2 of Class Assignment 2 are:  
 1. To establish a comprehensive understanding of Gradle build tools by setting up a Gradle project structure.
 2. To learn how to configure Gradle build files, specifically build.gradle.
@@ -11,7 +13,7 @@ The primary goals of Part 2 of Class Assignment 2 are:
 
 By accomplishing these objectives, you will gain hands-on experience with Gradle and build tools, which are crucial skills in contemporary software development practices.
 
-# Contact Information
+# Contact Information :email:
 For any inquiries or further discussions related to this project, feel free to reach out:
 
 - Email: 1231845@isep.ipp.pt
@@ -19,7 +21,7 @@ For any inquiries or further discussions related to this project, feel free to r
 
 I hope you enjoy working on this assignment and find it insightful in your journey to mastering Gradle and software development practices. Let's dive in and start exploring CA2 Part 2!
 
-# Addicional Information
+# Addicional Information :books:
 
 Start Date: 4, April
 End Date: 17, April
@@ -244,7 +246,7 @@ clean.dependsOn cleanWebpack
 
 ![image example](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images-For-CA2-Part2#step-21)
 
-12. Finally, if everything is working as expected merge the branch to the main branch using the following command ```git merge --no-ff tut-basic-gradle```
+12. Finally, if everything is working as expected merge the branch to the main branch using the following command ```git merge --no-ff tut-basic-gradle``` and add the tag ca2-part2
     
 12.1 Refer to the provided image for guidance.
 
