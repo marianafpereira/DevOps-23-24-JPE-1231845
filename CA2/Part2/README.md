@@ -1,8 +1,7 @@
 # Class Assignment 2 Part 2 (CA2-Part2)
 
 # Introduction
-Welcome to Class Assignment 2 Part 2! In this part of the assignment, we will be focusing on converting the basic version of the Tutorial application from Gradle.
-
+Welcome to the second part of Class Assignment 2! This segment of the assignment is dedicated to the practical application of Gradle. We will be focusing on transforming the basic version of the Tutorial application using Gradle. This process will involve setting up a Gradle project structure, configuring Gradle build files, managing project dependencies with Gradle, and understanding the use of tasks and plugins in Gradle.
 # Objective
 The primary goals of Part 2 of Class Assignment 2 are:  
 1. To establish a comprehensive understanding of Gradle build tools by setting up a Gradle project structure.
