@@ -36,6 +36,10 @@ task copyJarToDist(type: Copy) {
 		file('dist').mkdirs()
 	}
 }
+task cleanWebpack(type: Delete) {
+	delete 'src/main/resources/static/built/'
+}
+clean.dependsOn cleanWebpack
 frontend {
 	nodeVersion = "16.20.2"
 	assembleScript = "run build"
