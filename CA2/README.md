@@ -4,7 +4,7 @@
 Welcome to Class Assignment 2 (CA2) Part 1 and Part 2! In this assignment, we will be working with a basic Gradle application to introduce new functionalities and deepen our understanding of Gradle's capabilities.
 
 # Objective
-The objective of CA2 Part 2 is to gain familiarity with Gradle build tools by converting an existing Maven project to Gradle. We will explore the differences between Maven and Gradle, understand Gradle's build configuration, and learn how to manage dependencies, tasks, and plugins in a Gradle project.
+The objective of CA2 is to gain familiarity with Gradle build tools by converting an existing Maven project to Gradle. We will explore the differences between Maven and Gradle, understand Gradle's build configuration, and learn how to manage dependencies, tasks, and plugins in a Gradle project.
 
 # Contact Information
 For any inquiries or further discussions related to this project, feel free to reach out:
