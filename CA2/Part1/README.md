@@ -10,7 +10,7 @@ For any inquiries or further discussions related to this project, feel free to r
 
 For more detailed information about this project, please visit the following links:
 
-- [CA2 Part 1 Home](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/CA2-Part2-Home) where you can find an introdution, the explanation of steps taken, the full review of mercurial VS git and a conclusion of this CA1.
+- [CA2 Part 1 Home](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/CA2-Part2-Home) where you can find an introdution and a conclusion of this CA2.
 - [Glossary CA2 Part 1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Glossary-CA2-PART1)
 - [Project Images For CA2 Part1](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images-For-CA2-Part1)
 
