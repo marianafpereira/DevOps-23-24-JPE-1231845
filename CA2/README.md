@@ -4,7 +4,7 @@
 Welcome to Class Assignment 2 (CA2) Part 1 and Part 2! In this assignment, we will be working with a basic Gradle application to introduce new functionalities and deepen our understanding of Gradle's capabilities.
 
 # Objective
-The objective of CA2 is to gain familiarity with Gradle build tools by converting an existing Maven project to Gradle. We will explore the differences between Maven and Gradle, understand Gradle's build configuration, and learn how to manage dependencies, tasks, and plugins in a Gradle project.
+The objective of CA2 Part 2 is to gain familiarity with Gradle build tools by converting an existing Maven project to Gradle. We will explore the differences between Maven and Gradle, understand Gradle's build configuration, and learn how to manage dependencies, tasks, and plugins in a Gradle project.
 
 # Contact Information
 For any inquiries or further discussions related to this project, feel free to reach out:
@@ -17,12 +17,19 @@ For more detailed information about this project, please visit the following lin
 
 ## CA2 Part 1
 
-1. [Initial Setup](#Initial-Setup)
-2. [Implementing Changes](#Implementing-Changes)
-    - [Part 1: Incorporating the runServer task](#Part-1-Incorporating-the-runServer-task)
-    - [Part 2: Incorporating the test class and unit test](#Part-2-Incorporating-the-test-class-and-unit-test)
-    - [Part 3: Incorporating the backup task and createZip task](#Part-3-Incorporating-the-backup-task-and-createZip-task)
+1. [Initial Setup](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA2/Part1#initial-setup-wrench)
+2. [Implementing Changes](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA2/Part1#implementing-changes-hammer)
+    - [Part 1: Incorporating the runServer task](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA2/Part1#part-1-incorporating-the-runserver-task-heavy_check_mark)
+    - [Part 2: Incorporating the test class and unit test](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA2/Part1#part-2-incorporating-the-test-class-and-unit-test-pencil)
+    - [Part 3: Incorporating the backup task and createZip task](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA2/Part1#part-3--incorporating-the-backup-task-and-createzip-task-pencil2)
 3. [Issues](#Issues)
+   
+We encourage you to explore these resources to gain a deeper understanding of the project.
+
+## CA2 Part 2
+
+1. [Initial Setup](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA2/Part2#initial-setup-wrench)
+2. [Build Tools with Gradle](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA2/Part2#ca2-part-2---build-tools-with-gradle-hammer_and_wrench)
    
 We encourage you to explore these resources to gain a deeper understanding of the project.
 
