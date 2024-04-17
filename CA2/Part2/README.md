@@ -2,16 +2,16 @@
 
 # Introduction :books:
 
-Welcome to the second part of Class Assignment 2! This segment of the assignment is dedicated to the practical application of Gradle. We will be focusing on transforming the basic version of the Tutorial application using Gradle. This process will involve setting up a Gradle project structure, configuring Gradle build files, managing project dependencies with Gradle, and understanding the use of tasks and plugins in Gradle.
+Welcome to the second part of Class Assignment 2! This segment of the assignment is dedicated to the practical application of different build tools: *Gradle*, *Maven*, and *Ant* with *Ivy*. We will be focusing on transforming the basic version of the Tutorial application using these tools. This process will involve setting up a project structure, configuring build files, managing project dependencies, and understanding the use of tasks and plugins in each tool.  
 
 # Objective :pushpin:
-The primary goals of Part 2 of Class Assignment 2 are:  
-1. To establish a comprehensive understanding of Gradle build tools by setting up a Gradle project structure.
-2. To learn how to configure Gradle build files, specifically build.gradle.
-3. To manage project dependencies effectively using Gradle.
-4. To define and understand the use of tasks and plugins in Gradle.
+The primary goals of Part 2 of Class Assignment 2 are:
+1. To establish a comprehensive understanding of different build tools *(Gradle, Maven, and Ant with Ivy)* by setting up a project structure for each.
+2. To learn how to configure build files, specifically build.gradle for Gradle, pom.xml for Maven, and build.xml for Ant.
+3. To manage project dependencies effectively using Gradle, Maven, and Ant with Ivy.
+4. To define and understand the use of tasks and plugins in each build tool.
 
-By accomplishing these objectives, you will gain hands-on experience with Gradle and build tools, which are crucial skills in contemporary software development practices.
+By accomplishing these objectives, you will gain hands-on experience with these build tools, which are crucial skills in contemporary software development practices.
 
 # Contact Information :email:
 For any inquiries or further discussions related to this project, feel free to reach out:
@@ -260,6 +260,24 @@ clean.dependsOn cleanWebpack
 
 ### CA2 Part 2 Maven - Alternative solution with Maven 🛠️ 
 
+This project is a simple Spring Boot application that uses Maven for dependency management. It incorporates React for the frontend and H2 as an in-memory database. 
+Please remember to add the path of Maven to your system's environment variables. This is essential for the system to recognize Maven commands from any location in the command line. Here's how you can do it on a Windows system:
+1. Right-click on *'Computer'* and choose *'Properties'*.
+2. Click on *'Advanced system settings'*.
+3. In the System Properties window that opens, click on *'Environment Variables'*.
+4. In the Environment Variables window, scroll down in the *'System variables'* section to find the *'Path'* variable. Select it and click *'Edit'*.
+5. In the Edit Environment Variable window, click *'New'* and then add the path to the bin directory of the *Maven* directory. For example, you might add *C:\apache-maven\bin*.
+6. Click *'OK'* in all windows to close them.
+7. Please replace *C:\apache-maven* with the actual path where you extracted the *Maven* zip file.
+
+#### Prerequisites
+
+- Java 8 or higher
+- Maven
+- Node.js and npm
+
+#### Instructions
+
 1. Create a new branch called tut-basic-maven using the following command:
    ```groovy
    git checkout -b tut-basic-maven
@@ -374,18 +392,32 @@ Insert "packageManager": ```"npm@9.6.7"``` into the package.json file.
 8. Lastly, execute the command ```mvn clean``` 
 9. Finally, if everything is working as expected merge the branch to the main branch using the following command ```git merge --no-ff tut-basic-maven``` and add the *tag ca2-part2*
 
+#### Files Explanation
+- *pom.xml:* This is the Project Object Model file that Maven uses. It contains information about the project and configuration details used by Maven to build the project. It includes the project dependencies, plugins, goals, build profiles, project version, and many other settings.  
+- *settings.xml:* This file is used by Maven for configuration of environment specific settings. It includes settings such as the repository locations, proxy configurations, server credentials and properties that can be used in POM files. This file is typically located in the *.m2* directory in the user's home directory, but its location can be customized.  
+- *.mvn:* This is a directory that can be located at the project's root directory. It contains the jvm.config and maven.config files which are used to configure JVM and Maven options respectively. The extensions.xml file can also be placed here to declare extensions that should be used by Maven.  
+- *mvnw* and *mvnw.cmd:* These are the *"Maven Wrapper"* scripts for Unix-based systems *(mvnw)* and Windows *(mvnw.cmd)*. They are used to run the project with a specific version of Maven, even if it's not installed on the system. The version of Maven to be used is specified in the *.mvn/wrapper/maven-wrapper.properties file.*
+
 ### CA2 Part 2 Ant - Alternative solution with Ant 🛠️ 
 
-This project is a simple Spring Boot application built with Ant and Ivy for dependency management. It uses React for the frontend and H2 as an in-memory database.
+This project is a straightforward Spring Boot application that utilizes Ant and Ivy for dependency management. It employs React for the frontend and H2 as an in-memory database.  
+Please remember to add the path of Ant and Ivy to your system's environment variables. This is crucial for the system to recognize Ant and Ivy commands from any location in the command line. Here's how you can do it on a Windows system:  
+1. Right-click on *'Computer'* and choose *'Properties'*.
+2. Click on *'Advanced system settings'*.
+3. In the System Properties window that opens, click on *'Environment Variables'*.
+4. In the Environment Variables window, scroll down in the *'System variables'* section to find the *'Path'* variable. Select it and click *'Edit'*.
+5. In the Edit Environment Variable window, click *'New'* and then add the path to the bin directory of the *Ant* and *Ivy* directories. For example, you might add *C:\apache-ant\bin* and *C:\apache-ivy\bin*.
+6. Click *'OK'* in all windows to close them.
+7. Please replace *C:\apache-ant* and *C:\apache-ivy* with the actual paths where you extracted the *Ant* and *Ivy* zip files.
 
-## Prerequisites
+#### Prerequisites
 
 - Java 8 or higher
 - Ant
 - Ivy
 - Node.js and npm
 
-## Instructions
+#### Instructions
 
 1. Create a new branch called tut-basic-maven using the following command:
    ```bash
@@ -508,7 +540,17 @@ Insert "packageManager": ```"npm@9.6.7"``` into the package.json file.
 11. Finally, if everything is working as expected merge the branch to the main branch using the following command ```git merge --no-ff tut-basic-maven``` and add the *tag ca2-part2*
 
 
-## Files Explanation
+#### Files Explanation
 - *build.xml:* This is the build file that Ant uses. It contains targets, which are sets of tasks that Ant should execute. Each task is a piece of code that can be run. Targets can depend on other targets, and Ant ensures that the dependencies are run before the dependent target.
 - *ivy.xml:* This file is used by Ivy for dependency management. It lists all the dependencies that your project needs, and Ivy will ensure that these dependencies are available for your project to use.  
 - *ivysettings.xml:* This file is used by Ivy to understand where to find the dependencies that your project needs. It lists the repositories that Ivy should use to resolve dependencies.
+
+
+### Conclusion :books:
+
+Throughout this assignment, we explored three different build tools: Gradle, Maven, and Ant with Ivy. Each tool has its unique characteristics and advantages, and the choice between them often depends on the specific needs of a project.  
+Gradle is a powerful and flexible build tool that uses a Groovy-based DSL for its configuration files. It offers a high degree of customization and is known for its performance, thanks to its incremental build feature. Gradle also seamlessly integrates with many IDEs and CI/CD tools, making it a popular choice for many developers.  
+Maven, on the other hand, is a more traditional build tool that uses XML for its configuration files. It follows a convention-over-configuration approach, which can make it easier to use for simple projects. Maven also has a vast ecosystem of plugins and is widely adopted in the Java community.  
+Ant with Ivy is another flexible and powerful build tool. Ant uses XML for its configuration files and allows for a high degree of customization. Ivy is a dependency manager that can be used in conjunction with Ant to handle project dependencies.  
+In this assignment, i implemented the same project using all three build tools. This allowed me to compare their features and understand their differences. However, i've encountered some difficulties with the Ant/Ivy solution, specifically with integrating the frontend. This highlights the importance of choosing the right tool for the job, considering not only the tool's features but also its compatibility with the technologies used in the project.  
+Reflecting on the importance of this assignment, it provided a valuable opportunity to gain hands-on experience with different build tools. This is a crucial skill in software development, as build tools play a vital role in automating the build and deployment process. By implementing the same project with different tools, i has able to understand their strengths and weaknesses, which will help me make informed decisions in future projects. Furthermore, the challenges i faced and overcame during this assignment have enriched my problem-solving skills and deepened our understanding of build automation.
