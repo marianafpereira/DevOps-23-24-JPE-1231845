@@ -31,9 +31,9 @@ End Date: 17, April
 - [Glossary CA2 Part 2](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Glossary-CA2-PART2)
 - [Project Images For CA2 Part2](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images-For-CA2-Part2)
 
-#Project Structure:
+# Project Structure :pushpin:
 - [Initial Setup](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA2/Part2/README.md#initial-setup-wrench)
-- CA2 Part 2 - Build Tools with Gradle](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA2/Part2/README.md#ca2-part-2---build-tools-with-gradle-hammer_and_wrench)
+- [CA2 Part 2 - Build Tools with Gradle](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA2/Part2/README.md#ca2-part-2---build-tools-with-gradle-hammer_and_wrench)
 - [CA2 Part 2 Maven - Alternative solution with Maven](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA2/Part2/README.md#ca2-part-2-maven---alternative-solution-with-maven-%EF%B8%8F)
 - [CA2 Part 2 Ant - Alternative solution with Ant](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA2/Part2/README.md#ca2-part-2-ant---alternative-solution-with-ant)
   
