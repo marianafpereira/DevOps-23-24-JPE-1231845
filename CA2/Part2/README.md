@@ -258,6 +258,14 @@ clean.dependsOn cleanWebpack
 
 ![image example](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images-For-CA2-Part2#step-22)
 
+#### Files Explanation
+- *build.gradle:* This is the build configuration file for *Gradle*. It contains information about the project and configuration details used by *Gradle* to build the project. It includes the project dependencies, plugins, tasks, and many other settings.  
+- *gradlew* and *gradlew.bat*: These are the *"Gradle Wrapper"* scripts for Unix-based systems *(gradlew)* and Windows *(gradlew.bat)*. They are used to run the project with a specific version of Gradle, even if it's not installed on the system. The version of *Gradle* to be used is specified in the *gradle/wrapper/gradle-wrapper.properties* file.  
+- *gradle/wrapper/gradle-wrapper.properties:* This file is used by the *Gradle Wrapper* to define properties such as the *Gradle* version to be used for the build.  
+- *gradle/wrapper/gradle-wrapper.jar:* This is the *Gradle Wrapper* JAR file. It is a binary file that is used by the *Gradle Wrapper* scripts *(gradlew and gradlew.bat)* to execute the build.  
+- *settings.gradle:* This file is used by *Gradle* to configure the settings for the build. It includes settings such as the root project name and any included subprojects.  
+- *gradle.properties:* This optional file can be used to configure project-wide *Gradle* settings, such as the *Java* home directory, *Gradle* daemon parameters, and other build-related properties.
+
 ### CA2 Part 2 Maven - Alternative solution with Maven 🛠️ 
 
 This project is a simple Spring Boot application that uses Maven for dependency management. It incorporates React for the frontend and H2 as an in-memory database. 
