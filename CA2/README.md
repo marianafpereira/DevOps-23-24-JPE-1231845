@@ -4,7 +4,7 @@
 Welcome to Class Assignment 2 (CA2) Part 1 and Part 2! In this assignment, we will be working with a basic Gradle application to introduce new functionalities and deepen our understanding of Gradle's capabilities.
 
 # Objective
-The objective of CA2 Part 2 is to gain familiarity with Gradle build tools by converting an existing Maven project to Gradle. We will explore the differences between Maven and Gradle, understand Gradle's build configuration, and learn how to manage dependencies, tasks, and plugins in a Gradle project.
+The objective of CA2 Part 2 is to gain familiarity with Gradle build tools by converting an existing Maven project to Gradle. We will explore the differences between Maven, ant/ivy and Gradle, understand Gradle's build configuration, and learn how to manage dependencies, tasks, and plugins in a Gradle project.
 
 # Contact Information
 For any inquiries or further discussions related to this project, feel free to reach out:
@@ -30,6 +30,8 @@ We encourage you to explore these resources to gain a deeper understanding of th
 
 1. [Initial Setup](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA2/Part2#initial-setup-wrench)
 2. [Build Tools with Gradle](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA2/Part2#ca2-part-2---build-tools-with-gradle-hammer_and_wrench)
+3. [Build Tools with Maven](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA2/Part2/README.md#ca2-part-2-maven---alternative-solution-with-maven-%EF%B8%8F)
+4. [Build Tools with Ant](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA2/Part2/README.md#ca2-part-2-ant---alternative-solution-with-ant-%EF%B8%8F)
    
 We encourage you to explore these resources to gain a deeper understanding of the project.
 
