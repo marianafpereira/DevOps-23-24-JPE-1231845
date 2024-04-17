@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.greglturnquist"
+		module="react-and-spring-data-rest-basic"
+		revision="0.0.1-SNAPSHOT"
+
+		conf="test"
+		confs="default, runtime, test"
+		date="20240416194742"/>
+	<dependencies>
+		<module organisation="net.bytebuddy" name="byte-buddy-agent">
+			<revision name="1.10.6" status="release" pubdate="20191219133222" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="38">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9655" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.bytebuddy\byte-buddy-agent\ivy-1.10.6.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.bytebuddy\byte-buddy-agent\ivy-1.10.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.6/byte-buddy-agent-1.10.6.pom"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="compile, runtime" rev="1.10.6" rev-constraint-default="1.10.6" rev-constraint-dynamic="1.9.10" callerrev="3.1.0"/>
+				<artifacts>
+					<artifact name="byte-buddy-agent" type="jar" ext="jar" status="no" details="" size="258373" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.bytebuddy\byte-buddy-agent\jars\byte-buddy-agent-1.10.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.10.6/byte-buddy-agent-1.10.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy">
+			<revision name="1.10.6" status="release" pubdate="20191219133238" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10294" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.bytebuddy\byte-buddy\ivy-1.10.6.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.bytebuddy\byte-buddy\ivy-1.10.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.10.6/byte-buddy-1.10.6.pom"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="compile, runtime" rev="1.10.6" rev-constraint-default="1.10.6" rev-constraint-dynamic="1.9.10" callerrev="3.1.0"/>
+				<artifacts>
+					<artifact name="byte-buddy" type="jar" ext="jar" status="no" details="" size="3343352" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.bytebuddy\byte-buddy\jars\byte-buddy-1.10.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.10.6/byte-buddy-1.10.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-test">
+			<revision name="2.2.4.RELEASE" status="release" pubdate="20200120200756" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-test" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="294167" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-starter-test\ivy-2.2.4.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-starter-test\ivy-2.2.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-test/2.2.4.RELEASE/spring-boot-starter-test-2.2.4.RELEASE.pom"/>
+				<caller organisation="com.greglturnquist" name="react-and-spring-data-rest-basic" conf="test" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-test" type="jar" ext="jar" status="no" details="" size="402" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-starter-test\jars\spring-boot-starter-test-2.2.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-test/2.2.4.RELEASE/spring-boot-starter-test-2.2.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xmlunit" name="xmlunit-core">
+			<revision name="2.6.3" status="release" pubdate="20190621151745" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://www.xmlunit.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7028" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.xmlunit\xmlunit-core\ivy-2.6.3.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.xmlunit\xmlunit-core\ivy-2.6.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xmlunit/xmlunit-core/2.6.3/xmlunit-core-2.6.3.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="xmlunit-core" type="jar" ext="jar" status="no" details="" size="168228" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.xmlunit\xmlunit-core\jars\xmlunit-core-2.6.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xmlunit/xmlunit-core/2.6.3/xmlunit-core-2.6.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-junit-jupiter">
+			<revision name="3.1.0" status="release" pubdate="20191001124800" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/mockito/mockito" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="35">
+				<license name="The MIT License" url="https://github.com/mockito/mockito/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2939" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.mockito\mockito-junit-jupiter\ivy-3.1.0.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.mockito\mockito-junit-jupiter\ivy-3.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="mockito-junit-jupiter" type="jar" ext="jar" status="no" details="" size="5034" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.mockito\mockito-junit-jupiter\jars\mockito-junit-jupiter-3.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.vintage" name="junit-vintage-engine">
+			<revision name="5.5.2" status="release" pubdate="20190908193449" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="33">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="3104" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.vintage\junit-vintage-engine\ivy-5.5.2.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.vintage\junit-vintage-engine\ivy-5.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.5.2/junit-vintage-engine-5.5.2.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="junit-vintage-engine" type="jar" ext="jar" status="no" details="" size="57152" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.vintage\junit-vintage-engine\jars\junit-vintage-engine-5.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/5.5.2/junit-vintage-engine-5.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter">
+			<revision name="5.5.2" status="release" pubdate="20190908193304" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="25">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="3090" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter\ivy-5.5.2.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter\ivy-5.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter/5.5.2/junit-jupiter-5.5.2.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="junit-jupiter" type="jar" ext="jar" status="no" details="" size="6161" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter\jars\junit-jupiter-5.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter/5.5.2/junit-jupiter-5.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-engine">
+			<revision name="5.5.2" status="release" pubdate="20190908193426" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="31">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="3129" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter-engine\ivy-5.5.2.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter-engine\ivy-5.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="5.5.2"/>
+				<artifacts>
+					<artifact name="junit-jupiter-engine" type="jar" ext="jar" status="no" details="" size="219630" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter-engine\jars\junit-jupiter-engine-5.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-engine">
+			<revision name="1.5.2" status="release" pubdate="20190908193351" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="32">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="3126" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.platform\junit-platform-engine\ivy-1.5.2.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.platform\junit-platform-engine\ivy-1.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.pom"/>
+				<caller organisation="org.junit.vintage" name="junit-vintage-engine" conf="compile, runtime" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="5.5.2"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-engine" conf="compile, runtime" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="5.5.2"/>
+				<artifacts>
+					<artifact name="junit-platform-engine" type="jar" ext="jar" status="no" details="" size="163866" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.platform\junit-platform-engine\jars\junit-platform-engine-1.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-params">
+			<revision name="5.5.2" status="release" pubdate="20190908193403" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="30">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="2976" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter-params\ivy-5.5.2.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter-params\ivy-5.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="5.5.2"/>
+				<artifacts>
+					<artifact name="junit-jupiter-params" type="jar" ext="jar" status="no" details="" size="549435" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter-params\jars\junit-jupiter-params-5.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.xml.bind" name="jakarta.xml.bind-api">
+			<revision name="2.3.2" status="release" pubdate="20181227153107" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="23">
+				<license name="Eclipse Distribution License - v 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="4925" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.xml.bind\jakarta.xml.bind-api\ivy-2.3.2.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.xml.bind\jakarta.xml.bind-api\ivy-2.3.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="jakarta.xml.bind-api" type="jar" ext="jar" status="no" details="" size="115498" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.xml.bind\jakarta.xml.bind-api\jars\jakarta.xml.bind-api-2.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.activation" name="jakarta.activation-api">
+			<revision name="1.2.1" status="release" pubdate="20181120221634" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="24">
+				<license name="EDL 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="5598" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.activation\jakarta.activation-api\ivy-1.2.1.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.activation\jakarta.activation-api\ivy-1.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.pom"/>
+				<caller organisation="jakarta.xml.bind" name="jakarta.xml.bind-api" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.3.2"/>
+				<artifacts>
+					<artifact name="jakarta.activation-api" type="jar" ext="jar" status="no" details="" size="44399" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.activation\jakarta.activation-api\jars\jakarta.activation-api-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-test-autoconfigure">
+			<revision name="2.2.4.RELEASE" status="release" pubdate="20200120200727" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-test-autoconfigure" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="297803" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-test-autoconfigure\ivy-2.2.4.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-test-autoconfigure\ivy-2.2.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.2.4.RELEASE/spring-boot-test-autoconfigure-2.2.4.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-test-autoconfigure" type="jar" ext="jar" status="no" details="" size="157688" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-test-autoconfigure\jars\spring-boot-test-autoconfigure-2.2.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.2.4.RELEASE/spring-boot-test-autoconfigure-2.2.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-test">
+			<revision name="2.2.4.RELEASE" status="release" pubdate="20200120200639" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-test" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="17">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="294873" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-test\ivy-2.2.4.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-test\ivy-2.2.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test/2.2.4.RELEASE/spring-boot-test-2.2.4.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-test-autoconfigure" conf="compile, runtime" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-test" type="jar" ext="jar" status="no" details="" size="209795" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-test\jars\spring-boot-test-2.2.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-test/2.2.4.RELEASE/spring-boot-test-2.2.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.skyscreamer" name="jsonassert">
+			<revision name="1.5.0" status="release" pubdate="20170319223022" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/skyscreamer/JSONassert" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="42">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3438" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.skyscreamer\jsonassert\ivy-1.5.0.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.skyscreamer\jsonassert\ivy-1.5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="jsonassert" type="jar" ext="jar" status="no" details="" size="30299" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.skyscreamer\jsonassert\jars\jsonassert-1.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vaadin.external.google" name="android-json">
+			<revision name="0.0.20131108.vaadin1" status="release" pubdate="20140228124459" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="http://developer.android.com/sdk" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="43">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2765" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\com.vaadin.external.google\android-json\ivy-0.0.20131108.vaadin1.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\com.vaadin.external.google\android-json\ivy-0.0.20131108.vaadin1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.pom"/>
+				<caller organisation="org.skyscreamer" name="jsonassert" conf="compile, runtime" rev="0.0.20131108.vaadin1" rev-constraint-default="0.0.20131108.vaadin1" rev-constraint-dynamic="0.0.20131108.vaadin1" callerrev="1.5.0"/>
+				<artifacts>
+					<artifact name="android-json" type="jar" ext="jar" status="no" details="" size="18279" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\com.vaadin.external.google\android-json\jars\android-json-0.0.20131108.vaadin1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-core">
+			<revision name="3.1.0" status="release" pubdate="20191001124757" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/mockito/mockito" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="36">
+				<license name="The MIT License" url="https://github.com/mockito/mockito/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3076" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.mockito\mockito-core\ivy-3.1.0.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.mockito\mockito-core\ivy-3.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="2.2.4.RELEASE"/>
+				<caller organisation="org.mockito" name="mockito-junit-jupiter" conf="compile, runtime" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="3.1.0"/>
+				<artifacts>
+					<artifact name="mockito-core" type="jar" ext="jar" status="no" details="" size="591028" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.mockito\mockito-core\jars\mockito-core-3.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="2.6" status="release" pubdate="20170620162837" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="39">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3617" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.objenesis\objenesis\ivy-2.6.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.objenesis\objenesis\ivy-2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="3.1.0"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="55684" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.objenesis\objenesis\jars\objenesis-2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-api">
+			<revision name="5.5.2" status="release" pubdate="20190908193309" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="26">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="3105" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter-api\ivy-5.5.2.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter-api\ivy-5.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-params" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="5.5.2"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="5.5.2"/>
+				<caller organisation="org.mockito" name="mockito-junit-jupiter" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.4.2" callerrev="3.1.0"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-engine" conf="compile, runtime" rev="5.5.2" rev-constraint-default="5.5.2" rev-constraint-dynamic="5.5.2" callerrev="5.5.2"/>
+				<artifacts>
+					<artifact name="junit-jupiter-api" type="jar" ext="jar" status="no" details="" size="141766" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.jupiter\junit-jupiter-api\jars\junit-jupiter-api-5.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-commons">
+			<revision name="1.5.2" status="release" pubdate="20190908193316" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="29">
+				<license name="Eclipse Public License v2.0" url="https://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="2839" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.platform\junit-platform-commons\ivy-1.5.2.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.platform\junit-platform-commons\ivy-1.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-api" conf="compile, runtime" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="5.5.2"/>
+				<caller organisation="org.junit.platform" name="junit-platform-engine" conf="compile, runtime" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.5.2"/>
+				<artifacts>
+					<artifact name="junit-platform-commons" type="jar" ext="jar" status="no" details="" size="91709" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.junit.platform\junit-platform-commons\jars\junit-platform-commons-1.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.opentest4j" name="opentest4j">
+			<revision name="1.2.0" status="release" pubdate="20190606202433" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/ota4j-team/opentest4j" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="28">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2608" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.opentest4j\opentest4j\ivy-1.2.0.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.opentest4j\opentest4j\ivy-1.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-api" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="5.5.2"/>
+				<caller organisation="org.junit.platform" name="junit-platform-engine" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.5.2"/>
+				<artifacts>
+					<artifact name="opentest4j" type="jar" ext="jar" status="no" details="" size="7653" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.opentest4j\opentest4j\jars\opentest4j-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apiguardian" name="apiguardian-api">
+			<revision name="1.1.0" status="release" pubdate="20190606200754" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/apiguardian-team/apiguardian" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="27">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2619" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.apiguardian\apiguardian-api\ivy-1.1.0.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.apiguardian\apiguardian-api\ivy-1.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom"/>
+				<caller organisation="org.junit.platform" name="junit-platform-commons" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.5.2"/>
+				<caller organisation="org.junit.vintage" name="junit-vintage-engine" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="5.5.2"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-params" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="5.5.2"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-api" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="5.5.2"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-engine" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="5.5.2"/>
+				<caller organisation="org.junit.platform" name="junit-platform-engine" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.5.2"/>
+				<artifacts>
+					<artifact name="apiguardian-api" type="jar" ext="jar" status="no" details="" size="2387" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.apiguardian\apiguardian-api\jars\apiguardian-api-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jayway.jsonpath" name="json-path">
+			<revision name="2.4.0" status="release" pubdate="20170705093607" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/jayway/JsonPath" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3538" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\com.jayway.jsonpath\json-path\ivy-2.4.0.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\com.jayway.jsonpath\json-path\ivy-2.4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="json-path" type="jar" ext="jar" status="no" details="" size="223186" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\com.jayway.jsonpath\json-path\jars\json-path-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.minidev" name="json-smart">
+			<revision name="2.3" status="release" pubdate="20170326085657" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="http://www.minidev.net/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5348" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.minidev\json-smart\ivy-2.3.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.minidev\json-smart\ivy-2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3.pom"/>
+				<caller organisation="com.jayway.jsonpath" name="json-path" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="json-smart" type="bundle" ext="jar" status="no" details="" size="120316" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.minidev\json-smart\bundles\json-smart-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.minidev" name="accessors-smart">
+			<revision name="1.2" status="release" pubdate="20170326085643" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="http://www.minidev.net/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3579" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.minidev\accessors-smart\ivy-1.2.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.minidev\accessors-smart\ivy-1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2.pom"/>
+				<caller organisation="net.minidev" name="json-smart" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.3"/>
+				<artifacts>
+					<artifact name="accessors-smart" type="bundle" ext="jar" status="no" details="" size="30035" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\net.minidev\accessors-smart\bundles\accessors-smart-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="5.0.4" status="release" pubdate="20150515160455" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="22">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4041" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.ow2.asm\asm\ivy-5.0.4.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.ow2.asm\asm\ivy-5.0.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom"/>
+				<caller organisation="net.minidev" name="accessors-smart" conf="compile, runtime" rev="5.0.4" rev-constraint-default="5.0.4" rev-constraint-dynamic="5.0.4" callerrev="1.2"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="53297" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.ow2.asm\asm\jars\asm-5.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter">
+			<revision name="2.2.4.RELEASE" status="release" pubdate="20200120200736" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="292578" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-starter\ivy-2.2.4.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-starter\ivy-2.2.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/2.2.4.RELEASE/spring-boot-starter-2.2.4.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-starter" type="jar" ext="jar" status="no" details="" size="396" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-starter\jars\spring-boot-starter-2.2.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter/2.2.4.RELEASE/spring-boot-starter-2.2.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.annotation" name="jakarta.annotation-api">
+			<revision name="1.3.5" status="release" pubdate="20190802121045" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://projects.eclipse.org/projects/ee4j.ca" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="16">
+				<license name="EPL 2.0" url="http://www.eclipse.org/legal/epl-2.0"/>
+				<license name="GPL2 w/ CPE" url="https://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4301" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.annotation\jakarta.annotation-api\ivy-1.3.5.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.annotation\jakarta.annotation-api\ivy-1.3.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="1.3.5" rev-constraint-default="1.3.5" rev-constraint-dynamic="1.3.5" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="jakarta.annotation-api" type="jar" ext="jar" status="no" details="" size="25058" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.annotation\jakarta.annotation-api\jars\jakarta.annotation-api-1.3.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-starter-logging">
+			<revision name="2.2.4.RELEASE" status="release" pubdate="20200120200736" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-logging" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="292104" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-starter-logging\ivy-2.2.4.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-starter-logging\ivy-2.2.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.2.4.RELEASE/spring-boot-starter-logging-2.2.4.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-starter-logging" type="jar" ext="jar" status="no" details="" size="405" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-starter-logging\jars\spring-boot-starter-logging-2.2.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.2.4.RELEASE/spring-boot-starter-logging-2.2.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.logging.log4j" name="log4j-to-slf4j">
+			<revision name="2.12.1" status="release" pubdate="20190807044727" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="38511" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.apache.logging.log4j\log4j-to-slf4j\ivy-2.12.1.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.apache.logging.log4j\log4j-to-slf4j\ivy-2.12.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="log4j-to-slf4j" type="jar" ext="jar" status="no" details="" size="17459" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.apache.logging.log4j\log4j-to-slf4j\jars\log4j-to-slf4j-2.12.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot-autoconfigure">
+			<revision name="2.2.4.RELEASE" status="release" pubdate="20200120200641" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-autoconfigure" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="313952" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-autoconfigure\ivy-2.2.4.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-autoconfigure\ivy-2.2.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.2.4.RELEASE/spring-boot-autoconfigure-2.2.4.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-test-autoconfigure" conf="compile, runtime" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot-autoconfigure" type="jar" ext="jar" status="no" details="" size="1389946" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot-autoconfigure\jars\spring-boot-autoconfigure-2.2.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.2.4.RELEASE/spring-boot-autoconfigure-2.2.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.persistence" name="jakarta.persistence-api">
+			<revision name="2.2.3" status="release" pubdate="20190802180158" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/eclipse-ee4j/jpa-api" downloaded="false" searched="false" default="false" conf="javadoc, default, system, compile, test, sources, provided, runtime, optional, master" position="47">
+				<license name="Eclipse Public License v. 2.0" url="http://www.eclipse.org/legal/epl-2.0"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="4327" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.persistence\jakarta.persistence-api\ivy-2.2.3.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.persistence\jakarta.persistence-api\ivy-2.2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.pom"/>
+				<caller organisation="com.greglturnquist" name="react-and-spring-data-rest-basic" conf="test" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jakarta.persistence-api" type="javadoc" ext="jar" extra-1.m.classifier="javadoc" status="no" details="" size="1595483" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.persistence\jakarta.persistence-api\javadocs\jakarta.persistence-api-2.2.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="jakarta.persistence-api" type="source" ext="jar" extra-1.m.classifier="sources" status="no" details="" size="264494" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.persistence\jakarta.persistence-api\sources\jakarta.persistence-api-2.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3-sources.jar"/>
+					</artifact>
+					<artifact name="jakarta.persistence-api" type="jar" ext="jar" status="no" details="" size="164392" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.persistence\jakarta.persistence-api\jars\jakarta.persistence-api-2.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework.boot" name="spring-boot">
+			<revision name="2.2.4.RELEASE" status="release" pubdate="20200120200654" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="300509" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot\ivy-2.2.4.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot\ivy-2.2.4.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.2.4.RELEASE/spring-boot-2.2.4.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-test" conf="compile, runtime" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-autoconfigure" conf="compile, runtime" rev="2.2.4.RELEASE" rev-constraint-default="2.2.4.RELEASE" rev-constraint-dynamic="2.2.4.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-boot" type="jar" ext="jar" status="no" details="" size="1042869" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework.boot\spring-boot\jars\spring-boot-2.2.4.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/2.2.4.RELEASE/spring-boot-2.2.4.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.25" status="release" pubdate="20190813201836" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="46">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5489" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.yaml\snakeyaml\ivy-1.25.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.yaml\snakeyaml\ivy-1.25.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.25/snakeyaml-1.25.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="1.25" rev-constraint-default="1.25" rev-constraint-dynamic="1.25" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="bundle" ext="jar" status="no" details="" size="303487" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-test">
+			<revision name="5.2.3.RELEASE" status="release" pubdate="20200114093622" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="44">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2814" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-test\ivy-5.2.3.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-test\ivy-5.2.3.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-test/5.2.3.RELEASE/spring-test-5.2.3.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-test" type="jar" ext="jar" status="no" details="" size="679226" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-test\jars\spring-test-5.2.3.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-test/5.2.3.RELEASE/spring-test-5.2.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.30" status="release" pubdate="20191216210538" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="15">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5826" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.slf4j\jul-to-slf4j\ivy-1.7.30.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.slf4j\jul-to-slf4j\ivy-1.7.30.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="1.7.30" rev-constraint-default="1.7.30" rev-constraint-dynamic="1.7.30" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="jar" ext="jar" status="no" details="" size="4592" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.30.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.30" status="release" pubdate="20191216210337" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="13">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5769" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.slf4j\slf4j-api\ivy-1.7.30.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.slf4j\slf4j-api\ivy-1.7.30.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom"/>
+				<caller organisation="org.apache.logging.log4j" name="log4j-to-slf4j" conf="compile, runtime" rev="1.7.30" rev-constraint-default="1.7.30" rev-constraint-dynamic="1.7.25" callerrev="2.12.1"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="compile, runtime" rev="1.7.30" rev-constraint-default="1.7.30" rev-constraint-dynamic="1.7.25" callerrev="1.2.3"/>
+				<caller organisation="org.slf4j" name="jul-to-slf4j" conf="compile, runtime" rev="1.7.30" rev-constraint-default="1.7.30" rev-constraint-dynamic="1.7.30" callerrev="1.7.30"/>
+				<caller organisation="com.jayway.jsonpath" name="json-path" conf="compile, runtime" rev="1.7.30" rev-constraint-default="1.7.30" rev-constraint-dynamic="1.7.25" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41472" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.30.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest">
+			<revision name="2.1" status="release" pubdate="20181220191237" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="http://hamcrest.org/JavaHamcrest/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="41">
+				<license name="BSD Licence 3" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2591" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.hamcrest\hamcrest\ivy-2.1.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.hamcrest\hamcrest\ivy-2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="hamcrest" type="jar" ext="jar" status="no" details="" size="123103" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.hamcrest\hamcrest\jars\hamcrest-2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.assertj" name="assertj-core">
+			<revision name="3.13.2" status="release" pubdate="20190804054456" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12637" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.assertj\assertj-core\ivy-3.13.2.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.assertj\assertj-core\ivy-3.13.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="3.13.2" rev-constraint-default="3.13.2" rev-constraint-dynamic="3.13.2" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="assertj-core" type="bundle" ext="jar" status="no" details="" size="4478210" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.assertj\assertj-core\bundles\assertj-core-3.13.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.12" status="release" pubdate="20141204161743" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="34">
+				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3498" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\junit\junit\ivy-4.12.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\junit\junit\ivy-4.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
+				<caller organisation="org.junit.vintage" name="junit-vintage-engine" conf="compile, runtime" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="5.5.2"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="314932" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\junit\junit\jars\junit-4.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.3" status="release" pubdate="20170331202753" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="11">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="11989" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\ch.qos.logback\logback-classic\ivy-1.2.3.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\ch.qos.logback\logback-classic\ivy-1.2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-logging" conf="compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="290339" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.2.3" status="release" pubdate="20170331202715" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="12">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="9613" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\ch.qos.logback\logback-core\ivy-1.2.3.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\ch.qos.logback\logback-core\ivy-1.2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.2.3"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="471901" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\ch.qos.logback\logback-core\jars\logback-core-1.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="5.2.3.RELEASE" status="release" pubdate="20200114093713" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3274" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-context\ivy-5.2.3.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-context\ivy-5.2.3.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE.pom"/>
+				<caller organisation="org.springframework.boot" name="spring-boot" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="no" details="" size="1221408" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-context\jars\spring-context-5.2.3.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-context/5.2.3.RELEASE/spring-context-5.2.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-expression">
+			<revision name="5.2.3.RELEASE" status="release" pubdate="20200114093701" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2843" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-expression\ivy-5.2.3.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-expression\ivy-5.2.3.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-expression/5.2.3.RELEASE/spring-expression-5.2.3.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="5.2.3.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-expression" type="jar" ext="jar" status="no" details="" size="282010" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-expression\jars\spring-expression-5.2.3.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-expression/5.2.3.RELEASE/spring-expression-5.2.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aop">
+			<revision name="5.2.3.RELEASE" status="release" pubdate="20200114093714" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2945" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-aop\ivy-5.2.3.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-aop\ivy-5.2.3.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-aop/5.2.3.RELEASE/spring-aop-5.2.3.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="5.2.3.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-aop" type="jar" ext="jar" status="no" details="" size="372716" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-aop\jars\spring-aop-5.2.3.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-aop/5.2.3.RELEASE/spring-aop-5.2.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="5.2.3.RELEASE" status="release" pubdate="20200114093710" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2802" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-beans\ivy-5.2.3.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-beans\ivy-5.2.3.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="5.2.3.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="5.2.3.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-beans" type="jar" ext="jar" status="no" details="" size="684706" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-beans\jars\spring-beans-5.2.3.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-beans/5.2.3.RELEASE/spring-beans-5.2.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="5.2.3.RELEASE" status="release" pubdate="20200114093730" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2796" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-core\ivy-5.2.3.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-core\ivy-5.2.3.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-beans" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="5.2.3.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-expression" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="5.2.3.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-test" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="5.2.3.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter-test" conf="default, compile, runtime, master" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-context" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="5.2.3.RELEASE"/>
+				<caller organisation="org.springframework" name="spring-aop" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="5.2.3.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<caller organisation="org.springframework.boot" name="spring-boot-starter" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="2.2.4.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-core" type="jar" ext="jar" status="no" details="" size="1434206" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-core\jars\spring-core-5.2.3.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-core/5.2.3.RELEASE/spring-core-5.2.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-jcl">
+			<revision name="5.2.3.RELEASE" status="release" pubdate="20200114093711" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="4">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2624" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-jcl\ivy-5.2.3.RELEASE.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-jcl\ivy-5.2.3.RELEASE.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-jcl/5.2.3.RELEASE/spring-jcl-5.2.3.RELEASE.pom"/>
+				<caller organisation="org.springframework" name="spring-core" conf="compile, runtime" rev="5.2.3.RELEASE" rev-constraint-default="5.2.3.RELEASE" rev-constraint-dynamic="5.2.3.RELEASE" callerrev="5.2.3.RELEASE"/>
+				<artifacts>
+					<artifact name="spring-jcl" type="jar" ext="jar" status="no" details="" size="23833" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\org.springframework\spring-jcl\jars\spring-jcl-5.2.3.RELEASE.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-jcl/5.2.3.RELEASE/spring-jcl-5.2.3.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

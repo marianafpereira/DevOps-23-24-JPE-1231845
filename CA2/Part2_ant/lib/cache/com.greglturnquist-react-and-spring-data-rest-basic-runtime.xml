@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.greglturnquist"
+		module="react-and-spring-data-rest-basic"
+		revision="0.0.1-SNAPSHOT"
+
+		conf="runtime"
+		confs="default, runtime, test"
+		date="20240416194742"/>
+	<dependencies>
+		<module organisation="jakarta.persistence" name="jakarta.persistence-api">
+			<revision name="2.2.3" status="release" pubdate="20190802180158" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://github.com/eclipse-ee4j/jpa-api" downloaded="false" searched="false" default="false" conf="javadoc, default, system, compile, test, sources, provided, runtime, optional, master" position="1">
+				<license name="Eclipse Public License v. 2.0" url="http://www.eclipse.org/legal/epl-2.0"/>
+				<license name="Eclipse Distribution License v. 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="4327" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.persistence\jakarta.persistence-api\ivy-2.2.3.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.persistence\jakarta.persistence-api\ivy-2.2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.pom"/>
+				<caller organisation="com.greglturnquist" name="react-and-spring-data-rest-basic" conf="runtime" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jakarta.persistence-api" type="javadoc" ext="jar" extra-1.m.classifier="javadoc" status="no" details="" size="1595483" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.persistence\jakarta.persistence-api\javadocs\jakarta.persistence-api-2.2.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="jakarta.persistence-api" type="source" ext="jar" extra-1.m.classifier="sources" status="no" details="" size="264494" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.persistence\jakarta.persistence-api\sources\jakarta.persistence-api-2.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3-sources.jar"/>
+					</artifact>
+					<artifact name="jakarta.persistence-api" type="jar" ext="jar" status="no" details="" size="164392" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\jakarta.persistence\jakarta.persistence-api\jars\jakarta.persistence-api-2.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.4.200" status="release" pubdate="20191014082514" resolver="downloadGrepCode" artresolver="downloadGrepCode" homepage="https://h2database.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="0">
+				<license name="MPL 2.0 or EPL 1.0" url="https://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2529" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\com.h2database\h2\ivy-1.4.200.xml" searched="false" original-local-location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\com.h2database\h2\ivy-1.4.200.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.pom"/>
+				<caller organisation="com.greglturnquist" name="react-and-spring-data-rest-basic" conf="runtime" rev="1.4.200" rev-constraint-default="1.4.200" rev-constraint-dynamic="1.4.200" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="2303679" time="0" location="C:\Users\Mariana\OneDrive - Instituto Superior de Engenharia do Porto\Documents\GitHub\DevOps-23-24-JPE-1231845\CA2\Part2_ant\lib\cache\com.h2database\h2\jars\h2-1.4.200.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

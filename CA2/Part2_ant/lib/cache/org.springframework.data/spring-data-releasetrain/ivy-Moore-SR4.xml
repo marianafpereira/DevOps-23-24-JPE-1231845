@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.springframework.data"
+		module="spring-data-releasetrain"
+		revision="Moore-SR4"
+		status="release"
+		publication="20200115113917"
+	>
+		<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0" />
+		<description homepage="https://github.com/spring-projects/spring-data-build">
+		Bill of materials to make sure a consistent set of versions is used for Spring Data modules.
+		</description>
+		<m:dependency.management__org.springframework.data__spring-data-cassandra__version>2.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-cassandra__version>
+		<m:dependency.management__org.springframework.data__spring-data-commons__version>2.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-commons__version>
+		<m:dependency.management__org.springframework.data__spring-data-couchbase__version>3.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-couchbase__version>
+		<m:dependency.management__org.springframework.data__spring-data-elasticsearch__version>3.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-elasticsearch__version>
+		<m:dependency.management__org.springframework.data__spring-data-gemfire__version>2.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-gemfire__version>
+		<m:dependency.management__org.springframework.data__spring-data-geode__version>2.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-geode__version>
+		<m:dependency.management__org.springframework.data__spring-data-jdbc__version>1.1.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-jdbc__version>
+		<m:dependency.management__org.springframework.data__spring-data-relational__version>1.1.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-relational__version>
+		<m:dependency.management__org.springframework.data__spring-data-jpa__version>2.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-jpa__version>
+		<m:dependency.management__org.springframework.data__spring-data-mongodb__version>2.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-mongodb__version>
+		<m:dependency.management__org.springframework.data__spring-data-neo4j__version>5.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-neo4j__version>
+		<m:dependency.management__org.springframework.data__spring-data-redis__version>2.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-redis__version>
+		<m:dependency.management__org.springframework.data__spring-data-rest-webmvc__version>3.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-rest-webmvc__version>
+		<m:dependency.management__org.springframework.data__spring-data-rest-core__version>3.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-rest-core__version>
+		<m:dependency.management__org.springframework.data__spring-data-rest-hal-browser__version>3.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-rest-hal-browser__version>
+		<m:dependency.management__org.springframework.data__spring-data-rest-hal-explorer__version>3.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-rest-hal-explorer__version>
+		<m:dependency.management__org.springframework.data__spring-data-solr__version>4.1.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-solr__version>
+		<m:dependency.management__org.springframework.data__spring-data-keyvalue__version>2.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-keyvalue__version>
+		<m:dependency.management__org.springframework.data__spring-data-envers__version>2.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-envers__version>
+		<m:dependency.management__org.springframework.data__spring-data-ldap__version>2.2.4.RELEASE</m:dependency.management__org.springframework.data__spring-data-ldap__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="public" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+</ivy-module>

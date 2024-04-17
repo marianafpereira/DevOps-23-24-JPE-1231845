@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.springframework.data"
+		module="spring-data-rest-core"
+		revision="3.2.4.RELEASE"
+		status="release"
+		publication="20200115114558"
+	>
+		<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0" />
+		<description homepage="">
+		Spring Data REST - Core
+		</description>
+		<m:properties__evoinflector>1.2.2</m:properties__evoinflector>
+		<m:properties__java-module-name>spring.data.rest.core</m:properties__java-module-name>
+		<m:properties__project.root>${basedir}/..</m:properties__project.root>
+		<m:properties__project.type>multi</m:properties__project.type>
+		<m:properties__hibernate.version>5.2.17.Final</m:properties__hibernate.version>
+		<m:properties__springdata.jpa>2.2.4.RELEASE</m:properties__springdata.jpa>
+		<m:properties__springdata.mongodb>2.2.4.RELEASE</m:properties__springdata.mongodb>
+		<m:properties__dist.id>spring-data-rest</m:properties__dist.id>
+		<m:properties__springdata.cassandra>2.2.4.RELEASE</m:properties__springdata.cassandra>
+		<m:properties__bundlor.enabled>false</m:properties__bundlor.enabled>
+		<m:properties__jsonpath>1.1.0</m:properties__jsonpath>
+		<m:properties__springdata.gemfire>2.2.4.BUILD-SNAPSHOT</m:properties__springdata.gemfire>
+		<m:properties__springdata.keyvalue>2.2.4.RELEASE</m:properties__springdata.keyvalue>
+		<m:properties__springdata.solr>4.1.4.RELEASE</m:properties__springdata.solr>
+		<m:properties__springdata.commons>2.2.4.RELEASE</m:properties__springdata.commons>
+		<m:properties__aspectj>1.9.5</m:properties__aspectj>
+		<m:properties__querydsl>4.2.2</m:properties__querydsl>
+		<m:properties__rxjava2>2.2.17</m:properties__rxjava2>
+		<m:properties__reactor>Dysprosium-SR3</m:properties__reactor>
+		<m:properties__rxjava-reactive-streams>1.2.1</m:properties__rxjava-reactive-streams>
+		<m:properties__commons-io>2.5</m:properties__commons-io>
+		<m:properties__mockito>3.0.0</m:properties__mockito>
+		<m:properties__jodatime>2.10.5</m:properties__jodatime>
+		<m:properties__kotlin-coroutines>1.3.3</m:properties__kotlin-coroutines>
+		<m:properties__logback>1.2.3</m:properties__logback>
+		<m:properties__spring>5.2.3.RELEASE</m:properties__spring>
+		<m:properties__mockk>1.9.3</m:properties__mockk>
+		<m:properties__jackson>2.10.2</m:properties__jackson>
+		<m:properties__threetenbp>1.4.1</m:properties__threetenbp>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__jacoco.destfile>${project.build.directory}/jacoco.exec</m:properties__jacoco.destfile>
+		<m:properties__assertj>3.13.2</m:properties__assertj>
+		<m:properties__spring-hateoas>1.0.3.RELEASE</m:properties__spring-hateoas>
+		<m:properties__validation>1.1.0.Final</m:properties__validation>
+		<m:properties__releasetrain>Moore-SR4</m:properties__releasetrain>
+		<m:properties__junit>4.12</m:properties__junit>
+		<m:properties__testcontainers>1.12.3</m:properties__testcontainers>
+		<m:properties__apt>1.1.3</m:properties__apt>
+		<m:properties__slf4j>1.7.26</m:properties__slf4j>
+		<m:properties__jacoco>0.8.5</m:properties__jacoco>
+		<m:properties__kotlin>1.3.61</m:properties__kotlin>
+		<m:properties__cdi>1.0</m:properties__cdi>
+		<m:properties__lombok>1.18.10</m:properties__lombok>
+		<m:properties__maven.kotlin.skip>false</m:properties__maven.kotlin.skip>
+		<m:properties__spring-plugin>2.0.0.RELEASE</m:properties__spring-plugin>
+		<m:properties__source.level>1.8</m:properties__source.level>
+		<m:properties__guava>19.0</m:properties__guava>
+		<m:properties__hamcrest>1.3</m:properties__hamcrest>
+		<m:properties__rxjava>1.3.8</m:properties__rxjava>
+		<m:properties__javax-annotation-api>1.3.2</m:properties__javax-annotation-api>
+		<m:properties__webbeans>2.0.11</m:properties__webbeans>
+		<m:dependency.management__org.reactivestreams__reactive-streams__version>1.0.3</m:dependency.management__org.reactivestreams__reactive-streams__version>
+		<m:dependency.management__io.projectreactor__reactor-core__version>3.3.2.RELEASE</m:dependency.management__io.projectreactor__reactor-core__version>
+		<m:dependency.management__io.projectreactor__reactor-test__version>3.3.2.RELEASE</m:dependency.management__io.projectreactor__reactor-test__version>
+		<m:dependency.management__io.projectreactor__reactor-tools__version>3.3.2.RELEASE</m:dependency.management__io.projectreactor__reactor-tools__version>
+		<m:dependency.management__io.projectreactor.addons__reactor-extra__version>3.3.2.RELEASE</m:dependency.management__io.projectreactor.addons__reactor-extra__version>
+		<m:dependency.management__io.projectreactor.addons__reactor-adapter__version>3.3.2.RELEASE</m:dependency.management__io.projectreactor.addons__reactor-adapter__version>
+		<m:dependency.management__io.projectreactor.netty__reactor-netty__version>0.9.3.RELEASE</m:dependency.management__io.projectreactor.netty__reactor-netty__version>
+		<m:dependency.management__io.projectreactor.addons__reactor-pool__version>0.1.2.RELEASE</m:dependency.management__io.projectreactor.addons__reactor-pool__version>
+		<m:dependency.management__io.projectreactor.kafka__reactor-kafka__version>1.2.2.RELEASE</m:dependency.management__io.projectreactor.kafka__reactor-kafka__version>
+		<m:dependency.management__io.projectreactor.rabbitmq__reactor-rabbitmq__version>1.4.1.RELEASE</m:dependency.management__io.projectreactor.rabbitmq__reactor-rabbitmq__version>
+		<m:dependency.management__io.projectreactor.kotlin__reactor-kotlin-extensions__version>1.0.2.RELEASE</m:dependency.management__io.projectreactor.kotlin__reactor-kotlin-extensions__version>
+		<m:dependency.management__org.springframework__spring-aop__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-aop__version>
+		<m:dependency.management__org.springframework__spring-aspects__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-aspects__version>
+		<m:dependency.management__org.springframework__spring-beans__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-beans__version>
+		<m:dependency.management__org.springframework__spring-context__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-context__version>
+		<m:dependency.management__org.springframework__spring-context-indexer__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-context-indexer__version>
+		<m:dependency.management__org.springframework__spring-context-support__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-context-support__version>
+		<m:dependency.management__org.springframework__spring-core__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-core__version>
+		<m:dependency.management__org.springframework__spring-expression__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-expression__version>
+		<m:dependency.management__org.springframework__spring-instrument__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-instrument__version>
+		<m:dependency.management__org.springframework__spring-jcl__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-jcl__version>
+		<m:dependency.management__org.springframework__spring-jdbc__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-jdbc__version>
+		<m:dependency.management__org.springframework__spring-jms__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-jms__version>
+		<m:dependency.management__org.springframework__spring-messaging__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-messaging__version>
+		<m:dependency.management__org.springframework__spring-orm__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-orm__version>
+		<m:dependency.management__org.springframework__spring-oxm__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-oxm__version>
+		<m:dependency.management__org.springframework__spring-test__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-test__version>
+		<m:dependency.management__org.springframework__spring-tx__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-tx__version>
+		<m:dependency.management__org.springframework__spring-web__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-web__version>
+		<m:dependency.management__org.springframework__spring-webflux__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-webflux__version>
+		<m:dependency.management__org.springframework__spring-webmvc__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-webmvc__version>
+		<m:dependency.management__org.springframework__spring-websocket__version>5.2.3.RELEASE</m:dependency.management__org.springframework__spring-websocket__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jdk7__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jdk7__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jdk8__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-jdk8__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-js__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-js__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-common__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-stdlib-common__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-reflect__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-reflect__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-osgi-bundle__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-osgi-bundle__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-test__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-test__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-test-junit__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-test-junit__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-test-junit5__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-test-junit5__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-test-testng__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-test-testng__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-test-js__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-test-js__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-test-common__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-test-common__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-test-annotations-common__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-test-annotations-common__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-main-kts__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-main-kts__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-script-runtime__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-script-runtime__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-script-util__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-script-util__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-scripting-common__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-scripting-common__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-scripting-jvm__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-scripting-jvm__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-scripting-jvm-host__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-scripting-jvm-host__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-compiler__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-compiler__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-compiler-embeddable__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-compiler-embeddable__version>
+		<m:dependency.management__org.jetbrains.kotlin__kotlin-daemon-client__version>1.3.61</m:dependency.management__org.jetbrains.kotlin__kotlin-daemon-client__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-android__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-android__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-android__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-android__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-js__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-js__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-js__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-js__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-native__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-native__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-native__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-native__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-common__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-common__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-common__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-core-common__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-debug__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-debug__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-debug__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-debug__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-guava__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-guava__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-guava__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-guava__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-javafx__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-javafx__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-javafx__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-javafx__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-jdk8__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-jdk8__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-jdk8__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-jdk8__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-play-services__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-play-services__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-play-services__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-play-services__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-reactive__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-reactive__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-reactive__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-reactive__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-reactor__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-reactor__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-reactor__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-reactor__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-rx2__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-rx2__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-rx2__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-rx2__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-slf4j__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-slf4j__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-slf4j__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-slf4j__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-swing__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-swing__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-swing__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-swing__scope>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-test__version>1.3.3</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-test__version>
+		<m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-test__scope>compile</m:dependency.management__org.jetbrains.kotlinx__kotlinx-coroutines-test__scope>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-annotations__version>2.10.2</m:dependency.management__com.fasterxml.jackson.core__jackson-annotations__version>
+		<m:dependency.management__junit__junit__version>4.12</m:dependency.management__junit__junit__version>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-core__version>2.10.2</m:dependency.management__com.fasterxml.jackson.core__jackson-core__version>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-databind__version>2.10.2</m:dependency.management__com.fasterxml.jackson.core__jackson-databind__version>
+		<m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-avro__version>2.10.2</m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-avro__version>
+		<m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-cbor__version>2.10.2</m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-cbor__version>
+		<m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-csv__version>2.10.2</m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-csv__version>
+		<m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-ion__version>2.10.2</m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-ion__version>
+		<m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-properties__version>2.10.2</m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-properties__version>
+		<m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-protobuf__version>2.10.2</m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-protobuf__version>
+		<m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-smile__version>2.10.2</m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-smile__version>
+		<m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-xml__version>2.10.2</m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-xml__version>
+		<m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-yaml__version>2.10.2</m:dependency.management__com.fasterxml.jackson.dataformat__jackson-dataformat-yaml__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-guava__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-guava__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-hibernate3__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-hibernate3__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-hibernate4__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-hibernate4__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-hibernate5__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-hibernate5__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-hppc__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-hppc__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jaxrs__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jaxrs__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-joda__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-joda__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jdk8__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jdk8__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-json-org__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-json-org__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jsr310__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jsr310__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jsr353__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-jsr353__version>
+		<m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-pcollections__version>2.10.2</m:dependency.management__com.fasterxml.jackson.datatype__jackson-datatype-pcollections__version>
+		<m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-base__version>2.10.2</m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-base__version>
+		<m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-cbor-provider__version>2.10.2</m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-cbor-provider__version>
+		<m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-json-provider__version>2.10.2</m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-json-provider__version>
+		<m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-smile-provider__version>2.10.2</m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-smile-provider__version>
+		<m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-xml-provider__version>2.10.2</m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-xml-provider__version>
+		<m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-yaml-provider__version>2.10.2</m:dependency.management__com.fasterxml.jackson.jaxrs__jackson-jaxrs-yaml-provider__version>
+		<m:dependency.management__com.fasterxml.jackson.jr__jackson-jr-all__version>2.10.2</m:dependency.management__com.fasterxml.jackson.jr__jackson-jr-all__version>
+		<m:dependency.management__com.fasterxml.jackson.jr__jackson-jr-objects__version>2.10.2</m:dependency.management__com.fasterxml.jackson.jr__jackson-jr-objects__version>
+		<m:dependency.management__com.fasterxml.jackson.jr__jackson-jr-retrofit2__version>2.10.2</m:dependency.management__com.fasterxml.jackson.jr__jackson-jr-retrofit2__version>
+		<m:dependency.management__com.fasterxml.jackson.jr__jackson-jr-stree__version>2.10.2</m:dependency.management__com.fasterxml.jackson.jr__jackson-jr-stree__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-afterburner__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-afterburner__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-guice__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-guice__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-jaxb-annotations__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-jaxb-annotations__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-jsonSchema__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-jsonSchema__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-kotlin__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-kotlin__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-mrbean__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-mrbean__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-osgi__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-osgi__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-parameter-names__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-parameter-names__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-paranamer__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-paranamer__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-scala_2.10__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-scala_2.10__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-scala_2.11__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-scala_2.11__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-scala_2.12__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-scala_2.12__version>
+		<m:dependency.management__com.fasterxml.jackson.module__jackson-module-scala_2.13__version>2.10.2</m:dependency.management__com.fasterxml.jackson.module__jackson-module-scala_2.13__version>
+		<m:maven.plugins>org.apache.maven.plugins__maven-dependency-plugin__null|org.jetbrains.kotlin__kotlin-maven-plugin__1.3.61|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|org.codehaus.mojo__build-helper-maven-plugin__null|org.projectlombok__lombok-maven-plugin__null|org.apache.maven.plugins__maven-javadoc-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-dependency-plugin__null|org.jetbrains.kotlin__kotlin-maven-plugin__1.3.61|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|org.codehaus.mojo__build-helper-maven-plugin__null|org.projectlombok__lombok-maven-plugin__null|org.apache.maven.plugins__maven-javadoc-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-dependency-plugin__null|org.jetbrains.kotlin__kotlin-maven-plugin__1.3.61|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|org.codehaus.mojo__build-helper-maven-plugin__null|org.projectlombok__lombok-maven-plugin__null|org.apache.maven.plugins__maven-javadoc-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-dependency-plugin__null|org.jetbrains.kotlin__kotlin-maven-plugin__1.3.61|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|org.codehaus.mojo__build-helper-maven-plugin__null|org.projectlombok__lombok-maven-plugin__null|org.apache.maven.plugins__maven-javadoc-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="public" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="spring-data-rest-core" type="jar" ext="jar" conf="master"/>
+		<artifact name="spring-data-rest-core" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="spring-data-rest-core" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.springframework" name="spring-tx" rev="5.2.3.RELEASE" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.springframework.hateoas" name="spring-hateoas" rev="1.0.3.RELEASE" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.springframework" name="spring-webmvc" rev="5.2.3.RELEASE" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.springframework.data" name="spring-data-commons" rev="2.2.4.RELEASE" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.springframework.plugin" name="spring-plugin-core" rev="2.0.0.RELEASE" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.atteo" name="evo-inflector" rev="1.2.2" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.10.2" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" rev="2.10.2" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="com.google.guava" name="guava" rev="19.0" force="true" conf="optional->compile(*),master(*)"/>
+		<dependency org="org.springframework.data" name="spring-data-keyvalue" rev="2.2.4.RELEASE" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="javax.validation" name="validation-api" rev="1.1.0.Final" force="true" conf="optional->compile(*),master(*)"/>
+		<dependency org="org.hamcrest" name="hamcrest-library" rev="1.3" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.hamcrest" name="hamcrest-core" rev="1.3" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="junit" name="junit" rev="4.12" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.mockito" name="mockito-core" rev="3.0.0" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.assertj" name="assertj-core" rev="3.13.2" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.springframework" name="spring-test" rev="5.2.3.RELEASE" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.26" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.2.3" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="org.projectlombok" name="lombok" rev="1.18.10" force="true" conf="optional->compile(*),master(*)"/>
+		<override org="org.reactivestreams" module="reactive-streams" matcher="exact" rev="1.0.3"/>
+		<override org="io.projectreactor" module="reactor-core" matcher="exact" rev="3.3.2.RELEASE"/>
+		<override org="io.projectreactor" module="reactor-test" matcher="exact" rev="3.3.2.RELEASE"/>
+		<override org="io.projectreactor" module="reactor-tools" matcher="exact" rev="3.3.2.RELEASE"/>
+		<override org="io.projectreactor.addons" module="reactor-extra" matcher="exact" rev="3.3.2.RELEASE"/>
+		<override org="io.projectreactor.addons" module="reactor-adapter" matcher="exact" rev="3.3.2.RELEASE"/>
+		<override org="io.projectreactor.netty" module="reactor-netty" matcher="exact" rev="0.9.3.RELEASE"/>
+		<override org="io.projectreactor.addons" module="reactor-pool" matcher="exact" rev="0.1.2.RELEASE"/>
+		<override org="io.projectreactor.kafka" module="reactor-kafka" matcher="exact" rev="1.2.2.RELEASE"/>
+		<override org="io.projectreactor.rabbitmq" module="reactor-rabbitmq" matcher="exact" rev="1.4.1.RELEASE"/>
+		<override org="io.projectreactor.kotlin" module="reactor-kotlin-extensions" matcher="exact" rev="1.0.2.RELEASE"/>
+		<override org="org.springframework" module="spring-aop" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-aspects" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-beans" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-context" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-context-indexer" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-context-support" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-core" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-expression" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-instrument" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-jcl" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-jdbc" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-jms" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-messaging" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-orm" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-oxm" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-test" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-tx" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-web" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-webflux" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-webmvc" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.springframework" module="spring-websocket" matcher="exact" rev="5.2.3.RELEASE"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-stdlib" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-stdlib-jdk7" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-stdlib-jdk8" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-stdlib-js" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-stdlib-common" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-reflect" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-osgi-bundle" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-test" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-test-junit" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-test-junit5" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-test-testng" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-test-js" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-test-common" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-test-annotations-common" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-main-kts" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-script-runtime" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-script-util" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-scripting-common" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-scripting-jvm" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-scripting-jvm-host" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-compiler" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-compiler-embeddable" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlin" module="kotlin-daemon-client" matcher="exact" rev="1.3.61"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-android" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-android" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-core-js" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-core-js" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-core" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-core" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-core-native" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-core-native" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-core-common" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-core-common" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-debug" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-debug" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-guava" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-guava" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-javafx" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-javafx" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-jdk8" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-jdk8" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-play-services" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-play-services" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-reactive" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-reactive" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-reactor" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-reactor" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-rx2" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-rx2" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-slf4j" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-slf4j" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-swing" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-swing" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-test" matcher="exact" rev="1.3.3"/>
+		<override org="org.jetbrains.kotlinx" module="kotlinx-coroutines-test" matcher="exact" rev="1.3.3"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-annotations" matcher="exact" rev="2.10.2"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.12"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-core" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.core" module="jackson-databind" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.dataformat" module="jackson-dataformat-avro" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.dataformat" module="jackson-dataformat-cbor" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.dataformat" module="jackson-dataformat-csv" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.dataformat" module="jackson-dataformat-ion" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.dataformat" module="jackson-dataformat-properties" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.dataformat" module="jackson-dataformat-protobuf" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.dataformat" module="jackson-dataformat-smile" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.dataformat" module="jackson-dataformat-xml" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.dataformat" module="jackson-dataformat-yaml" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-guava" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-hibernate3" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-hibernate4" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-hibernate5" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-hppc" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-jaxrs" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-joda" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-jdk8" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-json-org" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-jsr310" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-jsr353" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.datatype" module="jackson-datatype-pcollections" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.jaxrs" module="jackson-jaxrs-base" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.jaxrs" module="jackson-jaxrs-cbor-provider" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.jaxrs" module="jackson-jaxrs-json-provider" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.jaxrs" module="jackson-jaxrs-smile-provider" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.jaxrs" module="jackson-jaxrs-xml-provider" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.jaxrs" module="jackson-jaxrs-yaml-provider" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.jr" module="jackson-jr-all" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.jr" module="jackson-jr-objects" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.jr" module="jackson-jr-retrofit2" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.jr" module="jackson-jr-stree" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-afterburner" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-guice" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-jaxb-annotations" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-jsonSchema" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-kotlin" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-mrbean" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-osgi" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-parameter-names" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-paranamer" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-scala_2.10" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-scala_2.11" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-scala_2.12" matcher="exact" rev="2.10.2"/>
+		<override org="com.fasterxml.jackson.module" module="jackson-module-scala_2.13" matcher="exact" rev="2.10.2"/>
+	</dependencies>
+</ivy-module>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.glassfish.jersey"
+		module="jersey-bom"
+		revision="2.29.1"
+		status="release"
+		publication="20190910095522"
+	>
+		<license name="Eclipse Public License v. 2.0" url="https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt" />
+		<license name="GNU General Public License, version 2 with the GNU Classpath Exception" url="https://www.gnu.org/software/classpath/license.html" />
+		<description homepage="">
+		Jersey Bill of Materials (BOM)
+		</description>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__release.arguments/>
+		<m:properties__sonatypeOssDistMgmtReleasesUrl>https://oss.sonatype.org/service/local/staging/deploy/maven2/</m:properties__sonatypeOssDistMgmtReleasesUrl>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:dependency.management__org.glassfish.jersey.core__jersey-common__version>2.29.1</m:dependency.management__org.glassfish.jersey.core__jersey-common__version>
+		<m:dependency.management__org.glassfish.jersey.core__jersey-client__version>2.29.1</m:dependency.management__org.glassfish.jersey.core__jersey-client__version>
+		<m:dependency.management__org.glassfish.jersey.core__jersey-server__version>2.29.1</m:dependency.management__org.glassfish.jersey.core__jersey-server__version>
+		<m:dependency.management__org.glassfish.jersey.bundles__jaxrs-ri__version>2.29.1</m:dependency.management__org.glassfish.jersey.bundles__jaxrs-ri__version>
+		<m:dependency.management__org.glassfish.jersey.connectors__jersey-apache-connector__version>2.29.1</m:dependency.management__org.glassfish.jersey.connectors__jersey-apache-connector__version>
+		<m:dependency.management__org.glassfish.jersey.connectors__jersey-grizzly-connector__version>2.29.1</m:dependency.management__org.glassfish.jersey.connectors__jersey-grizzly-connector__version>
+		<m:dependency.management__org.glassfish.jersey.connectors__jersey-jetty-connector__version>2.29.1</m:dependency.management__org.glassfish.jersey.connectors__jersey-jetty-connector__version>
+		<m:dependency.management__org.glassfish.jersey.connectors__jersey-jdk-connector__version>2.29.1</m:dependency.management__org.glassfish.jersey.connectors__jersey-jdk-connector__version>
+		<m:dependency.management__org.glassfish.jersey.connectors__jersey-netty-connector__version>2.29.1</m:dependency.management__org.glassfish.jersey.connectors__jersey-netty-connector__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-jetty-http__version>2.29.1</m:dependency.management__org.glassfish.jersey.containers__jersey-container-jetty-http__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-grizzly2-http__version>2.29.1</m:dependency.management__org.glassfish.jersey.containers__jersey-container-grizzly2-http__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-grizzly2-servlet__version>2.29.1</m:dependency.management__org.glassfish.jersey.containers__jersey-container-grizzly2-servlet__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-jetty-servlet__version>2.29.1</m:dependency.management__org.glassfish.jersey.containers__jersey-container-jetty-servlet__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-jdk-http__version>2.29.1</m:dependency.management__org.glassfish.jersey.containers__jersey-container-jdk-http__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-netty-http__version>2.29.1</m:dependency.management__org.glassfish.jersey.containers__jersey-container-netty-http__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-servlet__version>2.29.1</m:dependency.management__org.glassfish.jersey.containers__jersey-container-servlet__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-servlet-core__version>2.29.1</m:dependency.management__org.glassfish.jersey.containers__jersey-container-servlet-core__version>
+		<m:dependency.management__org.glassfish.jersey.containers__jersey-container-simple-http__version>2.29.1</m:dependency.management__org.glassfish.jersey.containers__jersey-container-simple-http__version>
+		<m:dependency.management__org.glassfish.jersey.containers.glassfish__jersey-gf-ejb__version>2.29.1</m:dependency.management__org.glassfish.jersey.containers.glassfish__jersey-gf-ejb__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-bean-validation__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-bean-validation__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-entity-filtering__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-entity-filtering__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-metainf-services__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-metainf-services__version>
+		<m:dependency.management__org.glassfish.jersey.ext.microprofile__jersey-mp-config__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.microprofile__jersey-mp-config__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-mvc__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-mvc__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-mvc-bean-validation__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-mvc-bean-validation__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-mvc-freemarker__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-mvc-freemarker__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-mvc-jsp__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-mvc-jsp__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-mvc-mustache__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-mvc-mustache__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-proxy-client__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-proxy-client__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-servlet-portability__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-servlet-portability__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-spring4__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-spring4__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-spring5__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-spring5__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-declarative-linking__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-declarative-linking__version>
+		<m:dependency.management__org.glassfish.jersey.ext__jersey-wadl-doclet__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext__jersey-wadl-doclet__version>
+		<m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-weld2-se__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-weld2-se__version>
+		<m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-cdi1x__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-cdi1x__version>
+		<m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-cdi1x-transaction__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-cdi1x-transaction__version>
+		<m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-cdi1x-validation__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-cdi1x-validation__version>
+		<m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-cdi1x-servlet__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-cdi1x-servlet__version>
+		<m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-cdi1x-ban-custom-hk2-binding__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.cdi__jersey-cdi1x-ban-custom-hk2-binding__version>
+		<m:dependency.management__org.glassfish.jersey.ext.rx__jersey-rx-client-guava__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.rx__jersey-rx-client-guava__version>
+		<m:dependency.management__org.glassfish.jersey.ext.rx__jersey-rx-client-rxjava__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.rx__jersey-rx-client-rxjava__version>
+		<m:dependency.management__org.glassfish.jersey.ext.rx__jersey-rx-client-rxjava2__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.rx__jersey-rx-client-rxjava2__version>
+		<m:dependency.management__org.glassfish.jersey.ext.microprofile__jersey-mp-rest-client__version>2.29.1</m:dependency.management__org.glassfish.jersey.ext.microprofile__jersey-mp-rest-client__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-jaxb__version>2.29.1</m:dependency.management__org.glassfish.jersey.media__jersey-media-jaxb__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-json-jackson__version>2.29.1</m:dependency.management__org.glassfish.jersey.media__jersey-media-json-jackson__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-json-jackson1__version>2.29.1</m:dependency.management__org.glassfish.jersey.media__jersey-media-json-jackson1__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-json-jettison__version>2.29.1</m:dependency.management__org.glassfish.jersey.media__jersey-media-json-jettison__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-json-processing__version>2.29.1</m:dependency.management__org.glassfish.jersey.media__jersey-media-json-processing__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-json-binding__version>2.29.1</m:dependency.management__org.glassfish.jersey.media__jersey-media-json-binding__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-kryo__version>2.29.1</m:dependency.management__org.glassfish.jersey.media__jersey-media-kryo__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-moxy__version>2.29.1</m:dependency.management__org.glassfish.jersey.media__jersey-media-moxy__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-multipart__version>2.29.1</m:dependency.management__org.glassfish.jersey.media__jersey-media-multipart__version>
+		<m:dependency.management__org.glassfish.jersey.media__jersey-media-sse__version>2.29.1</m:dependency.management__org.glassfish.jersey.media__jersey-media-sse__version>
+		<m:dependency.management__org.glassfish.jersey.security__oauth1-client__version>2.29.1</m:dependency.management__org.glassfish.jersey.security__oauth1-client__version>
+		<m:dependency.management__org.glassfish.jersey.security__oauth1-server__version>2.29.1</m:dependency.management__org.glassfish.jersey.security__oauth1-server__version>
+		<m:dependency.management__org.glassfish.jersey.security__oauth1-signature__version>2.29.1</m:dependency.management__org.glassfish.jersey.security__oauth1-signature__version>
+		<m:dependency.management__org.glassfish.jersey.security__oauth2-client__version>2.29.1</m:dependency.management__org.glassfish.jersey.security__oauth2-client__version>
+		<m:dependency.management__org.glassfish.jersey.inject__jersey-hk2__version>2.29.1</m:dependency.management__org.glassfish.jersey.inject__jersey-hk2__version>
+		<m:dependency.management__org.glassfish.jersey.inject__jersey-cdi2-se__version>2.29.1</m:dependency.management__org.glassfish.jersey.inject__jersey-cdi2-se__version>
+		<m:dependency.management__org.glassfish.jersey.test-framework__jersey-test-framework-core__version>2.29.1</m:dependency.management__org.glassfish.jersey.test-framework__jersey-test-framework-core__version>
+		<m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-bundle__version>2.29.1</m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-bundle__version>
+		<m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-external__version>2.29.1</m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-external__version>
+		<m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-grizzly2__version>2.29.1</m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-grizzly2__version>
+		<m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-inmemory__version>2.29.1</m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-inmemory__version>
+		<m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-jdk-http__version>2.29.1</m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-jdk-http__version>
+		<m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-simple__version>2.29.1</m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-simple__version>
+		<m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-jetty__version>2.29.1</m:dependency.management__org.glassfish.jersey.test-framework.providers__jersey-test-framework-provider-jetty__version>
+		<m:dependency.management__org.glassfish.jersey.test-framework__jersey-test-framework-util__version>2.29.1</m:dependency.management__org.glassfish.jersey.test-framework__jersey-test-framework-util__version>
+		<m:maven.plugins>org.glassfish.copyright__glassfish-copyright-maven-plugin__null|org.apache.maven.plugins__maven-site-plugin__3.7.1</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="public" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+</ivy-module>

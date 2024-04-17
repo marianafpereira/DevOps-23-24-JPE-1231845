@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.assertj"
+		module="assertj-core"
+		revision="3.13.2"
+		status="release"
+		publication="20190804054456"
+	>
+		<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
+		<description homepage="">
+		Rich and fluent assertions for testing for Java
+		</description>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__additionalparam>-Xdoclint:none</m:properties__additionalparam>
+		<m:properties__maven.compiler.source>8</m:properties__maven.compiler.source>
+		<m:dependency.management__junit__junit__version>4.12</m:dependency.management__junit__junit__version>
+		<m:dependency.management__junit__junit__scope>test</m:dependency.management__junit__junit__scope>
+		<m:dependency.management__org.mockito__mockito-core__version>2.23.0</m:dependency.management__org.mockito__mockito-core__version>
+		<m:dependency.management__org.mockito__mockito-core__scope>test</m:dependency.management__org.mockito__mockito-core__scope>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-eclipse-plugin__null|org.apache.maven.plugins__maven-clean-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-deploy-plugin__null|org.apache.maven.plugins__maven-install-plugin__null|org.apache.maven.plugins__maven-resources-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.maven.plugins__maven-release-plugin__null|org.sonatype.plugins__nexus-staging-maven-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|com.mycila__license-maven-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|org.apache.maven.plugins__maven-eclipse-plugin__null|org.apache.maven.plugins__maven-clean-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-deploy-plugin__null|org.apache.maven.plugins__maven-install-plugin__null|org.apache.maven.plugins__maven-resources-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.maven.plugins__maven-release-plugin__null|org.sonatype.plugins__nexus-staging-maven-plugin__null|org.apache.maven.plugins__maven-source-plugin__null|com.mycila__license-maven-plugin__null|null__maven-enforcer-plugin__null|null__maven-compiler-plugin__null|null__maven-jar-plugin__null|null__maven-surefire-plugin__null|null__maven-shade-plugin__3.1.1|null__maven-dependency-plugin__null|org.apache.felix__maven-bundle-plugin__4.1.0|org.jacoco__jacoco-maven-plugin__null|null__maven-javadoc-plugin__null</m:maven.plugins>
+		<m:dependency.management__org.junit.jupiter__junit-jupiter__version>5.5.1</m:dependency.management__org.junit.jupiter__junit-jupiter__version>
+		<m:dependency.management__org.junit.jupiter__junit-jupiter-api__version>5.5.1</m:dependency.management__org.junit.jupiter__junit-jupiter-api__version>
+		<m:dependency.management__org.junit.jupiter__junit-jupiter-engine__version>5.5.1</m:dependency.management__org.junit.jupiter__junit-jupiter-engine__version>
+		<m:dependency.management__org.junit.jupiter__junit-jupiter-migrationsupport__version>5.5.1</m:dependency.management__org.junit.jupiter__junit-jupiter-migrationsupport__version>
+		<m:dependency.management__org.junit.jupiter__junit-jupiter-params__version>5.5.1</m:dependency.management__org.junit.jupiter__junit-jupiter-params__version>
+		<m:dependency.management__org.junit.platform__junit-platform-commons__version>1.5.1</m:dependency.management__org.junit.platform__junit-platform-commons__version>
+		<m:dependency.management__org.junit.platform__junit-platform-console__version>1.5.1</m:dependency.management__org.junit.platform__junit-platform-console__version>
+		<m:dependency.management__org.junit.platform__junit-platform-engine__version>1.5.1</m:dependency.management__org.junit.platform__junit-platform-engine__version>
+		<m:dependency.management__org.junit.platform__junit-platform-launcher__version>1.5.1</m:dependency.management__org.junit.platform__junit-platform-launcher__version>
+		<m:dependency.management__org.junit.platform__junit-platform-reporting__version>1.5.1</m:dependency.management__org.junit.platform__junit-platform-reporting__version>
+		<m:dependency.management__org.junit.platform__junit-platform-runner__version>1.5.1</m:dependency.management__org.junit.platform__junit-platform-runner__version>
+		<m:dependency.management__org.junit.platform__junit-platform-suite-api__version>1.5.1</m:dependency.management__org.junit.platform__junit-platform-suite-api__version>
+		<m:dependency.management__org.junit.platform__junit-platform-testkit__version>1.5.1</m:dependency.management__org.junit.platform__junit-platform-testkit__version>
+		<m:dependency.management__org.junit.vintage__junit-vintage-engine__version>5.5.1</m:dependency.management__org.junit.vintage__junit-vintage-engine__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="public" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="assertj-core" type="bundle" ext="jar" conf="master"/>
+		<artifact name="assertj-core" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+		<artifact name="assertj-core" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="junit" name="junit" rev="4.12" force="true" conf="optional->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.junit.jupiter" name="junit-jupiter-api" rev="5.5.1" force="true" conf="optional->compile(*),provided(*),runtime(*),master(*)">
+			<exclude org="org.apiguardian" module="apiguardian-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.junit.platform" module="junit-platform-commons" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.junit.jupiter" name="junit-jupiter" rev="5.5.1" force="true" conf="test->runtime(*),master(*)">
+			<exclude org="org.junit.jupiter" module="junit-jupiter-params" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.junit.jupiter" module="junit-jupiter-engine" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.junit.vintage" name="junit-vintage-engine" rev="5.5.1" force="true" conf="test->runtime(*),master(*)">
+			<exclude org="org.junit.platform" module="junit-platform-engine" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apiguardian" module="apiguardian-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.junit.platform" name="junit-platform-testkit" rev="1.5.1" force="true" conf="test->runtime(*),master(*)">
+			<exclude org="org.assertj" module="assertj-core" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.junit.platform" module="junit-platform-launcher" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apiguardian" module="apiguardian-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.opentest4j" name="opentest4j" rev="1.1.1" force="true" conf="optional->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="com.google.code.findbugs" name="jsr305" rev="3.0.2" force="true" conf="optional->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.hamcrest" name="hamcrest-core" rev="1.3" force="true" conf="optional->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.mockito" name="mockito-core" rev="2.23.0" force="true" conf="test->runtime(*),master(*)">
+			<exclude org="net.bytebuddy" module="byte-buddy-agent" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.objenesis" module="objenesis" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.mockito" name="mockito-junit-jupiter" rev="2.23.0" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="com.github.marschall" name="memoryfilesystem" rev="2.1.0" force="true" conf="test->runtime(*),master(*)"/>
+		<dependency org="com.google.guava" name="guava" rev="27.1-jre" force="true" conf="test->runtime(*),master(*)">
+			<exclude org="com.google.guava" module="failureaccess" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.google.guava" module="listenablefuture" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.checkerframework" module="checker-qual" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.google.errorprone" module="error_prone_annotations" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.google.j2objc" module="j2objc-annotations" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.codehaus.mojo" module="animal-sniffer-annotations" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.9" force="true" conf="test->runtime(*),master(*)"/>
+		<override org="junit" module="junit" matcher="exact" rev="4.12"/>
+		<override org="org.mockito" module="mockito-core" matcher="exact" rev="2.23.0"/>
+		<override org="org.junit.jupiter" module="junit-jupiter" matcher="exact" rev="5.5.1"/>
+		<override org="org.junit.jupiter" module="junit-jupiter-api" matcher="exact" rev="5.5.1"/>
+		<override org="org.junit.jupiter" module="junit-jupiter-engine" matcher="exact" rev="5.5.1"/>
+		<override org="org.junit.jupiter" module="junit-jupiter-migrationsupport" matcher="exact" rev="5.5.1"/>
+		<override org="org.junit.jupiter" module="junit-jupiter-params" matcher="exact" rev="5.5.1"/>
+		<override org="org.junit.platform" module="junit-platform-commons" matcher="exact" rev="1.5.1"/>
+		<override org="org.junit.platform" module="junit-platform-console" matcher="exact" rev="1.5.1"/>
+		<override org="org.junit.platform" module="junit-platform-engine" matcher="exact" rev="1.5.1"/>
+		<override org="org.junit.platform" module="junit-platform-launcher" matcher="exact" rev="1.5.1"/>
+		<override org="org.junit.platform" module="junit-platform-reporting" matcher="exact" rev="1.5.1"/>
+		<override org="org.junit.platform" module="junit-platform-runner" matcher="exact" rev="1.5.1"/>
+		<override org="org.junit.platform" module="junit-platform-suite-api" matcher="exact" rev="1.5.1"/>
+		<override org="org.junit.platform" module="junit-platform-testkit" matcher="exact" rev="1.5.1"/>
+		<override org="org.junit.vintage" module="junit-vintage-engine" matcher="exact" rev="5.5.1"/>
+	</dependencies>
+</ivy-module>
