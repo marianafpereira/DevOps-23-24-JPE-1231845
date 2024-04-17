@@ -1,6 +1,6 @@
-<project name="Part2_ant" default="dist" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
+<project name="Part2_Ant_Project" default="dist" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant" xmlns:spring-boot="antlib:org.springframework.boot.ant">
     <description>
-        Simple Ant build file for Part2_ant
+        Ant build file for the Part2_Ant_Project
     </description>
 
     <!-- Ivy properties and task definition -->
@@ -23,7 +23,7 @@
     </target>
 
     <target name="compile" depends="init,resolve" description="compile the source">
-        <javac srcdir="${src}" destdir="${build}" includeantruntime="false">
+        <javac srcdir="${src}" destdir="${build}/classes" includeantruntime="false" source="1.8" target="1.8">
             <classpath>
                 <fileset dir="${user.home}/.ivy2/cache" includes="**/*.jar"/>
             </classpath>
@@ -59,4 +59,31 @@
         <ivy:settings file="ivysettings.xml"/>
         <ivy:retrieve/>
     </target>
+
+    <target name="spring-boot:run" description="Run the application">
+        <path id="run.classpath">
+            <pathelement location="build/classes"/>
+            <pathelement path="${java.class.path}"/>
+            <pathelement location="lib/*"/>
+        </path>
+        <property name="run.classpath.string" refid="run.classpath"/>
+        <echo message="Classpath: ${run.classpath.string}"/>
+        <java classname="com.greglturnquist.payroll.ReactAndSpringDataRestApplication" fork="true">
+            <classpath refid="run.classpath"/>
+        </java>
+    </target>
+
+    <target name="build" depends="init,resolve" description="compile the source">
+        <mkdir dir="${build}/classes"/>
+        <javac srcdir="${src}" destdir="${build}/classes" includeantruntime="false">
+            <classpath>
+                <fileset dir="${user.home}/.ivy2/cache" includes="**/*.jar"/>
+            </classpath>
+        </javac>
+        <echo message="Files in ${build}/classes/com/greglturnquist/payroll: ${ant.fileset.dir}"/>
+        <fileset dir="${build}/classes/com/greglturnquist/payroll" id="compiled.files"/>
+        <pathconvert pathsep="${line.separator}" property="compiled.files.list" refid="compiled.files"/>
+        <echo message="${compiled.files.list}"/>
+    </target>
+
 </project>
