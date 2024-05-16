@@ -1,5 +1,5 @@
 # Welcome to the DevOps-23-24-JPE-1231845 wiki! :wave:
-This wiki serves as a comprehensive resource for the class assignments enrolled in the DevOps class, where i delve into various tools and concepts essential for modern software development and operations.
+This readme serves as a comprehensive resource for the class assignments enrolled in the DevOps class, where i delve into various tools and concepts essential for modern software development and operations.
 
 # Course Overview :clipboard:
 The DevOps class aims to provide students with a deep understanding of DevOps principles, methodologies, and tools. Throughout the course, i will explore a wide range of topics, including but not limited to:
