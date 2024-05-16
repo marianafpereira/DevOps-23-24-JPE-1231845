@@ -1,16 +1,18 @@
 Vagrant.configure("2") do |config|
   # Specify the base box. Make sure this box is compatible with Hyper-V.
-  config.vm.box = "hyperv/Ubuntu2004"
+  config.vm.box = "hypervv/Ubuntu2004"
+  config.vm.network "public_network", bridge: "DefaultSwitch"
 
   # Default provider configuration
   config.vm.provider "hyperv" do |hv|
-    hv.cpus = 2          # Number of CPUs
-    hv.memory = 1024     # Memory size in MB
-    hv.maxmemory = 2048  # Maximum dynamic memory in MB
-    hv.linked_clone = true # Use linked clones to speed up VM creation
-  end
+    hv.cpus = "2"          # Number of CPUs
+    hv.memory = "1024"     # Memory size in MB
+    hv.maxmemory = "2048"  # Maximum dynamic memory in MB
+  #  hv.linked_clone = true # Use linked clones to speed up VM creation
+    hv.vmname = "CA3_Part2"
+ end
 
-  # General provisioning script that runs on all VMs
+   # General provisioning script that runs on all VMs
   config.vm.provision "shell", inline: <<-SHELL
     sudo apt-get update -y
     sudo apt-get install -y iputils-ping avahi-daemon libnss-mdns unzip openjdk-17-jdk-headless
@@ -43,11 +45,12 @@ Vagrant.configure("2") do |config|
       echo "Repository cloned."
       sudo chown -R vagrant:vagrant /home/vagrant/DevOps-23-24-JPE-1231845/
       echo "Repository ownership changed."
-      
-      cd DevOps-23-24-JPE-1231845/CA2/part2/part2_gradle
+
+      cd DevOps-23-24-JPE-1231845/CA2/Part2
       chmod +x ./gradlew
       ./gradlew build
       nohup ./gradlew bootRun > /home/vagrant/spring-boot-app.log 2>&1 &
     SHELL
   end
+
 end
