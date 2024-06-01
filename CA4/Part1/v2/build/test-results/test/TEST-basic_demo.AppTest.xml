@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basic_demo.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-23T13:50:07" hostname="DESKTOP-291C1CQ" time="0.017">
+  <properties/>
+  <testcase name="testAppHasAGreeting" classname="basic_demo.AppTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
