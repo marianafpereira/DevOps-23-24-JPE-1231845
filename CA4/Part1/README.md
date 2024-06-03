@@ -53,7 +53,7 @@ For more detailed information about this project, please visit the following lin
 2. Create Dockerfile for Building Inside Dockerfile
    Create a file named Dockerfile in the root directory of the cloned repository with the following content:
 
-bash´´´´
+ ``` bash
 dockerfile
 # Use the OpenJDK 17 slim image as the base
 FROM openjdk:17-jdk-slim
@@ -76,18 +76,18 @@ EXPOSE 8080
 
 # Command to run the chat server
 CMD ["./gradlew", "runServer"]
-´´´´
+ ```
 
 3. Build the Docker Image (Version 1)
    Build the Docker image with the tag chatserver:v1.
-   bash´´´´
+ ``` bash
    docker build -t chatserver:v1 .
-   ´´´´
+ ```
 
 4. Create Dockerfile for Building on Host
    Create another file named Dockerfile.v2 in the root directory of the cloned repository with the following content:
 
-bash´´´´
+ ``` bash
 dockerfile
 # Use the OpenJDK 21 slim image as the base
 FROM openjdk:21-jdk-slim
@@ -103,57 +103,57 @@ EXPOSE 8080
 
 # Command to run the chat server
 CMD ["java", "-jar", "basic_demo-0.1.0.jar"]
-´´´´
+ ```
 
 5. Build the Chat Server on Host
    Before building the Docker image, we need to build the chat server on the host machine to generate the JAR file.
 
-bash´´´´
+ ``` bash
 ./gradlew build
-´´´´
+ ```
 
 6. Build the Docker Image (Version 2)
    Build the Docker image with the tag chatserver:v2 using the second Dockerfile.
 
-bash´´´´
+ ``` bash
 docker build -f Dockerfile.v2 -t chatserver:v2 .
-´´´´
+ ```
 
 7. Run the Docker Container
    Run the Docker container for each version to ensure the chat server is running.
 
 - For Version 1:
-  bash´´´´
+ ``` bash
   docker run -p 8080:8080 chatserver:v1
-  ´´´´
+ ```
 
 - For Version 2:
-  bash´´´´
+ ``` bash
   docker run -p 8080:8080 chatserver:v2
-  ´´´´
+ ``` 
 
 8. Publish the Docker Image to Docker Hub
    Tag and push the Docker images to Docker Hub. Replace yourusername with your Docker Hub username.
 
 - For Version 1:
-  bash´´´´
+ ``` bash
   docker tag chatserver:v1 yourusername/chatserver:v1
   docker push yourusername/chatserver:v1
-  ´´´´
+ ```
 
 - For Version 2:
-  bash´´´´
+ ``` bash
   docker tag chatserver:v2 yourusername/chatserver:v2
   docker push yourusername/chatserver:v2
-  ´´´´
+ ```
 
 9. Clean Up Docker Resources
    To clean up unused Docker resources, run the following commands:
 
-bash´´´´
+ ``` bash
 docker system prune -a
 docker system prune
-´´´´
+ ```
 
 10. Connect Chat Client to Server
     Run the chat client on your host computer and connect to the chat server running in the container. Ensure the client is configured to connect to localhost on port 8080.
@@ -164,9 +164,9 @@ You have successfully Dockerized the chat server application using two different
 ## Repository Tagging
 Finally, tag your repository with ca4-part1 to mark the completion of this assignment.
 
-bash´´´´
+ ``` bash
 git tag ca4-part1
 git push origin ca4-part1
-´´´´
+ ```
 
 Feel free to explore more Docker functionalities and enhance your chat application with additional features. Happy Dockerizing!
