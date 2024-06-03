@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ca4-part2-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ca4-part2-web
+  template:
+    metadata:
+      labels:
+        app: ca4-part2-web
+    spec:
+      containers:
+      - name: ca4-part2-web
+        image: marianafpe/devops_23_24:CA4_Part2_web
+        ports:
+        - containerPort: 8080

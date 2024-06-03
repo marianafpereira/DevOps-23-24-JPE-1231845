@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ca4-part2-db
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ca4-part2-db
+  template:
+    metadata:
+      labels:
+        app: ca4-part2-db
+    spec:
+      containers:
+      - name: ca4-part2-db
+        image: marifpe/devops_23_24:CA4_Part2_db
+        ports:
+        - containerPort: 8082
+        - containerPort: 9092
