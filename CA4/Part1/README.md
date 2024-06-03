@@ -72,12 +72,6 @@ WORKDIR /app
 # Copy the current directory contents (on your host machine) into the /app directory in the Docker image.
 COPY . /app
 
-# Update the package list in the Docker image. This is necessary to install new packages onto the image.
-RUN apt-get update
-
-# Install the Java Runtime Environment (JRE) version 17. The JRE allows us to run our Java application.
-RUN apt-get install -y openjdk-17-jre-headless
-
 # Make the gradlew script executable. This script is used to start our Java application.
 RUN chmod +x gradlew
 
@@ -103,8 +97,8 @@ FROM openjdk:21-jdk-slim
 # Set the working directory in the Docker image to /app. All subsequent commands (like COPY and CMD) will be executed in this directory.
 WORKDIR /app
 
-# Copy the built JAR file from your host machine into the /app directory in the Docker image. The JAR file is the executable version of your application.
-COPY /build/libs/basic_demo-0.1.0.jar /app
+# Copy the compiled JAR file basic_demo-0.1.0.jar from your local machine's build/libs directory into the /app directory within the Docker image. The JAR file is the executable form of your application.
+COPY build/libs/basic_demo-0.1.0.jar /app/basic_demo-0.1.0.jar
 
 # Expose port 8080 in the Docker image. This allows us to access our application on this port from outside the Docker container.
 EXPOSE 8080
