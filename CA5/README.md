@@ -311,9 +311,7 @@ pipeline {
 
 7. Check Docker Desktop for the running container.
 
-8. Access the application at http://localhost:8095/basic-0.0.1-SNAPSHOT.
-
-9. The images can be verified at Docker Hub at the following addresses: The image is now available at https://hub.docker.com/r/marifpe/springbootapp.
+8. The images can be verified at Docker Hub at the following addresses: The image is now available at https://hub.docker.com/r/marifpe/springbootapp. And also they have been added to the moddle section for the delivery of this CA5.
 
 ## Troubleshooting
 
