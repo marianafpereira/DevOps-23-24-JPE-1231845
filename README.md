@@ -27,21 +27,55 @@ This section provides essential information for newcomers to the class. It inclu
 
 Here, we delve into the fundamental concepts of DevOps and explore various tools commonly used in the industry. Each tool is accompanied by detailed explanations, tutorials, and hands-on exercises.
 
-## *Maven:*
+# *Ant:*
+Ant is a Java library and command-line tool that helps to drive processes described in build files as targets and extension points dependent upon each other. It provides a number of built-in tasks allowing to compile, assemble, test and run Java applications.
 
-Introduction to Maven, a powerful build automation tool primarily used for Java projects. Learn how to manage dependencies, build configurations, and execute builds efficiently.
+## *Docker:*
+
+Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications.
+
+## *Git:*
+
+Git is a distributed version control system that allows multiple developers to work on a project simultaneously. It keeps track of changes made to the project and allows for easy collaboration and conflict resolution.  
+
+## *GitHub:*
+
+GitHub is a web-based hosting service for Git repositories. It provides a platform for collaboration, allowing developers to contribute to projects, track issues, and manage project milestones.  
 
 ## *Gradle:*
 
-Explore Gradle, another popular build automation system that offers flexibility and extensibility. Understand how to define build scripts, manage dependencies, and customize build processes.
+Gradle is a build automation tool that is designed to handle large scale projects. It uses a Groovy-based domain-specific language (DSL) instead of the XML form used by Apache Maven.
 
-## *Vagrant:*
+## *HyperV:*
 
-Dive into Vagrant, a tool for creating and managing virtualized development environments. Learn how to provision virtual machines, configure environments, and streamline development workflows.
+Hyper-V is a virtualization technology that allows you to create and run virtual machines on Windows. It enables you to run multiple operating systems on a single physical machine and provides a wide range of features for managing virtual machines.
+
+## *Jenkins:*
+
+Jenkins is an open source automation server which enables developers around the world to reliably build, test, and deploy their software. It provides hundreds of plugins to support building, deploying and automating any project.
+
+## *Maven:*
+
+Maven is a build automation tool used primarily for Java projects. It addresses two aspects of building software: how software is built, and its dependencies.
+
+## *Mercurial SCM:*
+
+Mercurial is a free, distributed version control system used by software development teams to manage and track changes across projects. It's known for its simplicity and direct command set, making it accessible for beginners.
+
+## *Spring Boot:*
+
+Spring Boot is an open-source Java-based framework used to create stand-alone, production-grade Spring based applications with minimal effort. It is developed on top of the Spring framework.  
 
 ## *Spring Framework:*
 
-Introduction to the Spring Framework, a comprehensive toolset for building enterprise Java applications. Explore various modules, including Spring Boot, Spring MVC, and Spring Data.
+The Spring Framework is a Java platform that provides comprehensive infrastructure support for developing Java applications. It handles the infrastructure so you can focus on your application.
+
+## *Ubuntu:*
+
+Ubuntu is a Linux distribution based on Debian and composed mostly of free and open-source software. Ubuntu is officially released in three editions: Desktop, Server, and Core for Internet of things devices and robots.
+
+## *Vagrant:*
+Vagrant is a tool for building and managing virtual machine environments in a single workflow. It provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology.  
 
 
 # Projects and Assignments: :pencil:
