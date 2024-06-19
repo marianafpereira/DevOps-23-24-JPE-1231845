@@ -24,6 +24,19 @@ The second part of the assignment involved creating a new pipeline for the "spri
 
 This report provides a detailed account of the steps taken to complete the assignment, including the commands used, the issues encountered, and the solutions implemented. The tutorial section provides a step-by-step guide to the assignment tasks.
 
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **Operating System**: Windows 10 or later.
+- **Java**: You need to have Java installed on your machine. The version used for this project is Java 11. You can download it from the [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+- **Gradle**: This project uses Gradle for build automation. Make sure you have Gradle installed or use the Gradle Wrapper included in the project. The version used for this project is Gradle 8.6. You can download it from the [official Gradle website](https://gradle.org/releases/).
+- **Docker**: Docker is used for creating and managing the Docker images for the project. Make sure you have Docker installed on your machine. You can download it from the [official Docker website](https://www.docker.com/products/docker-desktop).
+- **Jenkins**: Jenkins is used for continuous integration and continuous delivery. Make sure you have Jenkins installed on your machine. The version used for this project is the latest available at the time of writing. You can download it from the [official Jenkins website](https://www.jenkins.io/download/).
+- **GitHub Account**: You need a GitHub account to clone the repository and push changes. If you don't have one, you can create it on the [GitHub website](https://github.com/join).
+- **Docker Hub Account**: You need a Docker Hub account to push Docker images. If you don't have one, you can create it on the [Docker Hub website](https://hub.docker.com/signup).
+
 ## Contact Information :email:
 For any inquiries or further discussions related to this project, feel free to reach out:
 
