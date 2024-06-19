@@ -27,54 +27,54 @@ This section provides essential information for newcomers to the class. It inclu
 
 Here, we delve into the fundamental concepts of DevOps and explore various tools commonly used in the industry. Each tool is accompanied by detailed explanations, tutorials, and hands-on exercises.
 
-# *Ant:*
+### *Ant:*
 Ant is a Java library and command-line tool that helps to drive processes described in build files as targets and extension points dependent upon each other. It provides a number of built-in tasks allowing to compile, assemble, test and run Java applications.
 
-## *Docker:*
+### *Docker:*
 
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications.
 
-## *Git:*
+### *Git:*
 
 Git is a distributed version control system that allows multiple developers to work on a project simultaneously. It keeps track of changes made to the project and allows for easy collaboration and conflict resolution.  
 
-## *GitHub:*
+### *GitHub:*
 
 GitHub is a web-based hosting service for Git repositories. It provides a platform for collaboration, allowing developers to contribute to projects, track issues, and manage project milestones.  
 
-## *Gradle:*
+### *Gradle:*
 
 Gradle is a build automation tool that is designed to handle large scale projects. It uses a Groovy-based domain-specific language (DSL) instead of the XML form used by Apache Maven.
 
-## *HyperV:*
+### *HyperV:*
 
 Hyper-V is a virtualization technology that allows you to create and run virtual machines on Windows. It enables you to run multiple operating systems on a single physical machine and provides a wide range of features for managing virtual machines.
 
-## *Jenkins:*
+### *Jenkins:*
 
 Jenkins is an open source automation server which enables developers around the world to reliably build, test, and deploy their software. It provides hundreds of plugins to support building, deploying and automating any project.
 
-## *Maven:*
+### *Maven:*
 
 Maven is a build automation tool used primarily for Java projects. It addresses two aspects of building software: how software is built, and its dependencies.
 
-## *Mercurial SCM:*
+### *Mercurial SCM:*
 
 Mercurial is a free, distributed version control system used by software development teams to manage and track changes across projects. It's known for its simplicity and direct command set, making it accessible for beginners.
 
-## *Spring Boot:*
+### *Spring Boot:*
 
 Spring Boot is an open-source Java-based framework used to create stand-alone, production-grade Spring based applications with minimal effort. It is developed on top of the Spring framework.  
 
-## *Spring Framework:*
+### *Spring Framework:*
 
 The Spring Framework is a Java platform that provides comprehensive infrastructure support for developing Java applications. It handles the infrastructure so you can focus on your application.
 
-## *Ubuntu:*
+### *Ubuntu:*
 
 Ubuntu is a Linux distribution based on Debian and composed mostly of free and open-source software. Ubuntu is officially released in three editions: Desktop, Server, and Core for Internet of things devices and robots.
 
-## *Vagrant:*
+### *Vagrant:*
 Vagrant is a tool for building and managing virtual machine environments in a single workflow. It provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology.  
 
 
