@@ -91,16 +91,16 @@ Where are some information's about the Class Assignments:
   ## CA 4 
 - [Repository](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA4)
 ### Part 1
-- [readMe](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA4/Part1/READMEPart1.md)
-- [wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/CA4-Part1-Home)
-- [Glossary](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Glossary-CA4-Part1)
+- [readMe](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA4/Part1)
+- [wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/CA4-Part-1-Home)
+- [Glossary](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Glossary-CA4-PART-1)
 - [Project images](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images-For-CA4-Part1)
 
 ### Part 2
 - [Repository](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/tree/master/CA4/Part2)
-- [readMe](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA4/Part2/READMEPart2.md)
-- [wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/CA4-Part2-Home)
-- [Glossary](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Glossary-CA4-Part2)
+- [readMe](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/blob/master/CA4/Part2/README.md)
+- [wiki](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/CA4-Part-2-Home)
+- [Glossary](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Glossary-CA4-PART-2)
 - [Project images](https://github.com/marianafpereira/DevOps-23-24-JPE-1231845/wiki/Project-Images-For-CA4-Part2)
 
     ## CA 5 
